@@ -199,6 +199,9 @@ function stackEligible(p){
   if(sp==='nfl') return !p.pos.includes('DEF');
   return true;
 }
+// FanDuel allows a 5th player from one team when one is the pitcher (MLB).
+function effCap(p){ return (state.sport==='mlb'&&p.role==='pitcher') ? maxTeam()+1 : maxTeam(); }
+function maxTeam(){ return S().maxTeam; }
 function assignToSlot(p,placed,used){
   const sl=S().slots;
   for(let i=0;i<sl.length;i++){ if(!placed[i]&&fits(p,sl[i].req)){ placed[i]=p; used.add(p.name); return true; } }
@@ -270,7 +273,7 @@ function buildOne(players,locked,opts,ti,it){
     let openAfterMin=0; for(let j=i+1;j<slots.length;j++) if(!placed[j])openAfterMin+=minPerSlot[j];
     const budget=cap-sumSal(placed)-openAfterMin;
     const tc={}; placed.forEach(p=>{if(p)tc[p.team]=(tc[p.team]||0)+1;});
-    let cands=pool.filter(p=>!used.has(p.name)&&fits(p,slots[i].req)&&p.salary<=budget&&(tc[p.team]||0)<maxTeam);
+    let cands=pool.filter(p=>!used.has(p.name)&&fits(p,slots[i].req)&&p.salary<=budget&&(tc[p.team]||0)<effCap(p));
     if(!cands.length)return null;
     cands.sort((a,b)=>a.salary-b.salary); // cheapest first → guarantees feasibility; upgrade loop maximizes value
     const pick=cands[Math.floor(Math.random()*Math.min(4,cands.length))];
@@ -286,14 +289,14 @@ function buildOne(players,locked,opts,ti,it){
     for(const p of pool){
       if(used.has(p.name)||!fits(p,slots[i].req))continue;
       if(protectStack&&p.team!==stackTeam)continue; // only swap within the stack team
-      if((tc[p.team]||0)>=maxTeam&&p.team!==cur.team)continue;
+      if((tc[p.team]||0)>=effCap(p)&&p.team!==cur.team)continue;
       if(p.proj<=bp)continue;
       const newSpent=spent-cur.salary+p.salary; if(newSpent>cap)continue;
       if(p.proj>bp){bp=p.proj;best=p;}
     }
     // diversity: among candidates within 1.0 of the best proj, pick randomly
     if(best){
-      const near=[best]; for(const p of pool){ if(p===best)continue; if(used.has(p.name)||!fits(p,slots[i].req))continue; if(protectStack&&p.team!==stackTeam)continue; if((tc[p.team]||0)>=maxTeam&&p.team!==cur.team)continue; if(p.proj>=bp-1.0&&p.proj>cur.proj){ const ns=spent-cur.salary+p.salary; if(ns<=cap)near.push(p); } }
+      const near=[best]; for(const p of pool){ if(p===best)continue; if(used.has(p.name)||!fits(p,slots[i].req))continue; if(protectStack&&p.team!==stackTeam)continue; if((tc[p.team]||0)>=effCap(p)&&p.team!==cur.team)continue; if(p.proj>=bp-1.0&&p.proj>cur.proj){ const ns=spent-cur.salary+p.salary; if(ns<=cap)near.push(p); } }
       const pick=near[Math.floor(Math.random()*near.length)];
       used.delete(cur.name); used.add(pick.name); placed[i]=pick;
     }

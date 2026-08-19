@@ -20,6 +20,10 @@ failure or empty slate it keeps that sport's prior data.js block, so the site
 never regresses to a broken state. Output is always valid data.js.
 """
 import json, os, sys, urllib.request, urllib.error, datetime, statistics, traceback
+try:
+    from zoneinfo import ZoneInfo
+except ImportError:
+    ZoneInfo = None
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_JS = os.path.join(HERE, "data.js")
@@ -27,7 +31,10 @@ ODDS_KEY = os.environ.get("ODDS_API_KEY", "").strip()
 ODDS_BASE = "https://api.the-odds-api.com/v4"
 STATSAPI = "https://statsapi.mlb.com/api/v1"
 ESPN = "https://site.api.espn.com/apis/site/v2"
-TODAY = datetime.date.today().isoformat()
+# Use the user's timezone so the "tonight" slate matches their evening, not UTC.
+_tzname = os.environ.get("SLATE_TZ", "America/New_York")
+_tz = ZoneInfo(_tzname) if ZoneInfo else datetime.timezone.utc
+TODAY = datetime.datetime.now(_tz).date().isoformat()
 
 # ------------------------------------------------------------------ helpers
 def _get(url, headers=None, timeout=15):

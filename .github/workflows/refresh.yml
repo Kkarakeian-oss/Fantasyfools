@@ -2,9 +2,9 @@ name: Daily slate refresh
 
 on:
   schedule:
-    # 3:00 PM UTC = 11:00 AM Eastern, before most evening MLB slates.
-    # GitHub Actions uses UTC for cron.
-    - cron: "0 15 * * *"
+    # 11:00 AM and 4:00 PM Eastern (UTC-4 in summer) — early slate + post-lineup
+    # capture before most evening MLB first pitches.
+    - cron: "0 15,20 * * *"
   workflow_dispatch:
 
 permissions:
@@ -29,6 +29,7 @@ jobs:
       - name: Refresh slates
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          SLATE_TZ: America/New_York
         run: |
           python3 refresh.py
 
