@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FanDuel DFS Optimizer — Multi-Sport</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#0b0e13;--panel:#141923;--panel2:#1b2130;--line:#262d3a;--lime:#a3e635;--amber:#fbbf24;--red:#f87171;--muted:#8b94a6;}
+  *{font-family:'Inter',system-ui,sans-serif;}
+  body{background:var(--ink);color:#e6eaf0;}
+  .mono{font-family:'JetBrains Mono',monospace;}
+  .cap{scrollbar-width:thin;scrollbar-color:#3a4252 transparent;}
+  .cap::-webkit-scrollbar{height:6px;width:6px;}
+  .cap::-webkit-scrollbar-thumb{background:#3a4252;border-radius:3px;}
+  .pill{border:1px solid var(--line);background:var(--panel2);}
+  .btn{transition:all .14s;}
+  .btn:hover{filter:brightness(1.15);}
+  .btn:active{transform:scale(.97);}
+  .tab{transition:all .14s;border-bottom:2px solid transparent;}
+  .tab.active{color:var(--lime);border-color:var(--lime);}
+  .row-h:hover{background:var(--panel2);}
+  .amber{color:var(--amber);} .red{color:var(--red);} .lime{color:var(--lime);} .mut{color:var(--muted);}
+  details summary::-webkit-details-marker{display:none;}
+  .sample-banner{background:linear-gradient(90deg,#3b2f08,#1a1403);}
+</style>
+</head>
+<body class="min-h-screen">
+<!-- Header -->
+<header class="border-b border-[var(--line)] sticky top-0 z-30 bg-[var(--ink)]/95 backdrop-blur">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center gap-4 flex-wrap">
+    <div class="flex items-center gap-2.5">
+      <svg width="30" height="30" viewBox="0 0 32 32" fill="none"><rect x="3" y="6" width="26" height="20" rx="3" fill="#a3e635" opacity=".15"/><rect x="3" y="6" width="26" height="20" rx="3" stroke="#a3e635" stroke-width="1.5"/><path d="M8 12h7M8 16h10M8 20h5" stroke="#a3e635" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <div>
+        <div class="font-extrabold text-[15px] leading-tight">FanDuel Optimizer</div>
+        <div class="text-[10px] mut leading-tight" id="sportMeta">—</div>
+      </div>
+    </div>
+    <div class="flex items-center gap-1 ml-auto" id="sportSwitch"></div>
+    <button id="csvBtn" class="btn text-[11px] font-semibold px-2.5 py-1.5 rounded pill">Upload CSV</button>
+    <input type="file" id="csvFile" accept=".csv" class="hidden">
+  </div>
+</header>
+
+<main class="max-w-7xl mx-auto px-4 py-4">
+  <!-- sample banner -->
+  <div id="sampleBanner" class="hidden sample-banner border border-[#5a4a16] rounded-lg px-3 py-2 mb-3 text-[12px] flex items-center gap-2">
+    <span class="amber font-bold">SAMPLE SLATE</span>
+    <span class="mut">This sport's data is a modeled sample (no live slate right now). Salaries/projections are estimates — verify against FanDuel. The daily updater refreshes real data in-season.</span>
+  </div>
+
+  <!-- Tabs -->
+  <nav class="flex gap-1 border-b border-[var(--line)] mb-4 text-[13px] font-semibold">
+    <button data-tab="slate" class="tab active px-3 py-2">Slate</button>
+    <button data-tab="pool" class="tab px-3 py-2">Player Pool</button>
+    <button data-tab="opt" class="tab px-3 py-2">Optimize</button>
+    <button data-tab="cmp" class="tab px-3 py-2">Compare</button>
+  </nav>
+
+  <!-- Slate -->
+  <section id="tab-slate">
+    <div id="gamesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3"></div>
+    <div class="text-[11px] mut mt-3" id="slateNote"></div>
+  </section>
+
+  <!-- Pool -->
+  <section id="tab-pool" class="hidden">
+    <div class="flex items-center gap-2 mb-3 flex-wrap">
+      <input id="poolSearch" placeholder="Filter players…" class="text-[12px] px-2.5 py-1.5 rounded pill bg-[var(--panel2)] outline-none w-48">
+      <select id="poolPos" class="text-[12px] px-2 py-1.5 rounded pill bg-[var(--panel2)] outline-none"></select>
+      <select id="poolTeam" class="text-[12px] px-2 py-1.5 rounded pill bg-[var(--panel2)] outline-none"></select>
+      <button id="poolSort" class="text-[11px] font-semibold px-2.5 py-1.5 rounded pill">Sort: Projection ↓</button>
+      <span class="text-[11px] mut ml-auto" id="poolCount"></span>
+    </div>
+    <div class="overflow-x-auto cap rounded-lg border border-[var(--line)]">
+      <table class="w-full text-[12px]">
+        <thead class="bg-[var(--panel2)] text-[10px] uppercase tracking-wide mut sticky top-0">
+          <tr><th class="text-left px-2 py-2">Player</th><th class="px-2 py-2">Pos</th><th class="px-2 py-2">Team</th><th class="text-right px-2 py-2">Sal</th><th class="text-right px-2 py-2">Proj</th><th class="px-2 py-2">Val</th><th class="text-right px-2 py-2">Cons.</th><th class="px-2 py-2">Δ</th><th class="px-2 py-2">Stat</th></tr>
+        </thead>
+        <tbody id="poolBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Optimize -->
+  <section id="tab-opt" class="hidden">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <aside class="lg:col-span-1 space-y-3">
+        <div class="pill rounded-lg p-3">
+          <div class="text-[11px] uppercase mut font-bold mb-2">Constraints</div>
+          <label class="block text-[11px] mb-1 mut">Lineups to generate</label>
+          <input id="numLineups" type="number" value="5" min="1" max="20" class="w-full text-[13px] px-2 py-1.5 rounded bg-[var(--panel2)] border border-[var(--line)] outline-none">
+          <label class="block text-[11px] mb-1 mut mt-3">Exposure cap (% of lineups)</label>
+          <input id="expCap" type="number" value="60" min="10" max="100" class="w-full text-[13px] px-2 py-1.5 rounded bg-[var(--panel2)] border border-[var(--line)] outline-none">
+          <label class="block text-[11px] mb-1 mut mt-3">Salary floor ($)</label>
+          <input id="salFloor" type="number" value="0" class="w-full text-[13px] px-2 py-1.5 rounded bg-[var(--panel2)] border border-[var(--line)] outline-none">
+        </div>
+        <div class="pill rounded-lg p-3">
+          <div class="text-[11px] uppercase mut font-bold mb-2">Stacking</div>
+          <label class="block text-[11px] mb-1 mut" id="stackLabel">Stack team</label>
+          <select id="stackTeam" class="w-full text-[12px] px-2 py-1.5 rounded bg-[var(--panel2)] border border-[var(--line)] outline-none"></select>
+          <label class="block text-[11px] mb-1 mut mt-3">Stack size</label>
+          <input id="stackSize" type="number" value="4" min="0" max="6" class="w-full text-[13px] px-2 py-1.5 rounded bg-[var(--panel2)] border border-[var(--line)] outline-none">
+          <label id="oppoWrap" class="hidden flex items-center gap-2 mt-3 text-[11px]">
+            <input id="oppo" type="checkbox" class="accent-[var(--lime)]"> <span class="mut">Exclude opposing pitcher</span>
+          </label>
+        </div>
+        <button id="runOpt" class="btn w-full bg-[var(--lime)] text-[var(--ink)] font-bold py-2.5 rounded-lg text-[13px]">GENERATE LINEUPS</button>
+        <div id="optMsg" class="text-[11px] mut"></div>
+      </aside>
+      <div class="lg:col-span-2">
+        <div id="lineups" class="space-y-3"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compare -->
+  <section id="tab-cmp" class="hidden">
+    <div class="text-[12px] mut mb-2" id="cmpIntro"></div>
+    <div class="overflow-x-auto cap rounded-lg border border-[var(--line)]">
+      <table class="w-full text-[12px]">
+        <thead class="bg-[var(--panel2)] text-[10px] uppercase tracking-wide mut">
+          <tr><th class="text-left px-2 py-2">Rank</th><th class="text-left px-2 py-2">Player</th><th class="px-2 py-2">Pos</th><th class="text-right px-2 py-2">Proj</th><th class="text-right px-2 py-2">Consensus</th><th class="px-2 py-2">Δ</th><th class="px-2 py-2">Source</th></tr>
+        </thead>
+        <tbody id="cmpBody"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer class="border-t border-[var(--line)] mt-8 py-4 text-[10px] mut text-center max-w-7xl mx-auto px-4" id="footNote"></footer>
+
+<script src="config.js"></script>
+<script>document.write('<script src="data.js?v='+Date.now()+'"><\/script>');</script>
+<script>
+var state = {
+  sport:'mlb', tab:'slate', players:[], lineups:[], poolSort:'proj', poolDir:-1,
+  csvSal:{}, // name -> salary override
+};
+var D = window.DFS_DATA;
+var S = () => window.DFS_SPORTS[state.sport];
+
+function fmtSal(n){ return '$'+(n/1000).toFixed(1)+'k'; }
+function fmtNum(n){ return n==null? '—': (typeof n==='number'? n.toFixed(1): n); }
+function minSalaryOf(players){ let m=Infinity; players.forEach(p=>{if(p.salary<m)m=p.salary;}); return isFinite(m)?m:0; }
+
+function teamImplied(){
+  // map team -> implied runs/points from games
+  const g=D[state.sport].games; const m={};
+  g.forEach(x=>{ m[x.home]=(m[x.home]||0)+(x.imp_home||0); m[x.away]=(m[x.away]||0)+(x.imp_away||0); });
+  return m;
+}
+function teamsList(){ const g=D[state.sport].games; const s=new Set(); g.forEach(x=>{s.add(x.home);s.add(x.away);}); return Array.from(s); }
+
+function statsCell(p){
+  const sp=state.sport; const s=p.stats||{};
+  if(sp==='mlb'){ const hr=s.hr!=null?s.hr+' HR':'—'; const rbi=s.rbi!=null?s.rbi+' RBI':'—'; const avg=s.avg?('.'+Math.round(s.avg*1000)+' AVG'):'—'; return hr+' · '+rbi+' · '+avg; }
+  if(sp==='nfl'||sp==='nba'){ return (s.pos||'')+' · tier '+s.tier; }
+  return '—';
+}
+
+// ---------- CSV salary upload ----------
+function parseCSV(text){
+  const rows=[]; let row=[]; let cur=''; let q=false;
+  for(let i=0;i<text.length;i++){ const c=text[i];
+    if(q){ if(c==='"'){ if(text[i+1]==='"'){cur+='"';i++;}else q=false; } else cur+=c; }
+    else{ if(c==='"'&&cur==='')q=true; else if(c===','){row.push(cur);cur='';} else if(c==='\n'){row.push(cur);rows.push(row);row=[];cur='';} else if(c==='\r'){} else cur+=c; }
+  }
+  if(cur.length||row.length)rows.push(row);
+  return rows;
+}
+function handleCSV(file){
+  const r=new FileReader();
+  r.onload=()=>{
+    const rows=parseCSV(r.result); if(!rows.length){return;}
+    const hdr=rows[0].map(h=>h.trim().toLowerCase());
+    const pi=hdr.findIndex(h=>h.includes('player')||h.includes('name'));
+    const si=hdr.findIndex(h=>h.includes('salary'));
+    if(pi<0||si<0){ document.getElementById('optMsg').textContent='CSV needs Player & Salary columns.'; return; }
+    let n=0; rows.slice(1).forEach(row=>{
+      const name=(row[pi]||'').trim(); const sal=parseInt((row[si]||'').replace(/[^0-9]/g,''));
+      if(name&&!isNaN(sal)){ state.csvSal[name]=sal; n++; }
+    });
+    applySalaries(); renderPool(); document.getElementById('optMsg').textContent='CSV loaded: '+n+' salaries applied.';
+  };
+  r.readAsText(file);
+}
+function applySalaries(){
+  state.players.forEach(p=>{ if(state.csvSal[p.name]!=null){ p.salary=state.csvSal[p.name]; p.status='csv'; p.note='Official FanDuel salary (CSV)'; } });
+}
+
+// ---------- Optimizer engine (generic, config-driven) ----------
+function fits(p,req){ return req.some(r=>p.pos.indexOf(r)>=0); }
+// Which players may be part of a stack (exclude MLB pitchers, NFL DEF).
+function stackEligible(p){
+  const sp=state.sport;
+  if(sp==='mlb') return !p.pos.includes('P');
+  if(sp==='nfl') return !p.pos.includes('DEF');
+  return true;
+}
+function assignToSlot(p,placed,used){
+  const sl=S().slots;
+  for(let i=0;i<sl.length;i++){ if(!placed[i]&&fits(p,sl[i].req)){ placed[i]=p; used.add(p.name); return true; } }
+  return false;
+}
+// Backtracking assignment: place a set of players into distinct compatible slots.
+function assignAll(toPlace,placed,used){
+  if(toPlace.length===0)return true;
+  const sl=S().slots;
+  // most-constrained player first (fewest compatible open slots)
+  let bi=-1,bs=[];
+  for(let pi=0;pi<toPlace.length;pi++){
+    const p=toPlace[pi]; const compat=[];
+    for(let i=0;i<sl.length;i++){ if(!placed[i]&&fits(p,sl[i].req))compat.push(i); }
+    if(bi===-1||compat.length<bs.length){ bs=compat; bi=pi; if(compat.length<=1)break; }
+  }
+  if(!bs.length)return false;
+  const p=toPlace[bi]; toPlace.splice(bi,1);
+  for(const i of bs){ placed[i]=p; used.add(p.name); if(assignAll(toPlace,placed,used))return true; placed[i]=null; used.delete(p.name); }
+  toPlace.splice(bi,0,p); return false;
+}
+function combinations(arr,k){ const res=[]; const n=arr.length; function rec(start,cur){ if(cur.length===k){ res.push(cur.slice()); return; } for(let i=start;i<n;i++){ cur.push(arr[i]); rec(i+1,cur); cur.pop(); } } rec(0,[]); return res; }
+function autoStackTeam(ti){
+  const teams=teamsList(); let best=null,bv=-1;
+  teams.forEach(t=>{ const v=ti[t]||0; if(v>bv){bv=v;best=t;} });
+  return best;
+}
+function sumSal(placed){ let s=0; placed.forEach(p=>{if(p)s+=p.salary;}); return s; }
+function sumProj(placed){ let s=0; placed.forEach(p=>{if(p)s+=p.proj;}); return s; }
+
+function buildOne(players,locked,opts,ti,it){
+  const cfg=S(); const slots=cfg.slots, cap=cfg.cap, maxTeam=cfg.maxTeam;
+  let stackTeam=null, explicitTeam=false, k=0;
+  if(opts.stackTeam&&opts.stackTeam!=='none'&&opts.stackTeam!=='auto'){ stackTeam=opts.stackTeam; explicitTeam=true; k=opts.stack; }
+  else if(opts.stackTeam==='auto'){ stackTeam=autoStackTeam(ti); k=Math.max(1,opts.stack); }
+  const oppoPitcherTeam = (opts.oppo&&stackTeam)? stackTeam : null;
+  let pool=players.filter(p=>{
+    if(locked[p.name])return true;
+    if(oppoPitcherTeam&&p.role==='pitcher'&&p.opp===oppoPitcherTeam)return false;
+    return true;
+  });
+  const placed=new Array(slots.length).fill(null); const used=new Set();
+  const minSal=state.minSalary||3500;
+  // per-slot minimum salary (used for feasibility reserves in stack + fillers)
+  const minPerSlot=slots.map(s=>{ let m=Infinity; for(const p of players){ if(fits(p,s.req)&&p.salary<m)m=p.salary; } return isFinite(m)?m:minSal; });
+  // 1. locked (batch backtracking assignment)
+  const lockedList=Object.keys(locked).map(n=>players.find(x=>x.name===n)).filter(Boolean);
+  if(lockedList.length){ if(!assignAll(lockedList.slice(),placed,used))return null; }
+  // 2. stack (budget-aware: pick k stack-team players that leave room for fillers)
+  let stackPlaced=0;
+  if(stackTeam&&k>0){
+    const sortedMin=minPerSlot.slice().sort((a,b)=>a-b);
+    const cand=pool.filter(p=>p.team===stackTeam&&!used.has(p.name)&&stackEligible(p));
+    const comboProj=c=>c.reduce((s,p)=>s+p.proj,0);
+    let chosen=null;
+    for(let kk=Math.min(k,cand.length); kk>=1; kk--){
+      // reserve the priciest (total-kk) slot minimums for fillers at this stack size
+      let reserve=0; for(let j=kk;j<slots.length;j++) reserve+=sortedMin[j];
+      const sb=cap-reserve;
+      const combos=combinations(cand,kk).filter(c=>c.reduce((s,p)=>s+p.salary,0)<=sb);
+      if(combos.length){ combos.sort((a,b)=>comboProj(b)-comboProj(a)); chosen=combos[Math.floor(Math.random()*Math.min(5,combos.length))]; break; }
+      if(explicitTeam)break; // strict: require exactly k; do not reduce
+    }
+    if(chosen&&chosen.length){ if(assignAll(chosen.slice(),placed,used))stackPlaced=chosen.length; }
+  }
+  // 3. fillers
+  for(let i=0;i<slots.length;i++){
+    if(placed[i])continue;
+    let openAfterMin=0; for(let j=i+1;j<slots.length;j++) if(!placed[j])openAfterMin+=minPerSlot[j];
+    const budget=cap-sumSal(placed)-openAfterMin;
+    const tc={}; placed.forEach(p=>{if(p)tc[p.team]=(tc[p.team]||0)+1;});
+    let cands=pool.filter(p=>!used.has(p.name)&&fits(p,slots[i].req)&&p.salary<=budget&&(tc[p.team]||0)<maxTeam);
+    if(!cands.length)return null;
+    cands.sort((a,b)=>a.salary-b.salary); // cheapest first → guarantees feasibility; upgrade loop maximizes value
+    const pick=cands[Math.floor(Math.random()*Math.min(4,cands.length))];
+    placed[i]=pick; used.add(pick.name);
+  }
+  // 4. upgrade (swap within slot for higher proj under cap)
+  for(let i=0;i<slots.length;i++){
+    if(!placed[i])continue;
+    const cur=placed[i]; const spent=sumSal(placed);
+    const protectStack = !!(stackTeam&&cur.team===stackTeam&&stackEligible(cur)); // keep stack-team players in stack slots
+    const tc={}; placed.forEach(p=>{if(p)tc[p.team]=(tc[p.team]||0)+1;});
+    let best=null,bp=cur.proj;
+    for(const p of pool){
+      if(used.has(p.name)||!fits(p,slots[i].req))continue;
+      if(protectStack&&p.team!==stackTeam)continue; // only swap within the stack team
+      if((tc[p.team]||0)>=maxTeam&&p.team!==cur.team)continue;
+      if(p.proj<=bp)continue;
+      const newSpent=spent-cur.salary+p.salary; if(newSpent>cap)continue;
+      if(p.proj>bp){bp=p.proj;best=p;}
+    }
+    // diversity: among candidates within 1.0 of the best proj, pick randomly
+    if(best){
+      const near=[best]; for(const p of pool){ if(p===best)continue; if(used.has(p.name)||!fits(p,slots[i].req))continue; if(protectStack&&p.team!==stackTeam)continue; if((tc[p.team]||0)>=maxTeam&&p.team!==cur.team)continue; if(p.proj>=bp-1.0&&p.proj>cur.proj){ const ns=spent-cur.salary+p.salary; if(ns<=cap)near.push(p); } }
+      const pick=near[Math.floor(Math.random()*near.length)];
+      used.delete(cur.name); used.add(pick.name); placed[i]=pick;
+    }
+  }
+  // 5. validate
+  const sal=sumSal(placed), proj=sumProj(placed);
+  if(sal>cap)return null;
+  if(opts.salFloor>0&&sal<opts.salFloor)return null;
+  if(explicitTeam){ const sc=placed.filter(p=>p&&p.team===stackTeam&&stackEligible(p)).length; if(sc<k)return null; }
+  const pitcher=placed.find(p=>p&&p.role==='pitcher');
+  return { slots:placed.map((p,i)=>({player:p,key:slots[i].key,label:slots[i].label})), proj, sal, pitcher };
+}
+function optimize(opts){
+  const players=state.players; const ti=teamImplied(); const locked={};
+  const res=[]; const seen=new Set(); const pcounts={};
+  const N=opts.numLineups; const maxExp=Math.ceil(opts.expCap/100*N);
+  let attempts=0;
+  while(res.length<N&&attempts<2400){
+    attempts++;
+    const c=buildOne(players,locked,opts,ti,attempts);
+    if(!c)continue;
+    const key=c.pitcher? c.pitcher.name+'|':'';
+    const kk=key+c.slots.map(s=>s.player.name).sort().join('|');
+    if(seen.has(kk))continue;
+    // exposure (pitcher + hitters)
+    if((pcounts[c.pitcher?c.pitcher.name:'']||0)>=maxExp && c.pitcher)continue;
+    let expOk=true;
+    c.slots.forEach(s=>{ if((pcounts[s.player.name]||0)>=maxExp)expOk=false; });
+    if(!expOk)continue;
+    seen.add(kk);
+    if(c.pitcher)pcounts[c.pitcher.name]=(pcounts[c.pitcher.name]||0)+1;
+    c.slots.forEach(s=>pcounts[s.player.name]=(pcounts[s.player.name]||0)+1);
+    res.push(c);
+  }
+  res.sort((a,b)=>b.proj-a.proj);
+  return res;
+}
+
+// ---------- Render ----------
+function switchSport(sp){
+  state.sport=sp; state.csvSal={};
+  const data=D[sp];
+  state.players=data.players.map(p=>({...p}));
+  state.minSalary=minSalaryOf(state.players);
+  // sport meta
+  const m=data.meta;
+  document.getElementById('sportMeta').textContent=`${sp.toUpperCase()} · ${m.scoring} · cap ${fmtSal(m.cap)}`;
+  document.getElementById('sampleBanner').classList.toggle('hidden',!m.sample);
+  document.getElementById('footNote').innerHTML = m.sample
+    ? `${sp.toUpperCase()} sample slate — modeled salaries & projections. Not official FanDuel data.`
+    : `MLB odds snapshot via ${m.odds_source} · odds as of ${m.fresh}. Player stats from public sources. Salaries are modeled estimates — verify against FanDuel.`;
+  // stack options
+  const st=document.getElementById('stackTeam'); st.innerHTML='<option value="none">No stack</option><option value="auto">Auto (top implied)</option>'+teamsList().map(t=>`<option value="${t}">${t}</option>`).join('');
+  document.getElementById('stackLabel').textContent=S().stackLabel;
+  document.getElementById('oppoWrap').classList.toggle('hidden',!S().oppoOption);
+  // pool filters
+  const ps=document.getElementById('poolPos'); ps.innerHTML='<option value="">All positions</option>'+Array.from(new Set(state.players.flatMap(p=>p.pos))).map(x=>`<option>${x}</option>`).join('');
+  const pt=document.getElementById('poolTeam'); pt.innerHTML='<option value="">All teams</option>'+teamsList().map(t=>`<option>${t}</option>`).join('');
+  renderSlate(); renderPool(); renderCmp(); state.lineups=[]; document.getElementById('lineups').innerHTML='';
+  document.getElementById('slateNote').innerHTML = `<b>${m.slate}</b> · ${m.date} · ${m.sample?'Sample (not live)':'Refreshed '+m.fresh}`;
+}
+
+function renderSlate(){
+  const g=D[state.sport].games; const grid=document.getElementById('gamesGrid');
+  grid.innerHTML=g.map(x=>{
+    const fav = (x.ml_home<0?x.home:(x.ml_away<0?x.away:'EVEN'));
+    return `<div class="pill rounded-lg p-3">
+      <div class="flex items-center justify-between mb-1"><div class="font-bold text-[13px]">${x.away} @ ${x.home}</div><div class="text-[11px] mut mono">O/U ${x.total||'—'}</div></div>
+      <div class="text-[11px] mut mb-2">${x.venue||x.id}</div>
+      <div class="flex items-center justify-between text-[12px]">
+        <div><span class="mut">Implied</span> <span class="mono">${fmtNum(x.imp_away)} - ${fmtNum(x.imp_home)}</span></div>
+        <div class="mono ${x.ml_home<0?'lime':''}">${x.ml_home>0?'+':''}${x.ml_home}</div>
+      </div></div>`;
+  }).join('');
+}
+
+function poolFiltered(){
+  const q=(document.getElementById('poolSearch').value||'').toLowerCase();
+  const pos=document.getElementById('poolPos').value;
+  const team=document.getElementById('poolTeam').value;
+  return state.players.filter(p=>{
+    if(q&&!p.name.toLowerCase().includes(q))return false;
+    if(pos&&!p.pos.includes(pos))return false;
+    if(team&&p.team!==team)return false;
+    return true;
+  });
+}
+function renderPool(){
+  let arr=poolFiltered();
+  const dir=state.poolDir;
+  arr.sort((a,b)=>{
+    if(state.poolSort==='proj')return (b.proj-a.proj)*dir;
+    if(state.poolSort==='val')return ((b.proj/b.salary)-(a.proj/a.salary))*dir;
+    if(state.poolSort==='sal')return (b.salary-a.salary)*dir;
+    if(state.poolSort==='cons')return (b.consensus-a.consensus)*dir;
+    return 0;
+  });
+  const body=document.getElementById('poolBody');
+  body.innerHTML=arr.slice(0,200).map(p=>{
+    const val=(p.proj/p.salary*1000);
+    const d=p.consensus-p.proj; const dc=d>0.3?'lime':(d<-0.3?'red':'');
+    const stat=p.status==='csv'?'<span class="lime">CSV</span>':(p.status==='sample'?'<span class="amber">sample</span>':'live');
+    return `<tr class="row-h border-t border-[var(--line)]">
+      <td class="px-2 py-1.5">${p.name}${p.note?` <span class="text-[9px] amber">⚠</span>`:''}</td>
+      <td class="px-2 py-1.5 text-center mono">${p.pos.join('/')}</td>
+      <td class="px-2 py-1.5 text-center">${p.team}</td>
+      <td class="px-2 py-1.5 text-right mono">${fmtSal(p.salary)}</td>
+      <td class="px-2 py-1.5 text-right mono font-bold">${p.proj.toFixed(1)}</td>
+      <td class="px-2 py-1.5 text-center mono text-[10px]">${val.toFixed(2)}</td>
+      <td class="px-2 py-1.5 text-right mono">${p.consensus.toFixed(1)}</td>
+      <td class="px-2 py-1.5 text-center mono ${dc}">${d>=0?'+':''}${d.toFixed(1)}</td>
+      <td class="px-2 py-1.5 text-center text-[10px]">${statsCell(p)}</td>
+    </tr>`;
+  }).join('');
+  document.getElementById('poolCount').textContent=arr.length+' players';
+}
+
+function runOptimize(){
+  const opts={
+    numLineups:parseInt(document.getElementById('numLineups').value)||5,
+    expCap:parseInt(document.getElementById('expCap').value)||60,
+    salFloor:parseInt(document.getElementById('salFloor').value)||0,
+    stackTeam:document.getElementById('stackTeam').value,
+    stack:parseInt(document.getElementById('stackSize').value)||0,
+    oppo:document.getElementById('oppo').checked,
+  };
+  document.getElementById('optMsg').textContent='Generating…';
+  setTimeout(()=>{
+    const res=optimize(opts); state.lineups=res;
+    drawLineups(res);
+    document.getElementById('optMsg').textContent=res.length?`${res.length} unique lineup${res.length>1?'s':''} found under the constraints${res.length<opts.numLineups?' (pool/exposure limited unique combos)':''}.`:'No lineups met the constraints.';
+  },30);
+}
+function drawLineups(res){
+  const wrap=document.getElementById('lineups');
+  if(!res.length){ wrap.innerHTML='<div class="text-[12px] mut pill rounded-lg p-4">No lineups met the constraints. Try lowering stack size, raising exposure cap, or lowering salary floor.</div>'; return; }
+  wrap.innerHTML=res.map((c,i)=>{
+    const cap=S().cap; const pct=Math.round(c.sal/cap*100);
+    const bySlot=S().slots;
+    const rows=bySlot.map(sl=>{
+      const pl=c.slots.find(x=>x.key===sl.key);
+      return `<tr class="border-t border-[var(--line)]"><td class="px-2 py-1 text-[10px] mut uppercase w-14">${sl.label}</td><td class="px-2 py-1 font-medium">${pl?pl.player.name:'—'}</td><td class="px-2 py-1 text-center text-[11px]">${pl?pl.player.team:''}</td><td class="px-2 py-1 text-right mono text-[11px]">${pl?fmtSal(pl.player.salary):''}</td></tr>`;
+    }).join('');
+    return `<div class="pill rounded-lg overflow-hidden">
+      <div class="flex items-center justify-between px-3 py-2 bg-[var(--panel2)]">
+        <div class="text-[12px] font-bold">#${i+1}</div>
+        <div class="text-[13px] font-extrabold lime mono">${c.proj.toFixed(1)} <span class="mut text-[10px] font-normal">proj</span></div>
+        <div class="text-[11px] mono">${fmtSal(c.sal)} / ${fmtSal(cap)} <span class="mut">(${pct}%)</span></div>
+      </div>
+      <table class="w-full text-[12px]">${rows}</table>
+    </div>`;
+  }).join('');
+}
+
+function renderCmp(){
+  const arr=state.players.slice().sort((a,b)=>b.proj-a.proj).slice(0,18);
+  document.getElementById('cmpIntro').innerHTML=`Top ${arr.length} by model projection vs. consensus value ranking. Positive Δ = model higher than market; negative = model lower. ${D[state.sport].meta.sample?'<span class="amber">Sample sport — consensus is modeled.</span>':'<span class="mut">Consensus from public rankings (Stokastic-style).</span>'}`;
+  document.getElementById('cmpBody').innerHTML=arr.map((p,i)=>{
+    const d=p.consensus-p.proj; const dc=d>0.3?'lime':(d<-0.3?'red':'');
+    const src=p.verified?'<span class="lime">verified</span>':'<span class="mut">modeled</span>';
+    return `<tr class="row-h border-t border-[var(--line)]">
+      <td class="px-2 py-1.5 mono">#${i+1}</td>
+      <td class="px-2 py-1.5 font-medium">${p.name}</td>
+      <td class="px-2 py-1.5 text-center mono">${p.pos.join('/')}</td>
+      <td class="px-2 py-1.5 text-right mono font-bold">${p.proj.toFixed(1)}</td>
+      <td class="px-2 py-1.5 text-right mono">${p.consensus.toFixed(1)}</td>
+      <td class="px-2 py-1.5 text-center mono ${dc}">${d>=0?'+':''}${d.toFixed(1)}</td>
+      <td class="px-2 py-1.5 text-center text-[10px]">${src}</td>
+    </tr>`;
+  }).join('');
+}
+
+// ---------- Init ----------
+function initSportSwitch(){
+  const wrap=document.getElementById('sportSwitch');
+  wrap.innerHTML=Object.values(window.DFS_SPORTS).map(s=>`<button data-sport="${s.id}" class="btn text-[12px] font-semibold px-2.5 py-1.5 rounded pill ${s.id===state.sport?'!bg-[var(--lime)] !text-[var(--ink)]':''}">${s.icon} ${s.name}</button>`).join('');
+  wrap.querySelectorAll('button').forEach(b=>b.onclick=()=>{ state.sport=b.dataset.sport; initSportSwitch(); switchSport(state.sport); });
+}
+function initTabs(){
+  document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active'); state.tab=t.dataset.tab;
+    ['slate','pool','opt','cmp'].forEach(id=>document.getElementById('tab-'+id).classList.toggle('hidden',id!==state.tab));
+  });
+}
+function initPoolControls(){
+  document.getElementById('poolSearch').oninput=renderPool;
+  document.getElementById('poolPos').onchange=renderPool;
+  document.getElementById('poolTeam').onchange=renderPool;
+  document.getElementById('poolSort').onclick=()=>{
+    const opts=['proj','val','sal','cons']; const cur=opts.indexOf(state.poolSort);
+    state.poolSort=opts[(cur+1)%opts.length]; state.poolDir=state.poolSort==='sal'?-1:1;
+    document.getElementById('poolSort').textContent='Sort: '+{proj:'Projection',val:'Value',sal:'Salary',cons:'Consensus'}[state.poolSort]+' ↓';
+    renderPool();
+  };
+}
+initSportSwitch(); initTabs(); initPoolControls();
+document.getElementById('runOpt').onclick=runOptimize;
+document.getElementById('csvBtn').onclick=()=>document.getElementById('csvFile').click();
+document.getElementById('csvFile').onchange=e=>{ if(e.target.files[0])handleCSV(e.target.files[0]); e.target.value=''; };
+switchSport('mlb');
+</script>
+</body>
+</html>

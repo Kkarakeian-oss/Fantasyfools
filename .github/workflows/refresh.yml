@@ -1,0 +1,61 @@
+name: Daily slate refresh
+
+on:
+  schedule:
+    # 3:00 PM UTC = 11:00 AM Eastern, before most evening MLB slates.
+    # GitHub Actions uses UTC for cron.
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh slates
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: |
+          python3 refresh.py
+
+      - name: Validate output
+        run: |
+          python3 - <<'PY'
+          import json, re
+          txt = open("data.js").read()
+          i = txt.find("window.DFS_DATA =")
+          assert i >= 0, "data.js missing window.DFS_DATA"
+          d = json.loads(txt[i+len("window.DFS_DATA ="):].rstrip().rstrip(";"))
+          for s in ("mlb","nfl","nba"):
+              blk = d.get(s) or {}
+              ng = len(blk.get("games", [])); np = len(blk.get("players", []))
+              print(f"{s}: games={ng} players={np}")
+              assert ng >= 1 and np >= 10, f"{s} block failed validation"
+          print("validation OK")
+          PY
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.js
+          if git diff --cached --quiet; then
+            echo "No data changes — skipping commit."
+          else
+            git commit -m "data: daily slate refresh ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
