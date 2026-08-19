@@ -59,3 +59,5 @@ jobs:
             git commit -m "data: daily slate refresh ($(date -u +'%Y-%m-%d %H:%M UTC'))"
             git push
           fi
+
+# trigger re-index
