@@ -219,7 +219,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 389
+"model_rank": 390
 },
 {
 "name": "Amed Rosario",
@@ -245,7 +245,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 306
+"model_rank": 308
 },
 {
 "name": "Austin Wells",
@@ -263,15 +263,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".175",
+"avg": ".177",
 "hr": 8,
-"rbi": 17,
+"rbi": 18,
 "sb": 2,
-"ops": ".560",
+"ops": ".563",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 346
+"model_rank": 347
 },
 {
 "name": "Ben Rice",
@@ -281,22 +281,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5436,
-"proj": 12.3,
-"consensus": 11.8,
+"salary": 5404,
+"proj": 12.2,
+"consensus": 11.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".249",
+"avg": ".248",
 "hr": 34,
 "rbi": 80,
 "sb": 3,
-"ops": ".875",
+"ops": ".871",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 42
+"model_rank": 44
 },
 {
 "name": "George Lombard Jr.",
@@ -307,22 +307,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4412,
-"proj": 9.1,
-"consensus": 8.7,
+"salary": 4348,
+"proj": 8.9,
+"consensus": 8.5,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".288",
+"avg": ".273",
 "hr": 2,
 "rbi": 5,
 "sb": 1,
-"ops": ".768",
+"ops": ".739",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 157
+"model_rank": 164
 },
 {
 "name": "Heliot Ramos",
@@ -333,22 +333,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4220,
-"proj": 8.5,
-"consensus": 8.2,
+"salary": 4188,
+"proj": 8.4,
+"consensus": 8.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".243",
+"avg": ".240",
 "hr": 9,
 "rbi": 35,
 "sb": 4,
-"ops": ".687",
+"ops": ".679",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 185
+"model_rank": 194
 },
 {
 "name": "Jazz Chisholm Jr.",
@@ -366,11 +366,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".214",
+"avg": ".217",
 "hr": 17,
 "rbi": 49,
 "sb": 33,
-"ops": ".680",
+"ops": ".685",
 "imp_total": 4.5,
 "order": 0
 },
@@ -385,22 +385,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4348,
-"proj": 8.9,
-"consensus": 8.5,
+"salary": 4316,
+"proj": 8.8,
+"consensus": 8.4,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".237",
+"avg": ".235",
 "hr": 12,
 "rbi": 44,
 "sb": 30,
-"ops": ".676",
+"ops": ".673",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 164
+"model_rank": 170
 },
 {
 "name": "Luis Garc\u00eda Jr.",
@@ -411,22 +411,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4796,
-"proj": 10.3,
-"consensus": 9.9,
+"salary": 4828,
+"proj": 10.4,
+"consensus": 10.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".278",
-"hr": 25,
-"rbi": 80,
+"avg": ".279",
+"hr": 26,
+"rbi": 82,
 "sb": 4,
-"ops": ".849",
+"ops": ".857",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 90
+"model_rank": 83
 },
 {
 "name": "Max Schuemann",
@@ -452,7 +452,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 340
+"model_rank": 342
 },
 {
 "name": "Paul Goldschmidt",
@@ -478,7 +478,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 170
+"model_rank": 171
 },
 {
 "name": "Spencer Jones",
@@ -496,11 +496,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".229",
+"avg": ".224",
 "hr": 7,
 "rbi": 21,
-"sb": 7,
-"ops": ".731",
+"sb": 8,
+"ops": ".722",
 "imp_total": 4.5,
 "order": 0
 },
@@ -522,11 +522,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".223",
+"avg": ".222",
 "hr": 17,
 "rbi": 54,
-"sb": 8,
-"ops": ".737",
+"sb": 9,
+"ops": ".734",
 "imp_total": 4.5,
 "order": 0
 },
@@ -571,15 +571,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".284",
+"avg": ".283",
 "hr": 7,
 "rbi": 28,
 "sb": 0,
-"ops": ".797",
+"ops": ".794",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 173
+"model_rank": 174
 },
 {
 "name": "Andr\u00e9s Gim\u00e9nez",
@@ -605,7 +605,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 250
+"model_rank": 249
 },
 {
 "name": "Brandon Valenzuela",
@@ -631,7 +631,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 301
+"model_rank": 302
 },
 {
 "name": "Brett Bateman",
@@ -649,15 +649,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".302",
+"avg": ".321",
 "hr": 0,
 "rbi": 4,
 "sb": 1,
-"ops": ".735",
+"ops": ".778",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 149
+"model_rank": 150
 },
 {
 "name": "Charles McAdoo",
@@ -668,48 +668,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3900,
-"proj": 7.5,
-"consensus": 7.2,
+"salary": 3868,
+"proj": 7.4,
+"consensus": 7.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".263",
+"avg": ".262",
 "hr": 2,
-"rbi": 9,
+"rbi": 10,
 "sb": 1,
-"ops": ".699",
+"ops": ".685",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 245
-},
-{
-"name": "Davis Schneider",
-"team": "Toronto Blue Jays",
-"opp": "New York Yankees",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2940,
-"proj": 4.5,
-"consensus": 4.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".142",
-"hr": 3,
-"rbi": 12,
-"sb": 1,
-"ops": ".569",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 365
+"model_rank": 250
 },
 {
 "name": "Ernie Clement",
@@ -727,15 +701,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".285",
+"avg": ".286",
 "hr": 9,
 "rbi": 43,
 "sb": 5,
-"ops": ".713",
+"ops": ".716",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 211
+"model_rank": 210
 },
 {
 "name": "George Springer",
@@ -745,22 +719,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4476,
-"proj": 9.3,
-"consensus": 8.9,
+"salary": 4508,
+"proj": 9.4,
+"consensus": 9.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".235",
+"avg": ".240",
 "hr": 12,
-"rbi": 40,
+"rbi": 41,
 "sb": 10,
-"ops": ".701",
+"ops": ".708",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 144
+"model_rank": 138
 },
 {
 "name": "Jes\u00fas S\u00e1nchez",
@@ -786,7 +760,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 280
+"model_rank": 282
 },
 {
 "name": "Kazuma Okamoto",
@@ -808,7 +782,7 @@ window.DFS_DATA = {
 "hr": 26,
 "rbi": 74,
 "sb": 1,
-"ops": ".739",
+"ops": ".738",
 "imp_total": 4.5,
 "order": 0
 },
@@ -830,15 +804,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".212",
+"avg": ".213",
 "hr": 3,
 "rbi": 21,
 "sb": 7,
-"ops": ".589",
+"ops": ".592",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 370
+"model_rank": 371
 },
 {
 "name": "Nathan Lukes",
@@ -849,22 +823,48 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3580,
-"proj": 6.5,
-"consensus": 6.2,
+"salary": 3644,
+"proj": 6.7,
+"consensus": 6.4,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".256",
-"hr": 7,
-"rbi": 24,
+"avg": ".260",
+"hr": 8,
+"rbi": 26,
 "sb": 1,
-"ops": ".668",
+"ops": ".685",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 295
+"model_rank": 286
+},
+{
+"name": "Vladimir Guerrero Jr.",
+"team": "Toronto Blue Jays",
+"opp": "New York Yankees",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4380,
+"proj": 9.0,
+"consensus": 8.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".264",
+"hr": 7,
+"rbi": 46,
+"sb": 7,
+"ops": ".694",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 159
 },
 {
 "name": "Toronto Blue Jays P",
@@ -905,11 +905,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".303",
+"avg": ".305",
 "hr": 5,
 "rbi": 37,
 "sb": 0,
-"ops": ".847",
+"ops": ".850",
 "imp_total": 4.5,
 "order": 0
 },
@@ -924,22 +924,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5436,
-"proj": 12.3,
-"consensus": 11.8,
+"salary": 5404,
+"proj": 12.2,
+"consensus": 11.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".262",
+"avg": ".260",
 "hr": 16,
 "rbi": 75,
 "sb": 18,
-"ops": ".794",
+"ops": ".787",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 43
+"model_rank": 45
 },
 {
 "name": "Christian Yelich",
@@ -949,22 +949,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4796,
-"proj": 10.3,
-"consensus": 9.9,
+"salary": 4764,
+"proj": 10.2,
+"consensus": 9.8,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".230",
+"avg": ".228",
 "hr": 9,
 "rbi": 44,
 "sb": 10,
-"ops": ".685",
+"ops": ".678",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 91
+"model_rank": 97
 },
 {
 "name": "Cooper Pratt",
@@ -975,22 +975,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4284,
-"proj": 8.7,
-"consensus": 8.4,
+"salary": 4252,
+"proj": 8.6,
+"consensus": 8.3,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".259",
+"avg": ".255",
 "hr": 2,
-"rbi": 17,
+"rbi": 18,
 "sb": 10,
-"ops": ".687",
+"ops": ".676",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 174
+"model_rank": 182
 },
 {
 "name": "David Hamilton",
@@ -1016,7 +1016,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 238
+"model_rank": 239
 },
 {
 "name": "Garrett Mitchell",
@@ -1034,15 +1034,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".261",
+"avg": ".263",
 "hr": 9,
 "rbi": 54,
 "sb": 12,
-"ops": ".779",
+"ops": ".782",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 140
+"model_rank": 139
 },
 {
 "name": "Gary S\u00e1nchez",
@@ -1068,7 +1068,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 196
+"model_rank": 195
 },
 {
 "name": "Jackson Chourio",
@@ -1079,22 +1079,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5340,
-"proj": 12.0,
-"consensus": 11.5,
+"salary": 5308,
+"proj": 11.9,
+"consensus": 11.4,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".280",
+"avg": ".278",
 "hr": 17,
 "rbi": 50,
 "sb": 13,
-"ops": ".811",
+"ops": ".807",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 49
+"model_rank": 51
 },
 {
 "name": "Jake Bauers",
@@ -1105,22 +1105,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5308,
-"proj": 11.9,
-"consensus": 11.4,
+"salary": 5340,
+"proj": 12.0,
+"consensus": 11.5,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
 "avg": ".273",
-"hr": 22,
-"rbi": 72,
+"hr": 23,
+"rbi": 74,
 "sb": 9,
-"ops": ".883",
+"ops": ".890",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 51
+"model_rank": 49
 },
 {
 "name": "Joey Ortiz",
@@ -1142,11 +1142,11 @@ window.DFS_DATA = {
 "hr": 7,
 "rbi": 38,
 "sb": 9,
-"ops": ".691",
+"ops": ".692",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 275
+"model_rank": 277
 },
 {
 "name": "Luis Lara",
@@ -1164,15 +1164,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".245",
+"avg": ".255",
 "hr": 1,
 "rbi": 15,
 "sb": 2,
-"ops": ".675",
+"ops": ".686",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 246
+"model_rank": 247
 },
 {
 "name": "William Contreras",
@@ -1190,11 +1190,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".264",
+"avg": ".266",
 "hr": 12,
-"rbi": 64,
+"rbi": 65,
 "sb": 1,
-"ops": ".722",
+"ops": ".727",
 "imp_total": 4.5,
 "order": 0
 },
@@ -1239,15 +1239,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".221",
+"avg": ".220",
 "hr": 15,
 "rbi": 60,
 "sb": 7,
-"ops": ".660",
+"ops": ".657",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 182
+"model_rank": 183
 },
 {
 "name": "Dominic Smith",
@@ -1272,7 +1272,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 288
+"model_rank": 291
 },
 {
 "name": "Drake Baldwin",
@@ -1290,15 +1290,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".269",
+"avg": ".268",
 "hr": 21,
 "rbi": 63,
 "sb": 3,
-"ops": ".796",
+"ops": ".795",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 63
+"model_rank": 62
 },
 {
 "name": "Ha-Seong Kim",
@@ -1324,7 +1324,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 392
+"model_rank": 393
 },
 {
 "name": "Jim Jarvis",
@@ -1335,22 +1335,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3228,
-"proj": 5.4,
-"consensus": 5.2,
+"salary": 3196,
+"proj": 5.3,
+"consensus": 5.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".213",
+"avg": ".207",
 "hr": 1,
 "rbi": 11,
 "sb": 0,
-"ops": ".580",
+"ops": ".564",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 341
+"model_rank": 348
 },
 {
 "name": "Lane Thomas",
@@ -1361,22 +1361,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3900,
-"proj": 7.5,
-"consensus": 7.2,
+"salary": 3868,
+"proj": 7.4,
+"consensus": 7.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".229",
+"avg": ".228",
 "hr": 11,
 "rbi": 40,
 "sb": 8,
-"ops": ".719",
+"ops": ".717",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 247
+"model_rank": 251
 },
 {
 "name": "Matt Olson",
@@ -1387,22 +1387,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5468,
-"proj": 12.4,
-"consensus": 11.9,
+"salary": 5436,
+"proj": 12.3,
+"consensus": 11.8,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".261",
+"avg": ".260",
 "hr": 36,
 "rbi": 77,
 "sb": 4,
-"ops": ".876",
+"ops": ".873",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 40
+"model_rank": 41
 },
 {
 "name": "Mauricio Dub\u00f3n",
@@ -1420,15 +1420,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".266",
+"avg": ".268",
 "hr": 10,
 "rbi": 61,
 "sb": 6,
-"ops": ".702",
+"ops": ".705",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 171
+"model_rank": 172
 },
 {
 "name": "Michael Harris II",
@@ -1446,11 +1446,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".293",
+"avg": ".294",
 "hr": 20,
-"rbi": 69,
+"rbi": 70,
 "sb": 7,
-"ops": ".807",
+"ops": ".810",
 "imp_total": 4.5,
 "order": 0
 },
@@ -1465,22 +1465,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3580,
-"proj": 6.5,
-"consensus": 6.2,
+"salary": 3548,
+"proj": 6.4,
+"consensus": 6.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".232",
+"avg": ".230",
 "hr": 9,
 "rbi": 34,
 "sb": 1,
-"ops": ".712",
+"ops": ".705",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 296
+"model_rank": 303
 },
 {
 "name": "Ozzie Albies",
@@ -1498,11 +1498,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".249",
+"avg": ".252",
 "hr": 20,
 "rbi": 65,
 "sb": 2,
-"ops": ".723",
+"ops": ".726",
 "imp_total": 4.5,
 "order": 0
 },
@@ -1517,22 +1517,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5148,
-"proj": 11.4,
-"consensus": 10.9,
+"salary": 5116,
+"proj": 11.3,
+"consensus": 10.8,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".234",
+"avg": ".231",
 "hr": 13,
 "rbi": 35,
 "sb": 16,
-"ops": ".752",
+"ops": ".742",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 62
+"model_rank": 63
 },
 {
 "name": "Sean Murphy",
@@ -1558,7 +1558,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 395
+"model_rank": 396
 },
 {
 "name": "Atlanta Braves P",
@@ -1607,7 +1607,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 186
+"model_rank": 185
 },
 {
 "name": "Esteury Ruiz",
@@ -1618,9 +1618,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3868,
-"proj": 7.4,
-"consensus": 7.1,
+"salary": 3836,
+"proj": 7.3,
+"consensus": 7.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -1629,11 +1629,11 @@ window.DFS_DATA = {
 "hr": 6,
 "rbi": 11,
 "sb": 29,
-"ops": ".822",
+"ops": ".825",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 251
+"model_rank": 257
 },
 {
 "name": "Griffin Conine",
@@ -1644,9 +1644,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4540,
-"proj": 9.5,
-"consensus": 9.1,
+"salary": 4508,
+"proj": 9.4,
+"consensus": 9.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -1655,11 +1655,11 @@ window.DFS_DATA = {
 "hr": 14,
 "rbi": 31,
 "sb": 2,
-"ops": ".901",
+"ops": ".905",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 133
+"model_rank": 140
 },
 {
 "name": "Heriberto Hern\u00e1ndez",
@@ -1670,22 +1670,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4444,
-"proj": 9.2,
-"consensus": 8.8,
+"salary": 4476,
+"proj": 9.3,
+"consensus": 8.9,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".226",
-"hr": 18,
-"rbi": 51,
+"avg": ".229",
+"hr": 19,
+"rbi": 52,
 "sb": 8,
-"ops": ".747",
+"ops": ".761",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 150
+"model_rank": 145
 },
 {
 "name": "Jakob Marsee",
@@ -1696,9 +1696,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4188,
-"proj": 8.4,
-"consensus": 8.1,
+"salary": 4156,
+"proj": 8.3,
+"consensus": 8.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -1707,11 +1707,11 @@ window.DFS_DATA = {
 "hr": 7,
 "rbi": 29,
 "sb": 19,
-"ops": ".641",
+"ops": ".639",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 197
+"model_rank": 201
 },
 {
 "name": "Javier Sanoja",
@@ -1729,15 +1729,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".282",
+"avg": ".281",
 "hr": 6,
 "rbi": 50,
 "sb": 6,
-"ops": ".747",
+"ops": ".745",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 256
+"model_rank": 258
 },
 {
 "name": "Joe Mack",
@@ -1748,22 +1748,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3900,
-"proj": 7.5,
-"consensus": 7.2,
+"salary": 3868,
+"proj": 7.4,
+"consensus": 7.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".231",
+"avg": ".230",
 "hr": 12,
 "rbi": 36,
 "sb": 0,
-"ops": ".706",
+"ops": ".703",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 248
+"model_rank": 252
 },
 {
 "name": "Leo Jim\u00e9nez",
@@ -1789,7 +1789,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 354
+"model_rank": 356
 },
 {
 "name": "Otto Lopez",
@@ -1807,15 +1807,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".307",
+"avg": ".309",
 "hr": 9,
-"rbi": 55,
+"rbi": 57,
 "sb": 25,
-"ops": ".790",
+"ops": ".792",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 76
+"model_rank": 75
 },
 {
 "name": "Owen Caissie",
@@ -1833,15 +1833,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".224",
+"avg": ".227",
 "hr": 13,
 "rbi": 52,
 "sb": 5,
-"ops": ".713",
+"ops": ".721",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 212
+"model_rank": 211
 },
 {
 "name": "Xavier Edwards",
@@ -1852,22 +1852,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4540,
-"proj": 9.5,
-"consensus": 9.1,
+"salary": 4508,
+"proj": 9.4,
+"consensus": 9.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".286",
+"avg": ".285",
 "hr": 6,
 "rbi": 47,
 "sb": 19,
-"ops": ".750",
+"ops": ".748",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 134
+"model_rank": 141
 },
 {
 "name": "Miami Marlins P",
@@ -1901,22 +1901,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4220,
-"proj": 8.5,
-"consensus": 8.2,
+"salary": 4092,
+"proj": 8.1,
+"consensus": 7.8,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".241",
+"avg": ".236",
 "hr": 5,
 "rbi": 9,
 "sb": 0,
-"ops": ".824",
+"ops": ".808",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 187
+"model_rank": 212
 },
 {
 "name": "Andr\u00e9s Chaparro",
@@ -1953,9 +1953,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4220,
-"proj": 8.5,
-"consensus": 8.2,
+"salary": 4188,
+"proj": 8.4,
+"consensus": 8.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -1964,11 +1964,11 @@ window.DFS_DATA = {
 "hr": 9,
 "rbi": 31,
 "sb": 2,
-"ops": ".693",
+"ops": ".696",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 188
+"model_rank": 196
 },
 {
 "name": "CJ Abrams",
@@ -2005,9 +2005,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4572,
-"proj": 9.6,
-"consensus": 9.2,
+"salary": 4540,
+"proj": 9.5,
+"consensus": 9.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -2016,11 +2016,11 @@ window.DFS_DATA = {
 "hr": 15,
 "rbi": 66,
 "sb": 12,
-"ops": ".695",
+"ops": ".694",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 128
+"model_rank": 132
 },
 {
 "name": "Dylan Crews",
@@ -2031,22 +2031,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4252,
-"proj": 8.6,
-"consensus": 8.3,
+"salary": 4220,
+"proj": 8.5,
+"consensus": 8.2,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".210",
+"avg": ".209",
 "hr": 10,
 "rbi": 27,
 "sb": 8,
-"ops": ".633",
+"ops": ".631",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 183
+"model_rank": 186
 },
 {
 "name": "Harry Ford",
@@ -2057,22 +2057,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4124,
-"proj": 8.2,
-"consensus": 7.9,
+"salary": 3996,
+"proj": 7.8,
+"consensus": 7.5,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".212",
+"avg": ".208",
 "hr": 2,
 "rbi": 7,
 "sb": 1,
-"ops": ".751",
+"ops": ".738",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 206
+"model_rank": 225
 },
 {
 "name": "Jacob Young",
@@ -2090,11 +2090,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".249",
+"avg": ".248",
 "hr": 10,
 "rbi": 43,
 "sb": 14,
-"ops": ".713",
+"ops": ".711",
 "imp_total": 4.5,
 "order": 0
 },
@@ -2124,7 +2124,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 348
+"model_rank": 350
 },
 {
 "name": "Jos\u00e9 Tena",
@@ -2145,11 +2145,11 @@ window.DFS_DATA = {
 "hr": 7,
 "rbi": 22,
 "sb": 4,
-"ops": ".713",
+"ops": ".716",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 334
+"model_rank": 336
 },
 {
 "name": "Keibert Ruiz",
@@ -2175,7 +2175,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 189
+"model_rank": 187
 },
 {
 "name": "Nasim Nu\u00f1ez",
@@ -2186,22 +2186,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4092,
-"proj": 8.1,
-"consensus": 7.8,
+"salary": 4060,
+"proj": 8.0,
+"consensus": 7.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".225",
+"avg": ".224",
 "hr": 1,
 "rbi": 34,
 "sb": 42,
-"ops": ".568",
+"ops": ".566",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 214
+"model_rank": 217
 },
 {
 "name": "Washington Nationals P",
@@ -2276,7 +2276,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 129
+"model_rank": 128
 },
 {
 "name": "Bryan De La Cruz",
@@ -2302,7 +2302,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 302
+"model_rank": 304
 },
 {
 "name": "Bryce Harper",
@@ -2380,7 +2380,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 342
+"model_rank": 343
 },
 {
 "name": "Edmundo Sosa",
@@ -2406,7 +2406,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 289
+"model_rank": 292
 },
 {
 "name": "Garrett Stubbs",
@@ -2432,7 +2432,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 393
+"model_rank": 394
 },
 {
 "name": "J.T. Realmuto",
@@ -2458,7 +2458,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 225
+"model_rank": 226
 },
 {
 "name": "Justin Crawford",
@@ -2484,7 +2484,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 290
+"model_rank": 293
 },
 {
 "name": "Kyle Schwarber",
@@ -2509,7 +2509,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 41
+"model_rank": 40
 },
 {
 "name": "Luis Arraez",
@@ -2636,7 +2636,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 284
+"model_rank": 287
 },
 {
 "name": "Bryan Torres",
@@ -2662,7 +2662,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 351
+"model_rank": 353
 },
 {
 "name": "Everson Pereira",
@@ -2688,7 +2688,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 297
+"model_rank": 298
 },
 {
 "name": "Iv\u00e1n Herrera",
@@ -2739,7 +2739,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 81
+"model_rank": 80
 },
 {
 "name": "Jimmy Crooks",
@@ -2765,7 +2765,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 357
+"model_rank": 359
 },
 {
 "name": "Jordan Walker",
@@ -2817,7 +2817,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 303
+"model_rank": 305
 },
 {
 "name": "Masyn Winn",
@@ -2843,7 +2843,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 215
+"model_rank": 214
 },
 {
 "name": "Nathan Church",
@@ -2869,7 +2869,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 281
+"model_rank": 283
 },
 {
 "name": "Pedro Pag\u00e9s",
@@ -2895,7 +2895,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 371
+"model_rank": 372
 },
 {
 "name": "St. Louis Cardinals P",
@@ -2944,7 +2944,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 372
+"model_rank": 373
 },
 {
 "name": "Christian Encarnacion-Strand",
@@ -2996,7 +2996,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 216
+"model_rank": 215
 },
 {
 "name": "Colton Cowser",
@@ -3022,7 +3022,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 315
+"model_rank": 317
 },
 {
 "name": "Dylan Beavers",
@@ -3048,7 +3048,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 252
+"model_rank": 253
 },
 {
 "name": "Gunnar Henderson",
@@ -3074,7 +3074,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 92
+"model_rank": 91
 },
 {
 "name": "Jackson Holliday",
@@ -3100,7 +3100,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 226
+"model_rank": 227
 },
 {
 "name": "Leody Taveras",
@@ -3126,7 +3126,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 227
+"model_rank": 228
 },
 {
 "name": "Pete Alonso",
@@ -3178,7 +3178,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 190
+"model_rank": 188
 },
 {
 "name": "Tyler O'Neill",
@@ -3204,7 +3204,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 298
+"model_rank": 299
 },
 {
 "name": "Yohel Pozo",
@@ -3230,7 +3230,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 391
+"model_rank": 392
 },
 {
 "name": "Baltimore Orioles P",
@@ -3279,7 +3279,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 198
+"model_rank": 197
 },
 {
 "name": "Chandler Simpson",
@@ -3357,7 +3357,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 199
+"model_rank": 198
 },
 {
 "name": "Jorge Mateo",
@@ -3383,7 +3383,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 326
+"model_rank": 328
 },
 {
 "name": "Junior Caminero",
@@ -3409,7 +3409,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 44
+"model_rank": 42
 },
 {
 "name": "Liam Hicks",
@@ -3435,7 +3435,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 93
+"model_rank": 92
 },
 {
 "name": "Nick Fortes",
@@ -3461,7 +3461,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 321
+"model_rank": 323
 },
 {
 "name": "Richie Palacios",
@@ -3513,7 +3513,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 228
+"model_rank": 229
 },
 {
 "name": "Taylor Walls",
@@ -3539,7 +3539,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 239
+"model_rank": 240
 },
 {
 "name": "Yandy D\u00edaz",
@@ -3665,7 +3665,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 327
+"model_rank": 329
 },
 {
 "name": "Elias D\u00edaz",
@@ -3691,7 +3691,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 352
+"model_rank": 354
 },
 {
 "name": "Evan Carter",
@@ -3717,7 +3717,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 264
+"model_rank": 266
 },
 {
 "name": "Ezequiel Duran",
@@ -3743,7 +3743,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 130
+"model_rank": 129
 },
 {
 "name": "Jake Burger",
@@ -3769,7 +3769,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 145
+"model_rank": 146
 },
 {
 "name": "Jarred Kelenic",
@@ -3795,7 +3795,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 380
+"model_rank": 381
 },
 {
 "name": "Joc Pederson",
@@ -3846,7 +3846,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 328
+"model_rank": 330
 },
 {
 "name": "Nicky Lopez",
@@ -3872,7 +3872,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 349
+"model_rank": 351
 },
 {
 "name": "Wyatt Langford",
@@ -3898,7 +3898,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 78
+"model_rank": 77
 },
 {
 "name": "Texas Rangers P",
@@ -3947,7 +3947,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 358
+"model_rank": 360
 },
 {
 "name": "Denzer Guzman",
@@ -3973,7 +3973,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 267
+"model_rank": 269
 },
 {
 "name": "Jose Siri",
@@ -3999,7 +3999,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 322
+"model_rank": 324
 },
 {
 "name": "Josh Lowe",
@@ -4025,7 +4025,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 312
+"model_rank": 314
 },
 {
 "name": "Mike Trout",
@@ -4076,7 +4076,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 329
+"model_rank": 331
 },
 {
 "name": "Nolan Schanuel",
@@ -4128,7 +4128,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 316
+"model_rank": 318
 },
 {
 "name": "Travis d'Arnaud",
@@ -4154,7 +4154,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 373
+"model_rank": 374
 },
 {
 "name": "Tyler Heineman",
@@ -4180,7 +4180,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 387
+"model_rank": 388
 },
 {
 "name": "Vaughn Grissom",
@@ -4206,7 +4206,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 200
+"model_rank": 199
 },
 {
 "name": "Wade Meckler",
@@ -4232,7 +4232,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 257
+"model_rank": 259
 },
 {
 "name": "Zach Neto",
@@ -4258,7 +4258,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 71
+"model_rank": 70
 },
 {
 "name": "Los Angeles Angels P",
@@ -4307,7 +4307,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 207
+"model_rank": 206
 },
 {
 "name": "Christian V\u00e1zquez",
@@ -4333,7 +4333,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 317
+"model_rank": 319
 },
 {
 "name": "Christian Walker",
@@ -4385,7 +4385,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 258
+"model_rank": 260
 },
 {
 "name": "Isaac Paredes",
@@ -4463,7 +4463,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 158
+"model_rank": 157
 },
 {
 "name": "LaMonte Wade Jr.",
@@ -4489,7 +4489,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 285
+"model_rank": 288
 },
 {
 "name": "Nick Allen",
@@ -4515,7 +4515,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 378
+"model_rank": 379
 },
 {
 "name": "Raynel Delgado",
@@ -4541,7 +4541,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 377
+"model_rank": 378
 },
 {
 "name": "Taylor Trammell",
@@ -4567,7 +4567,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 299
+"model_rank": 300
 },
 {
 "name": "Yainer Diaz",
@@ -4593,7 +4593,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 253
+"model_rank": 254
 },
 {
 "name": "Yordan Alvarez",
@@ -4667,7 +4667,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 366
+"model_rank": 367
 },
 {
 "name": "Brian Serven",
@@ -4693,7 +4693,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 276
+"model_rank": 278
 },
 {
 "name": "Carlos Cortes",
@@ -4719,7 +4719,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 291
+"model_rank": 294
 },
 {
 "name": "Darell Hernaiz",
@@ -4745,7 +4745,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 361
+"model_rank": 363
 },
 {
 "name": "Donovan Walton",
@@ -4771,7 +4771,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 277
+"model_rank": 279
 },
 {
 "name": "Henry Bolte",
@@ -4797,7 +4797,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 208
+"model_rank": 207
 },
 {
 "name": "Jeff McNeil",
@@ -4823,7 +4823,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 278
+"model_rank": 280
 },
 {
 "name": "Jonah Heim",
@@ -4849,7 +4849,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 229
+"model_rank": 230
 },
 {
 "name": "Lawrence Butler",
@@ -4875,7 +4875,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 268
+"model_rank": 270
 },
 {
 "name": "Max Muncy",
@@ -4901,7 +4901,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 233
+"model_rank": 234
 },
 {
 "name": "Tommy White",
@@ -4927,7 +4927,33 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 323
+"model_rank": 325
+},
+{
+"name": "Zack Gelof",
+"team": "Athletics",
+"opp": "Houston Astros",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4828,
+"proj": 10.4,
+"consensus": 10.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".265",
+"hr": 14,
+"rbi": 36,
+"sb": 9,
+"ops": ".799",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 86
 },
 {
 "name": "Athletics P",
@@ -5027,7 +5053,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 338
+"model_rank": 340
 },
 {
 "name": "Chase Meidroth",
@@ -5053,7 +5079,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 146
+"model_rank": 147
 },
 {
 "name": "Colson Montgomery",
@@ -5105,7 +5131,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 330
+"model_rank": 332
 },
 {
 "name": "Jake Rogers",
@@ -5131,7 +5157,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 324
+"model_rank": 326
 },
 {
 "name": "Luisangel Acu\u00f1a",
@@ -5157,7 +5183,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 367
+"model_rank": 368
 },
 {
 "name": "Miguel Vargas",
@@ -5234,7 +5260,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 300
+"model_rank": 301
 },
 {
 "name": "Sam Antonacci",
@@ -5286,7 +5312,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 265
+"model_rank": 267
 },
 {
 "name": "Chicago White Sox P",
@@ -5387,7 +5413,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 279
+"model_rank": 281
 },
 {
 "name": "Carson Benge",
@@ -5439,7 +5465,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 381
+"model_rank": 382
 },
 {
 "name": "Eric Wagaman",
@@ -5465,7 +5491,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 382
+"model_rank": 383
 },
 {
 "name": "Francisco Alvarez",
@@ -5491,7 +5517,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 240
+"model_rank": 241
 },
 {
 "name": "Francisco Lindor",
@@ -5543,7 +5569,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 241
+"model_rank": 242
 },
 {
 "name": "Luis Robert Jr.",
@@ -5569,7 +5595,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 230
+"model_rank": 231
 },
 {
 "name": "Luis Torrens",
@@ -5595,7 +5621,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 273
+"model_rank": 275
 },
 {
 "name": "Marcus Semien",
@@ -5722,7 +5748,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 254
+"model_rank": 255
 },
 {
 "name": "Jac Caglianone",
@@ -5774,7 +5800,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 335
+"model_rank": 337
 },
 {
 "name": "Kyle Isbel",
@@ -5800,7 +5826,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 307
+"model_rank": 309
 },
 {
 "name": "Michael Massey",
@@ -5826,7 +5852,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 234
+"model_rank": 235
 },
 {
 "name": "Nick Loftin",
@@ -5852,7 +5878,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 249
+"model_rank": 248
 },
 {
 "name": "Salvador Perez",
@@ -5903,7 +5929,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 292
+"model_rank": 295
 },
 {
 "name": "Vinnie Pasquantino",
@@ -5978,7 +6004,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 336
+"model_rank": 338
 },
 {
 "name": "Colt Keith",
@@ -6004,7 +6030,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 274
+"model_rank": 276
 },
 {
 "name": "Dillon Dingler",
@@ -6030,7 +6056,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 73
+"model_rank": 72
 },
 {
 "name": "Eduardo Valencia",
@@ -6055,7 +6081,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 74
+"model_rank": 73
 },
 {
 "name": "Gleyber Torres",
@@ -6081,7 +6107,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 94
+"model_rank": 93
 },
 {
 "name": "Hao-Yu Lee",
@@ -6107,7 +6133,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 313
+"model_rank": 315
 },
 {
 "name": "Javier B\u00e1ez",
@@ -6133,7 +6159,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 259
+"model_rank": 261
 },
 {
 "name": "Kevin McGonigle",
@@ -6237,7 +6263,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 310
+"model_rank": 312
 },
 {
 "name": "Detroit Tigers P",
@@ -6263,6 +6289,32 @@ window.DFS_DATA = {
 "model_rank": 20
 },
 {
+"name": "Alek Thomas",
+"team": "Los Angeles Dodgers",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3932,
+"proj": 7.6,
+"consensus": 7.3,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".181",
+"hr": 2,
+"rbi": 10,
+"sb": 4,
+"ops": ".562",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 243
+},
+{
 "name": "Alex Call",
 "team": "Los Angeles Dodgers",
 "opp": "Pittsburgh Pirates",
@@ -6286,33 +6338,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 359
-},
-{
-"name": "Andy Pages",
-"team": "Los Angeles Dodgers",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5116,
-"proj": 11.3,
-"consensus": 10.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".272",
-"hr": 21,
-"rbi": 80,
-"sb": 12,
-"ops": ".796",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 66
+"model_rank": 361
 },
 {
 "name": "Enrique Hern\u00e1ndez",
@@ -6338,7 +6364,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 347
+"model_rank": 349
 },
 {
 "name": "Freddie Freeman",
@@ -6364,7 +6390,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 82
+"model_rank": 81
 },
 {
 "name": "Hunter Feduccia",
@@ -6390,7 +6416,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 363
+"model_rank": 365
 },
 {
 "name": "Kyle Tucker",
@@ -6416,7 +6442,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 141
+"model_rank": 142
 },
 {
 "name": "Max Muncy",
@@ -6442,7 +6468,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 86
+"model_rank": 87
 },
 {
 "name": "Miguel Rojas",
@@ -6468,7 +6494,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 364
+"model_rank": 366
 },
 {
 "name": "Mookie Betts",
@@ -6494,7 +6520,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 135
+"model_rank": 133
 },
 {
 "name": "Shohei Ohtani",
@@ -6545,7 +6571,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 172
+"model_rank": 173
 },
 {
 "name": "Tommy Edman",
@@ -6620,7 +6646,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 396
+"model_rank": 397
 },
 {
 "name": "Brandon Lowe",
@@ -6672,7 +6698,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 67
+"model_rank": 66
 },
 {
 "name": "Esmerlyn Valdez",
@@ -6724,7 +6750,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 311
+"model_rank": 313
 },
 {
 "name": "Jacob Gonzalez",
@@ -6750,7 +6776,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 286
+"model_rank": 289
 },
 {
 "name": "Jake Mangum",
@@ -6776,7 +6802,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 201
+"model_rank": 200
 },
 {
 "name": "Jared Triolo",
@@ -6802,7 +6828,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 314
+"model_rank": 316
 },
 {
 "name": "Nick Gonzales",
@@ -6828,7 +6854,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 142
+"model_rank": 143
 },
 {
 "name": "Nick Yorke",
@@ -6854,7 +6880,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 318
+"model_rank": 320
 },
 {
 "name": "Oneil Cruz",
@@ -6906,7 +6932,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 87
+"model_rank": 88
 },
 {
 "name": "Spencer Horwitz",
@@ -7084,7 +7110,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 331
+"model_rank": 333
 },
 {
 "name": "Josh Naylor",
@@ -7110,7 +7136,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 136
+"model_rank": 134
 },
 {
 "name": "Julio Rodr\u00edguez",
@@ -7162,7 +7188,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 375
+"model_rank": 376
 },
 {
 "name": "Randy Arozarena",
@@ -7213,7 +7239,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 159
+"model_rank": 158
 },
 {
 "name": "Victor Robles",
@@ -7239,7 +7265,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 362
+"model_rank": 364
 },
 {
 "name": "Weston Wilson",
@@ -7265,7 +7291,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 350
+"model_rank": 352
 },
 {
 "name": "Seattle Mariners P",
@@ -7314,7 +7340,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 79
+"model_rank": 78
 },
 {
 "name": "Carson Kelly",
@@ -7340,7 +7366,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 231
+"model_rank": 232
 },
 {
 "name": "Gabriel Arias",
@@ -7366,7 +7392,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 308
+"model_rank": 310
 },
 {
 "name": "Ian Happ",
@@ -7443,7 +7469,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 309
+"model_rank": 311
 },
 {
 "name": "Miguel Amaya",
@@ -7469,7 +7495,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 282
+"model_rank": 284
 },
 {
 "name": "Nico Hoerner",
@@ -7495,7 +7521,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 137
+"model_rank": 135
 },
 {
 "name": "Pedro Ram\u00edrez",
@@ -7521,7 +7547,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 266
+"model_rank": 268
 },
 {
 "name": "Pete Crow-Armstrong",
@@ -7599,7 +7625,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 319
+"model_rank": 321
 },
 {
 "name": "Chicago Cubs P",
@@ -7674,7 +7700,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 242
+"model_rank": 244
 },
 {
 "name": "Anthony Seigler",
@@ -7700,7 +7726,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 235
+"model_rank": 236
 },
 {
 "name": "Caleb Durbin",
@@ -7726,7 +7752,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 131
+"model_rank": 130
 },
 {
 "name": "Ceddanne Rafaela",
@@ -7752,7 +7778,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 80
+"model_rank": 79
 },
 {
 "name": "Connor Wong",
@@ -7778,7 +7804,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 293
+"model_rank": 296
 },
 {
 "name": "Eli White",
@@ -7804,7 +7830,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 360
+"model_rank": 362
 },
 {
 "name": "Jahmai Jones",
@@ -7829,7 +7855,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 379
+"model_rank": 380
 },
 {
 "name": "Jarren Duran",
@@ -7855,7 +7881,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 132
+"model_rank": 131
 },
 {
 "name": "Mickey Gasper",
@@ -7881,7 +7907,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 255
+"model_rank": 256
 },
 {
 "name": "Nick Sogard",
@@ -7907,7 +7933,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 191
+"model_rank": 189
 },
 {
 "name": "Willson Contreras",
@@ -7959,7 +7985,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 68
+"model_rank": 67
 },
 {
 "name": "Boston Red Sox P",
@@ -8007,7 +8033,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 143
+"model_rank": 144
 },
 {
 "name": "Buddy Kennedy",
@@ -8033,7 +8059,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 394
+"model_rank": 395
 },
 {
 "name": "Christian Koss",
@@ -8059,7 +8085,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 386
+"model_rank": 387
 },
 {
 "name": "Drew Cavanaugh",
@@ -8085,7 +8111,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 374
+"model_rank": 375
 },
 {
 "name": "Drew Gilbert",
@@ -8111,7 +8137,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 304
+"model_rank": 306
 },
 {
 "name": "Jonah Cox",
@@ -8137,7 +8163,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 383
+"model_rank": 384
 },
 {
 "name": "Jung Hoo Lee",
@@ -8189,7 +8215,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 260
+"model_rank": 262
 },
 {
 "name": "Rafael Devers",
@@ -8215,7 +8241,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 83
+"model_rank": 82
 },
 {
 "name": "Victor Bericoto",
@@ -8241,7 +8267,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 332
+"model_rank": 334
 },
 {
 "name": "Willy Adames",
@@ -8267,7 +8293,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 147
+"model_rank": 148
 },
 {
 "name": "San Francisco Giants P",
@@ -8342,7 +8368,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 75
+"model_rank": 74
 },
 {
 "name": "Geraldo Perdomo",
@@ -8394,7 +8420,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 209
+"model_rank": 208
 },
 {
 "name": "James McCann",
@@ -8420,7 +8446,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 261
+"model_rank": 263
 },
 {
 "name": "Jordan Lawlar",
@@ -8446,7 +8472,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 95
+"model_rank": 94
 },
 {
 "name": "Jorge Barrosa",
@@ -8472,7 +8498,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 385
+"model_rank": 386
 },
 {
 "name": "Jose Fernandez",
@@ -8497,7 +8523,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 269
+"model_rank": 271
 },
 {
 "name": "Lars Nootbaar",
@@ -8523,7 +8549,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 236
+"model_rank": 237
 },
 {
 "name": "Max Kepler",
@@ -8549,7 +8575,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 287
+"model_rank": 290
 },
 {
 "name": "Nolan Arenado",
@@ -8601,7 +8627,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 217
+"model_rank": 216
 },
 {
 "name": "Tim Tawa",
@@ -8627,7 +8653,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 262
+"model_rank": 264
 },
 {
 "name": "Arizona Diamondbacks P",
@@ -8676,7 +8702,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 333
+"model_rank": 335
 },
 {
 "name": "Elly De La Cruz",
@@ -8702,7 +8728,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 45
+"model_rank": 43
 },
 {
 "name": "Eugenio Su\u00e1rez",
@@ -8753,7 +8779,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 388
+"model_rank": 389
 },
 {
 "name": "JJ Bleday",
@@ -8805,7 +8831,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 339
+"model_rank": 341
 },
 {
 "name": "Ke'Bryan Hayes",
@@ -8831,7 +8857,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 384
+"model_rank": 385
 },
 {
 "name": "Matt McLain",
@@ -8909,7 +8935,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 355
+"model_rank": 357
 },
 {
 "name": "Tyler Stephenson",
@@ -8935,7 +8961,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 243
+"model_rank": 245
 },
 {
 "name": "Cincinnati Reds P",
@@ -8983,7 +9009,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 376
+"model_rank": 377
 },
 {
 "name": "Brett Sullivan",
@@ -9009,7 +9035,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 305
+"model_rank": 307
 },
 {
 "name": "Cole Carrigg",
@@ -9035,7 +9061,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 77
+"model_rank": 76
 },
 {
 "name": "Connor Norby",
@@ -9061,7 +9087,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 270
+"model_rank": 272
 },
 {
 "name": "Ezequiel Tovar",
@@ -9087,7 +9113,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 294
+"model_rank": 297
 },
 {
 "name": "Jake McCarthy",
@@ -9113,7 +9139,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 69
+"model_rank": 68
 },
 {
 "name": "Jordan Beck",
@@ -9139,7 +9165,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 343
+"model_rank": 344
 },
 {
 "name": "Kyle Karros",
@@ -9191,7 +9217,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 88
+"model_rank": 89
 },
 {
 "name": "TJ Rumfield",
@@ -9217,7 +9243,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 138
+"model_rank": 136
 },
 {
 "name": "Troy Johnston",
@@ -9243,7 +9269,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 244
+"model_rank": 246
 },
 {
 "name": "Willi Castro",
@@ -9344,7 +9370,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 192
+"model_rank": 190
 },
 {
 "name": "Austin Hedges",
@@ -9370,7 +9396,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 320
+"model_rank": 322
 },
 {
 "name": "Brayan Rocchio",
@@ -9396,7 +9422,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 193
+"model_rank": 191
 },
 {
 "name": "Chase DeLauter",
@@ -9422,7 +9448,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 96
+"model_rank": 95
 },
 {
 "name": "David Fry",
@@ -9448,7 +9474,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 368
+"model_rank": 369
 },
 {
 "name": "Jo Adell",
@@ -9500,7 +9526,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 70
+"model_rank": 69
 },
 {
 "name": "Nathaniel Lowe",
@@ -9552,7 +9578,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 337
+"model_rank": 339
 },
 {
 "name": "Petey Halpin",
@@ -9578,7 +9604,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 344
+"model_rank": 345
 },
 {
 "name": "Steven Kwan",
@@ -9604,7 +9630,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 210
+"model_rank": 209
 },
 {
 "name": "Travis Bazzana",
@@ -9679,7 +9705,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 283
+"model_rank": 285
 },
 {
 "name": "Fernando Tatis Jr.",
@@ -9731,7 +9757,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 369
+"model_rank": 370
 },
 {
 "name": "Gavin Sheets",
@@ -9757,7 +9783,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 232
+"model_rank": 233
 },
 {
 "name": "Jackson Merrill",
@@ -9783,7 +9809,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 97
+"model_rank": 96
 },
 {
 "name": "Jake Cronenworth",
@@ -9809,7 +9835,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 263
+"model_rank": 265
 },
 {
 "name": "Jase Bowen",
@@ -9835,7 +9861,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 390
+"model_rank": 391
 },
 {
 "name": "Luis Campusano",
@@ -9887,7 +9913,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 237
+"model_rank": 238
 },
 {
 "name": "Manny Machado",
@@ -9939,7 +9965,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 345
+"model_rank": 346
 },
 {
 "name": "Ty France",
@@ -9965,7 +9991,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 139
+"model_rank": 137
 },
 {
 "name": "Xander Bogaerts",
@@ -9991,7 +10017,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 194
+"model_rank": 192
 },
 {
 "name": "San Diego Padres P",
@@ -10040,7 +10066,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 353
+"model_rank": 355
 },
 {
 "name": "Alex Jackson",
@@ -10066,7 +10092,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 356
+"model_rank": 358
 },
 {
 "name": "Brooks Lee",
@@ -10092,7 +10118,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 148
+"model_rank": 149
 },
 {
 "name": "Byron Buxton",
@@ -10169,7 +10195,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 271
+"model_rank": 273
 },
 {
 "name": "Kody Clemens",
@@ -10195,7 +10221,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 89
+"model_rank": 90
 },
 {
 "name": "Luke Keaschall",
@@ -10273,7 +10299,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 72
+"model_rank": 71
 },
 {
 "name": "Ryan Kreidler",
@@ -10299,7 +10325,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 325
+"model_rank": 327
 },
 {
 "name": "Trevor Larnach",
@@ -10325,7 +10351,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 195
+"model_rank": 193
 },
 {
 "name": "Victor Caratini",
@@ -10351,7 +10377,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 272
+"model_rank": 274
 },
 {
 "name": "Minnesota Twins P",
