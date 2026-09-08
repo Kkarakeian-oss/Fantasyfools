@@ -219,7 +219,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 265
+"model_rank": 264
 },
 {
 "name": "Carlos Narv\u00e1ez",
@@ -349,7 +349,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 266
+"model_rank": 265
 },
 {
 "name": "Gunnar Henderson",
@@ -580,7 +580,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 288
+"model_rank": 287
 },
 {
 "name": "Angel Mart\u00ednez",
@@ -1148,7 +1148,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 291
+"model_rank": 290
 },
 {
 "name": "Kevin McGonigle",
@@ -1586,7 +1586,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 289
+"model_rank": 288
 },
 {
 "name": "Minnesota Twins P",
@@ -1791,7 +1791,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 273
+"model_rank": 272
 },
 {
 "name": "Garrett Stubbs",
@@ -2458,7 +2458,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 280
+"model_rank": 279
 },
 {
 "name": "Graham Pauley",
@@ -2614,7 +2614,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 281
+"model_rank": 280
 },
 {
 "name": "Kyle Stowers",
@@ -2793,7 +2793,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 282
+"model_rank": 281
 },
 {
 "name": "Carson Benge",
@@ -2975,7 +2975,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 296
+"model_rank": 295
 },
 {
 "name": "Marcus Semien",
@@ -3102,7 +3102,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 271
+"model_rank": 270
 },
 {
 "name": "Caleb Durbin",
@@ -3206,7 +3206,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 292
+"model_rank": 291
 },
 {
 "name": "Jahmai Jones",
@@ -3976,7 +3976,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 272
+"model_rank": 271
 },
 {
 "name": "Heliot Ramos",
@@ -4076,7 +4076,7 @@ window.DFS_DATA = {
 "hr": 13,
 "rbi": 47,
 "sb": 31,
-"ops": ".661",
+"ops": ".664",
 "imp_total": 4.5,
 "order": 0
 },
@@ -4671,7 +4671,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 274
+"model_rank": 273
 },
 {
 "name": "Matt Olson",
@@ -5087,6 +5087,32 @@ window.DFS_DATA = {
 "model_rank": 345
 },
 {
+"name": "Nick Madrigal",
+"team": "Tampa Bay Rays",
+"opp": "Atlanta Braves",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3644,
+"proj": 6.7,
+"consensus": 6.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".273",
+"hr": 0,
+"rbi": 2,
+"sb": 1,
+"ops": ".680",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 296
+},
+{
 "name": "Richie Palacios",
 "team": "Tampa Bay Rays",
 "opp": "Atlanta Braves",
@@ -5136,33 +5162,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 267
-},
-{
-"name": "Taylor Walls",
-"team": "Tampa Bay Rays",
-"opp": "Atlanta Braves",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3900,
-"proj": 7.5,
-"consensus": 7.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".218",
-"hr": 2,
-"rbi": 33,
-"sb": 21,
-"ops": ".596",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 262
+"model_rank": 266
 },
 {
 "name": "Victor Mesa Jr.",
@@ -5314,7 +5314,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 275
+"model_rank": 274
 },
 {
 "name": "Jac Caglianone",
@@ -5906,7 +5906,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 268
+"model_rank": 267
 },
 {
 "name": "Tim Tawa",
@@ -5932,7 +5932,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 263
+"model_rank": 262
 },
 {
 "name": "Tommy Troy",
@@ -5958,7 +5958,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 283
+"model_rank": 282
 },
 {
 "name": "Arizona Diamondbacks P",
@@ -6704,7 +6704,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 284
+"model_rank": 283
 },
 {
 "name": "Spencer Horwitz",
@@ -7038,7 +7038,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 293
+"model_rank": 292
 },
 {
 "name": "Luis Lara",
@@ -7090,7 +7090,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 285
+"model_rank": 284
 },
 {
 "name": "William Contreras",
@@ -7320,7 +7320,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 290
+"model_rank": 289
 },
 {
 "name": "Miguel Amaya",
@@ -7476,7 +7476,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 286
+"model_rank": 285
 },
 {
 "name": "Chicago Cubs P",
@@ -7655,7 +7655,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 277
+"model_rank": 276
 },
 {
 "name": "Jase Bowen",
@@ -8709,7 +8709,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 287
+"model_rank": 286
 },
 {
 "name": "Ezequiel Duran",
@@ -9068,7 +9068,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 278
+"model_rank": 277
 },
 {
 "name": "Henry Bolte",
@@ -9120,7 +9120,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 264
+"model_rank": 263
 },
 {
 "name": "Jonah Heim",
@@ -9325,7 +9325,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 269
+"model_rank": 268
 },
 {
 "name": "Brandon Valenzuela",
@@ -9584,7 +9584,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 276
+"model_rank": 275
 },
 {
 "name": "Sean Keys",
@@ -9917,7 +9917,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 294
+"model_rank": 293
 },
 {
 "name": "Rafael Devers",
@@ -10225,7 +10225,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 279
+"model_rank": 278
 },
 {
 "name": "Nolan Gorman",
@@ -10251,7 +10251,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 295
+"model_rank": 294
 },
 {
 "name": "Pedro Pag\u00e9s",
@@ -10329,7 +10329,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 270
+"model_rank": 269
 },
 {
 "name": "Victor Scott II",
