@@ -3,81 +3,21 @@
 window.DFS_DATA = {
 "mlb": {
 "meta": {
-"date": "2026-09-19",
+"date": "2026-09-20",
 "site": "FanDuel",
 "cap": 35000,
 "scoring": "FanDuel MLB Classic",
 "slate": "15-game slate",
 "odds_source": "modeled (no odds)",
-"fresh": "2026-09-19",
+"fresh": "2026-09-20",
 "sample": false
 },
 "games": [
-{
-"id": "DET@CHI",
-"away": "Detroit Tigers",
-"home": "Chicago White Sox",
-"venue": "Rate Field",
-"total": 9.0,
-"ml_home": -110,
-"ml_away": -110,
-"imp_home": 4.5,
-"imp_away": 4.5,
-"park": 1.0
-},
-{
-"id": "MIL@BAL",
-"away": "Milwaukee Brewers",
-"home": "Baltimore Orioles",
-"venue": "Oriole Park at Camden Yards",
-"total": 9.0,
-"ml_home": -110,
-"ml_away": -110,
-"imp_home": 4.5,
-"imp_away": 4.5,
-"park": 1.0
-},
-{
-"id": "BOS@TAM",
-"away": "Boston Red Sox",
-"home": "Tampa Bay Rays",
-"venue": "Tropicana Field",
-"total": 9.0,
-"ml_home": -110,
-"ml_away": -110,
-"imp_home": 4.5,
-"imp_away": 4.5,
-"park": 1.0
-},
 {
 "id": "PHI@NEW",
 "away": "Philadelphia Phillies",
 "home": "New York Mets",
 "venue": "Citi Field",
-"total": 9.0,
-"ml_home": -110,
-"ml_away": -110,
-"imp_home": 4.5,
-"imp_away": 4.5,
-"park": 1.0
-},
-{
-"id": "ATH@CLE",
-"away": "Athletics",
-"home": "Cleveland Guardians",
-"venue": "Progressive Field",
-"total": 9.0,
-"ml_home": -110,
-"ml_away": -110,
-"imp_home": 4.5,
-"imp_away": 4.5,
-"park": 1.0
-},
-{
-"id": "CHI@CIN",
-"away": "Chicago Cubs",
-"home": "Cincinnati Reds",
-"venue": "Great American Ball Park",
 "total": 9.0,
 "ml_home": -110,
 "ml_away": -110,
@@ -98,10 +38,34 @@ window.DFS_DATA = {
 "park": 1.0
 },
 {
-"id": "TOR@TEX",
-"away": "Toronto Blue Jays",
-"home": "Texas Rangers",
-"venue": "Globe Life Field",
+"id": "CHI@CIN",
+"away": "Chicago Cubs",
+"home": "Cincinnati Reds",
+"venue": "Great American Ball Park",
+"total": 9.0,
+"ml_home": -110,
+"ml_away": -110,
+"imp_home": 4.5,
+"imp_away": 4.5,
+"park": 1.0
+},
+{
+"id": "ATH@CLE",
+"away": "Athletics",
+"home": "Cleveland Guardians",
+"venue": "Progressive Field",
+"total": 9.0,
+"ml_home": -110,
+"ml_away": -110,
+"imp_home": 4.5,
+"imp_away": 4.5,
+"park": 1.0
+},
+{
+"id": "BOS@TAM",
+"away": "Boston Red Sox",
+"home": "Tampa Bay Rays",
+"venue": "Tropicana Field",
 "total": 9.0,
 "ml_home": -110,
 "ml_away": -110,
@@ -122,10 +86,34 @@ window.DFS_DATA = {
 "park": 1.0
 },
 {
+"id": "DET@CHI",
+"away": "Detroit Tigers",
+"home": "Chicago White Sox",
+"venue": "Rate Field",
+"total": 9.0,
+"ml_home": -110,
+"ml_away": -110,
+"imp_home": 4.5,
+"imp_away": 4.5,
+"park": 1.0
+},
+{
 "id": "WAS@ST.",
 "away": "Washington Nationals",
 "home": "St. Louis Cardinals",
 "venue": "Busch Stadium",
+"total": 9.0,
+"ml_home": -110,
+"ml_away": -110,
+"imp_home": 4.5,
+"imp_away": 4.5,
+"park": 1.0
+},
+{
+"id": "TOR@TEX",
+"away": "Toronto Blue Jays",
+"home": "Texas Rangers",
+"venue": "Globe Life Field",
 "total": 9.0,
 "ml_home": -110,
 "ml_away": -110,
@@ -146,22 +134,10 @@ window.DFS_DATA = {
 "park": 1.0
 },
 {
-"id": "NEW@ARI",
-"away": "New York Yankees",
-"home": "Arizona Diamondbacks",
-"venue": "Chase Field",
-"total": 9.0,
-"ml_home": -110,
-"ml_away": -110,
-"imp_home": 4.5,
-"imp_away": 4.5,
-"park": 1.0
-},
-{
-"id": "MIA@SAN",
-"away": "Miami Marlins",
-"home": "San Diego Padres",
-"venue": "Petco Park",
+"id": "MIN@LOS",
+"away": "Minnesota Twins",
+"home": "Los Angeles Angels",
+"venue": "Angel Stadium",
 "total": 9.0,
 "ml_home": -110,
 "ml_away": -110,
@@ -182,10 +158,34 @@ window.DFS_DATA = {
 "park": 1.0
 },
 {
-"id": "MIN@LOS",
-"away": "Minnesota Twins",
-"home": "Los Angeles Angels",
-"venue": "Angel Stadium",
+"id": "MIA@SAN",
+"away": "Miami Marlins",
+"home": "San Diego Padres",
+"venue": "Petco Park",
+"total": 9.0,
+"ml_home": -110,
+"ml_away": -110,
+"imp_home": 4.5,
+"imp_away": 4.5,
+"park": 1.0
+},
+{
+"id": "NEW@ARI",
+"away": "New York Yankees",
+"home": "Arizona Diamondbacks",
+"venue": "Chase Field",
+"total": 9.0,
+"ml_home": -110,
+"ml_away": -110,
+"imp_home": 4.5,
+"imp_away": 4.5,
+"park": 1.0
+},
+{
+"id": "MIL@BAL",
+"away": "Milwaukee Brewers",
+"home": "Baltimore Orioles",
+"venue": "Oriole Park at Camden Yards",
 "total": 9.0,
 "ml_home": -110,
 "ml_away": -110,
@@ -195,2269 +195,6 @@ window.DFS_DATA = {
 }
 ],
 "players": [
-{
-"name": "Andrew Benintendi",
-"team": "Chicago White Sox",
-"opp": "Detroit Tigers",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 4060,
-"proj": 8.0,
-"consensus": 7.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".243",
-"hr": 14,
-"rbi": 71,
-"sb": 1,
-"ops": ".718",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 229
-},
-{
-"name": "Braden Montgomery",
-"team": "Chicago White Sox",
-"opp": "Detroit Tigers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4124,
-"proj": 8.2,
-"consensus": 7.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".208",
-"hr": 6,
-"rbi": 37,
-"sb": 1,
-"ops": ".639",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 215
-},
-{
-"name": "Brenton Doyle",
-"team": "Chicago White Sox",
-"opp": "Detroit Tigers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3292,
-"proj": 5.6,
-"consensus": 5.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".228",
-"hr": 3,
-"rbi": 12,
-"sb": 14,
-"ops": ".594",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 356
-},
-{
-"name": "Chase Meidroth",
-"team": "Chicago White Sox",
-"opp": "Detroit Tigers",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4444,
-"proj": 9.2,
-"consensus": 8.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".268",
-"hr": 14,
-"rbi": 56,
-"sb": 3,
-"ops": ".743",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 156
-},
-{
-"name": "Colson Montgomery",
-"team": "Chicago White Sox",
-"opp": "Detroit Tigers",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4668,
-"proj": 9.9,
-"consensus": 9.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".204",
-"hr": 31,
-"rbi": 87,
-"sb": 1,
-"ops": ".710",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 120
-},
-{
-"name": "Jake Rogers",
-"team": "Chicago White Sox",
-"opp": "Detroit Tigers",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3164,
-"proj": 5.2,
-"consensus": 5.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".161",
-"hr": 4,
-"rbi": 14,
-"sb": 1,
-"ops": ".563",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 375
-},
-{
-"name": "Kyle Teel",
-"team": "Chicago White Sox",
-"opp": "Detroit Tigers",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4156,
-"proj": 8.3,
-"consensus": 8.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".182",
-"hr": 4,
-"rbi": 20,
-"sb": 0,
-"ops": ".635",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 211
-},
-{
-"name": "Luisangel Acu\u00f1a",
-"team": "Chicago White Sox",
-"opp": "Detroit Tigers",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2812,
-"proj": 4.1,
-"consensus": 3.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".227",
-"hr": 1,
-"rbi": 12,
-"sb": 17,
-"ops": ".521",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 409
-},
-{
-"name": "Miguel Vargas",
-"team": "Chicago White Sox",
-"opp": "Detroit Tigers",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5500,
-"proj": 12.5,
-"consensus": 12.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".250",
-"hr": 33,
-"rbi": 88,
-"sb": 20,
-"ops": ".841",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 39
-},
-{
-"name": "Munetaka Murakami",
-"team": "Chicago White Sox",
-"opp": "Detroit Tigers",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5212,
-"proj": 11.6,
-"consensus": 11.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".203",
-"hr": 32,
-"rbi": 69,
-"sb": 1,
-"ops": ".809",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 57
-},
-{
-"name": "Randal Grichuk",
-"team": "Chicago White Sox",
-"opp": "Detroit Tigers",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 3548,
-"proj": 6.4,
-"consensus": 6.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".285",
-"hr": 13,
-"rbi": 39,
-"sb": 0,
-"ops": ".866",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 311
-},
-{
-"name": "Sam Antonacci",
-"team": "Chicago White Sox",
-"opp": "Detroit Tigers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4540,
-"proj": 9.5,
-"consensus": 9.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".268",
-"hr": 8,
-"rbi": 46,
-"sb": 18,
-"ops": ".750",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 140
-},
-{
-"name": "Tristan Peters",
-"team": "Chicago White Sox",
-"opp": "Detroit Tigers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3996,
-"proj": 7.8,
-"consensus": 7.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".272",
-"hr": 12,
-"rbi": 54,
-"sb": 8,
-"ops": ".795",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 241
-},
-{
-"name": "Chicago White Sox P",
-"team": "Chicago White Sox",
-"opp": "Detroit Tigers",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 3
-},
-{
-"name": "Ben Malgeri",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3292,
-"proj": 5.6,
-"consensus": 5.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".231",
-"hr": 3,
-"rbi": 15,
-"sb": 5,
-"ops": ".693",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 357
-},
-{
-"name": "Brett Callahan",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2940,
-"proj": 4.5,
-"consensus": 4.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".220",
-"hr": 1,
-"rbi": 8,
-"sb": 0,
-"ops": ".644",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 398
-},
-{
-"name": "Colt Keith",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3612,
-"proj": 6.6,
-"consensus": 6.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".258",
-"hr": 10,
-"rbi": 36,
-"sb": 6,
-"ops": ".728",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 301
-},
-{
-"name": "Dillon Dingler",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4732,
-"proj": 10.1,
-"consensus": 9.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".243",
-"hr": 27,
-"rbi": 89,
-"sb": 0,
-"ops": ".751",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 110
-},
-{
-"name": "Eduardo Valencia",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 4572,
-"proj": 9.6,
-"consensus": 9.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".324",
-"hr": 6,
-"rbi": 18,
-"sb": 0,
-"ops": ".955",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 135
-},
-{
-"name": "Gleyber Torres",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4572,
-"proj": 9.6,
-"consensus": 9.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".265",
-"hr": 8,
-"rbi": 38,
-"sb": 0,
-"ops": ".739",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 136
-},
-{
-"name": "Hao-Yu Lee",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3836,
-"proj": 7.3,
-"consensus": 7.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".266",
-"hr": 10,
-"rbi": 45,
-"sb": 2,
-"ops": ".753",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 268
-},
-{
-"name": "Javier B\u00e1ez",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3548,
-"proj": 6.4,
-"consensus": 6.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".237",
-"hr": 2,
-"rbi": 17,
-"sb": 1,
-"ops": ".610",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 312
-},
-{
-"name": "John Peck",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3644,
-"proj": 6.7,
-"consensus": 6.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".208",
-"hr": 0,
-"rbi": 7,
-"sb": 4,
-"ops": ".557",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 294
-},
-{
-"name": "Kevin McGonigle",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5084,
-"proj": 11.2,
-"consensus": 10.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".276",
-"hr": 17,
-"rbi": 70,
-"sb": 12,
-"ops": ".804",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 66
-},
-{
-"name": "Max Clark",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4828,
-"proj": 10.4,
-"consensus": 10.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".278",
-"hr": 3,
-"rbi": 22,
-"sb": 5,
-"ops": ".797",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 92
-},
-{
-"name": "Riley Greene",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5020,
-"proj": 11.0,
-"consensus": 10.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".286",
-"hr": 21,
-"rbi": 75,
-"sb": 3,
-"ops": ".857",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 71
-},
-{
-"name": "Spencer Torkelson",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4348,
-"proj": 8.9,
-"consensus": 8.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".228",
-"hr": 24,
-"rbi": 72,
-"sb": 1,
-"ops": ".744",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 179
-},
-{
-"name": "Zach McKinstry",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3356,
-"proj": 5.8,
-"consensus": 5.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".202",
-"hr": 4,
-"rbi": 26,
-"sb": 3,
-"ops": ".584",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 348
-},
-{
-"name": "Detroit Tigers P",
-"team": "Detroit Tigers",
-"opp": "Chicago White Sox",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 4
-},
-{
-"name": "Carlos Narv\u00e1ez",
-"team": "Baltimore Orioles",
-"opp": "Milwaukee Brewers",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2780,
-"proj": 4.0,
-"consensus": 3.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".164",
-"hr": 3,
-"rbi": 10,
-"sb": 2,
-"ops": ".474",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 410
-},
-{
-"name": "Christian Encarnacion-Strand",
-"team": "Baltimore Orioles",
-"opp": "Milwaukee Brewers",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4668,
-"proj": 9.9,
-"consensus": 9.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".268",
-"hr": 10,
-"rbi": 36,
-"sb": 1,
-"ops": ".821",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 121
-},
-{
-"name": "Christian Franklin",
-"team": "Baltimore Orioles",
-"opp": "Milwaukee Brewers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2780,
-"proj": 4.0,
-"consensus": 3.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".135",
-"hr": 0,
-"rbi": 0,
-"sb": 2,
-"ops": ".478",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 411
-},
-{
-"name": "Coby Mayo",
-"team": "Baltimore Orioles",
-"opp": "Milwaukee Brewers",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4380,
-"proj": 9.0,
-"consensus": 8.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".229",
-"hr": 24,
-"rbi": 63,
-"sb": 4,
-"ops": ".770",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 169
-},
-{
-"name": "Colton Cowser",
-"team": "Baltimore Orioles",
-"opp": "Milwaukee Brewers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3420,
-"proj": 6.0,
-"consensus": 5.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".221",
-"hr": 13,
-"rbi": 39,
-"sb": 10,
-"ops": ".676",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 332
-},
-{
-"name": "Dylan Beavers",
-"team": "Baltimore Orioles",
-"opp": "Milwaukee Brewers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3900,
-"proj": 7.5,
-"consensus": 7.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".237",
-"hr": 7,
-"rbi": 39,
-"sb": 5,
-"ops": ".686",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 252
-},
-{
-"name": "Gunnar Henderson",
-"team": "Baltimore Orioles",
-"opp": "Milwaukee Brewers",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4700,
-"proj": 10.0,
-"consensus": 9.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".225",
-"hr": 23,
-"rbi": 58,
-"sb": 10,
-"ops": ".708",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 117
-},
-{
-"name": "Jeremiah Jackson",
-"team": "Baltimore Orioles",
-"opp": "Milwaukee Brewers",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3452,
-"proj": 6.1,
-"consensus": 5.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".226",
-"hr": 9,
-"rbi": 43,
-"sb": 2,
-"ops": ".626",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 328
-},
-{
-"name": "Leody Taveras",
-"team": "Baltimore Orioles",
-"opp": "Milwaukee Brewers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3900,
-"proj": 7.5,
-"consensus": 7.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".216",
-"hr": 8,
-"rbi": 54,
-"sb": 11,
-"ops": ".628",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 253
-},
-{
-"name": "Pete Alonso",
-"team": "Baltimore Orioles",
-"opp": "Milwaukee Brewers",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5372,
-"proj": 12.1,
-"consensus": 11.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".266",
-"hr": 38,
-"rbi": 105,
-"sb": 5,
-"ops": ".865",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 47
-},
-{
-"name": "Rece Hinds",
-"team": "Baltimore Orioles",
-"opp": "Milwaukee Brewers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2748,
-"proj": 3.9,
-"consensus": 3.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".167",
-"hr": 0,
-"rbi": 6,
-"sb": 0,
-"ops": ".501",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 413
-},
-{
-"name": "Samuel Basallo",
-"team": "Baltimore Orioles",
-"opp": "Milwaukee Brewers",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4060,
-"proj": 8.0,
-"consensus": 7.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".225",
-"hr": 18,
-"rbi": 54,
-"sb": 0,
-"ops": ".704",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 230
-},
-{
-"name": "Yohel Pozo",
-"team": "Baltimore Orioles",
-"opp": "Milwaukee Brewers",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2500,
-"proj": 2.8,
-"consensus": 2.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".264",
-"hr": 1,
-"rbi": 7,
-"sb": 0,
-"ops": ".613",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 423
-},
-{
-"name": "Baltimore Orioles P",
-"team": "Baltimore Orioles",
-"opp": "Milwaukee Brewers",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 5
-},
-{
-"name": "Andrew Vaughn",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3900,
-"proj": 7.5,
-"consensus": 7.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".306",
-"hr": 6,
-"rbi": 43,
-"sb": 0,
-"ops": ".834",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 254
-},
-{
-"name": "Bo Naylor",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3036,
-"proj": 4.8,
-"consensus": 4.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".154",
-"hr": 3,
-"rbi": 10,
-"sb": 0,
-"ops": ".489",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 388
-},
-{
-"name": "Brice Turang",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5468,
-"proj": 12.4,
-"consensus": 11.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".266",
-"hr": 19,
-"rbi": 93,
-"sb": 19,
-"ops": ".808",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 41
-},
-{
-"name": "Christian Yelich",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 4732,
-"proj": 10.1,
-"consensus": 9.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".239",
-"hr": 11,
-"rbi": 57,
-"sb": 11,
-"ops": ".698",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 111
-},
-{
-"name": "Cooper Pratt",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4444,
-"proj": 9.2,
-"consensus": 8.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".276",
-"hr": 3,
-"rbi": 31,
-"sb": 15,
-"ops": ".710",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 157
-},
-{
-"name": "David Hamilton",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3836,
-"proj": 7.3,
-"consensus": 7.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".240",
-"hr": 4,
-"rbi": 26,
-"sb": 28,
-"ops": ".637",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 269
-},
-{
-"name": "Garrett Mitchell",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4540,
-"proj": 9.5,
-"consensus": 9.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".266",
-"hr": 11,
-"rbi": 65,
-"sb": 14,
-"ops": ".787",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 141
-},
-{
-"name": "Gary S\u00e1nchez",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4028,
-"proj": 7.9,
-"consensus": 7.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".209",
-"hr": 11,
-"rbi": 36,
-"sb": 0,
-"ops": ".771",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 236
-},
-{
-"name": "Jackson Chourio",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5596,
-"proj": 12.8,
-"consensus": 12.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".285",
-"hr": 24,
-"rbi": 70,
-"sb": 19,
-"ops": ".826",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 37
-},
-{
-"name": "Jake Bauers",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5308,
-"proj": 11.9,
-"consensus": 11.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".268",
-"hr": 26,
-"rbi": 83,
-"sb": 11,
-"ops": ".888",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 51
-},
-{
-"name": "Joey Ortiz",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3772,
-"proj": 7.1,
-"consensus": 6.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".270",
-"hr": 9,
-"rbi": 46,
-"sb": 9,
-"ops": ".736",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 281
-},
-{
-"name": "Luis Lara",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3868,
-"proj": 7.4,
-"consensus": 7.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".251",
-"hr": 1,
-"rbi": 24,
-"sb": 3,
-"ops": ".655",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 262
-},
-{
-"name": "Sal Frelick",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3676,
-"proj": 6.8,
-"consensus": 6.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".236",
-"hr": 4,
-"rbi": 39,
-"sb": 7,
-"ops": ".624",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 290
-},
-{
-"name": "William Contreras",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4828,
-"proj": 10.4,
-"consensus": 10.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".272",
-"hr": 17,
-"rbi": 87,
-"sb": 1,
-"ops": ".759",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 93
-},
-{
-"name": "Milwaukee Brewers P",
-"team": "Milwaukee Brewers",
-"opp": "Baltimore Orioles",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 6
-},
-{
-"name": "Cedric Mullins",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4060,
-"proj": 8.0,
-"consensus": 7.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".202",
-"hr": 14,
-"rbi": 45,
-"sb": 20,
-"ops": ".623",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 231
-},
-{
-"name": "Chandler Simpson",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4348,
-"proj": 8.9,
-"consensus": 8.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".308",
-"hr": 0,
-"rbi": 36,
-"sb": 45,
-"ops": ".695",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 180
-},
-{
-"name": "Jake Fraley",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3388,
-"proj": 5.9,
-"consensus": 5.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".218",
-"hr": 2,
-"rbi": 5,
-"sb": 3,
-"ops": ".660",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 341
-},
-{
-"name": "Jonathan Aranda",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4860,
-"proj": 10.5,
-"consensus": 10.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".278",
-"hr": 22,
-"rbi": 92,
-"sb": 0,
-"ops": ".801",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 86
-},
-{
-"name": "Jonny DeLuca",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4028,
-"proj": 7.9,
-"consensus": 7.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".260",
-"hr": 9,
-"rbi": 44,
-"sb": 15,
-"ops": ".702",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 237
-},
-{
-"name": "Jorge Mateo",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3356,
-"proj": 5.8,
-"consensus": 5.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".207",
-"hr": 5,
-"rbi": 18,
-"sb": 19,
-"ops": ".573",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 349
-},
-{
-"name": "Junior Caminero",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5404,
-"proj": 12.2,
-"consensus": 11.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".276",
-"hr": 41,
-"rbi": 97,
-"sb": 3,
-"ops": ".893",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 44
-},
-{
-"name": "Liam Hicks",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4636,
-"proj": 9.8,
-"consensus": 9.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".288",
-"hr": 18,
-"rbi": 81,
-"sb": 3,
-"ops": ".811",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 124
-},
-{
-"name": "Nick Fortes",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3420,
-"proj": 6.0,
-"consensus": 5.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".267",
-"hr": 5,
-"rbi": 34,
-"sb": 0,
-"ops": ".696",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 333
-},
-{
-"name": "Richie Palacios",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4092,
-"proj": 8.1,
-"consensus": 7.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".232",
-"hr": 10,
-"rbi": 52,
-"sb": 14,
-"ops": ".705",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 220
-},
-{
-"name": "Ryan Vilade",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3804,
-"proj": 7.2,
-"consensus": 6.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".259",
-"hr": 11,
-"rbi": 40,
-"sb": 3,
-"ops": ".792",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 274
-},
-{
-"name": "Taylor Walls",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3900,
-"proj": 7.5,
-"consensus": 7.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".218",
-"hr": 2,
-"rbi": 35,
-"sb": 21,
-"ops": ".599",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 255
-},
-{
-"name": "Victor Mesa Jr.",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4412,
-"proj": 9.1,
-"consensus": 8.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".250",
-"hr": 13,
-"rbi": 30,
-"sb": 9,
-"ops": ".810",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 162
-},
-{
-"name": "Yandy D\u00edaz",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 4956,
-"proj": 10.8,
-"consensus": 10.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".293",
-"hr": 22,
-"rbi": 81,
-"sb": 3,
-"ops": ".810",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 80
-},
-{
-"name": "Tampa Bay Rays P",
-"team": "Tampa Bay Rays",
-"opp": "Boston Red Sox",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 7
-},
-{
-"name": "Adley Rutschman",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4572,
-"proj": 9.6,
-"consensus": 9.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".232",
-"hr": 12,
-"rbi": 57,
-"sb": 0,
-"ops": ".719",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 137
-},
-{
-"name": "Andruw Monasterio",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3772,
-"proj": 7.1,
-"consensus": 6.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".239",
-"hr": 6,
-"rbi": 40,
-"sb": 4,
-"ops": ".683",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 282
-},
-{
-"name": "Caleb Durbin",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4444,
-"proj": 9.2,
-"consensus": 8.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".251",
-"hr": 13,
-"rbi": 64,
-"sb": 19,
-"ops": ".721",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 158
-},
-{
-"name": "Connor Wong",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3548,
-"proj": 6.4,
-"consensus": 6.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".234",
-"hr": 4,
-"rbi": 24,
-"sb": 3,
-"ops": ".656",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 313
-},
-{
-"name": "Isiah Kiner-Falefa",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3484,
-"proj": 6.2,
-"consensus": 6.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".253",
-"hr": 2,
-"rbi": 16,
-"sb": 8,
-"ops": ".656",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 323
-},
-{
-"name": "Jahmai Jones",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 2844,
-"proj": 4.2,
-"consensus": 4.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".211",
-"hr": 6,
-"rbi": 16,
-"sb": 3,
-"ops": ".693",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 405
-},
-{
-"name": "Jarren Duran",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4380,
-"proj": 9.0,
-"consensus": 8.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".204",
-"hr": 20,
-"rbi": 69,
-"sb": 19,
-"ops": ".620",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 170
-},
-{
-"name": "Mickey Gasper",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 4188,
-"proj": 8.4,
-"consensus": 8.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".261",
-"hr": 9,
-"rbi": 23,
-"sb": 0,
-"ops": ".840",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 201
-},
-{
-"name": "Nate Eaton",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3228,
-"proj": 5.4,
-"consensus": 5.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".140",
-"hr": 1,
-"rbi": 6,
-"sb": 2,
-"ops": ".544",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 365
-},
-{
-"name": "Nick Sogard",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4252,
-"proj": 8.6,
-"consensus": 8.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".256",
-"hr": 5,
-"rbi": 19,
-"sb": 0,
-"ops": ".745",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 194
-},
-{
-"name": "Roman Anthony",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4380,
-"proj": 9.0,
-"consensus": 8.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".236",
-"hr": 5,
-"rbi": 15,
-"sb": 2,
-"ops": ".710",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 171
-},
-{
-"name": "Trevor Story",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4188,
-"proj": 8.4,
-"consensus": 8.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".248",
-"hr": 4,
-"rbi": 28,
-"sb": 5,
-"ops": ".638",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 202
-},
-{
-"name": "Willson Contreras",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5212,
-"proj": 11.6,
-"consensus": 11.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".276",
-"hr": 27,
-"rbi": 81,
-"sb": 3,
-"ops": ".905",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 58
-},
-{
-"name": "Wilyer Abreu",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4892,
-"proj": 10.6,
-"consensus": 10.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".251",
-"hr": 24,
-"rbi": 74,
-"sb": 8,
-"ops": ".786",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 85
-},
-{
-"name": "Boston Red Sox P",
-"team": "Boston Red Sox",
-"opp": "Tampa Bay Rays",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 8
-},
 {
 "name": "A.J. Ewing",
 "team": "New York Mets",
@@ -2474,7 +211,7 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".252",
+"avg": ".253",
 "hr": 10,
 "rbi": 40,
 "sb": 24,
@@ -2482,7 +219,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 142
+"model_rank": 139
 },
 {
 "name": "Bo Bichette",
@@ -2502,13 +239,13 @@ window.DFS_DATA = {
 "stats": {
 "avg": ".262",
 "hr": 16,
-"rbi": 74,
+"rbi": 75,
 "sb": 2,
-"ops": ".698",
+"ops": ".699",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 172
+"model_rank": 170
 },
 {
 "name": "Brett Baty",
@@ -2519,22 +256,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3740,
-"proj": 7.0,
-"consensus": 6.7,
+"salary": 3772,
+"proj": 7.1,
+"consensus": 6.8,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".231",
+"avg": ".233",
 "hr": 10,
-"rbi": 50,
+"rbi": 51,
 "sb": 5,
-"ops": ".667",
+"ops": ".672",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 286
+"model_rank": 278
 },
 {
 "name": "Carson Benge",
@@ -2552,15 +289,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".273",
+"avg": ".277",
 "hr": 19,
-"rbi": 60,
+"rbi": 61,
 "sb": 22,
-"ops": ".754",
+"ops": ".762",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 112
+"model_rank": 108
 },
 {
 "name": "Christopher Morel",
@@ -2586,7 +323,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 406
+"model_rank": 404
 },
 {
 "name": "Francisco Alvarez",
@@ -2597,14 +334,14 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3932,
-"proj": 7.6,
-"consensus": 7.3,
+"salary": 3900,
+"proj": 7.5,
+"consensus": 7.2,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".230",
+"avg": ".231",
 "hr": 16,
 "rbi": 40,
 "sb": 0,
@@ -2612,7 +349,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 248
+"model_rank": 251
 },
 {
 "name": "Francisco Lindor",
@@ -2630,15 +367,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".228",
+"avg": ".227",
 "hr": 20,
-"rbi": 47,
+"rbi": 48,
 "sb": 3,
-"ops": ".745",
+"ops": ".742",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 87
+"model_rank": 89
 },
 {
 "name": "Juan Soto",
@@ -2649,22 +386,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5500,
-"proj": 12.5,
-"consensus": 12.0,
+"salary": 5468,
+"proj": 12.4,
+"consensus": 11.9,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".272",
+"avg": ".273",
 "hr": 26,
-"rbi": 64,
+"rbi": 65,
 "sb": 9,
-"ops": ".913",
+"ops": ".911",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 40
+"model_rank": 41
 },
 {
 "name": "Luis Torrens",
@@ -2675,9 +412,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3804,
-"proj": 7.2,
-"consensus": 6.9,
+"salary": 3772,
+"proj": 7.1,
+"consensus": 6.8,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -2690,7 +427,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 275
+"model_rank": 279
 },
 {
 "name": "Marcus Semien",
@@ -2712,11 +449,11 @@ window.DFS_DATA = {
 "hr": 14,
 "rbi": 48,
 "sb": 10,
-"ops": ".628",
+"ops": ".630",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 242
+"model_rank": 239
 },
 {
 "name": "Mark Vientos",
@@ -2727,22 +464,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3868,
-"proj": 7.4,
-"consensus": 7.1,
+"salary": 3836,
+"proj": 7.3,
+"consensus": 7.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".218",
+"avg": ".217",
 "hr": 13,
 "rbi": 39,
 "sb": 0,
-"ops": ".672",
+"ops": ".669",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 263
+"model_rank": 268
 },
 {
 "name": "Nick Morabito",
@@ -2753,22 +490,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 2972,
-"proj": 4.6,
-"consensus": 4.4,
+"salary": 2844,
+"proj": 4.2,
+"consensus": 4.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".188",
+"avg": ".182",
 "hr": 0,
 "rbi": 4,
 "sb": 1,
-"ops": ".516",
+"ops": ".501",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 394
+"model_rank": 405
 },
 {
 "name": "Ronny Mauricio",
@@ -2779,22 +516,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 2556,
-"proj": 3.3,
-"consensus": 3.2,
+"salary": 2748,
+"proj": 3.9,
+"consensus": 3.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
 "avg": ".173",
 "hr": 1,
-"rbi": 2,
+"rbi": 3,
 "sb": 0,
-"ops": ".423",
+"ops": ".454",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 420
+"model_rank": 413
 },
 {
 "name": "New York Mets P",
@@ -2817,7 +554,7 @@ window.DFS_DATA = {
 "win_prob": 0.5,
 "exp_ip": 6.0
 },
-"model_rank": 9
+"model_rank": 3
 },
 {
 "name": "Alec Bohm",
@@ -2835,15 +572,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".251",
+"avg": ".253",
 "hr": 15,
-"rbi": 86,
+"rbi": 87,
 "sb": 2,
-"ops": ".706",
+"ops": ".709",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 181
+"model_rank": 180
 },
 {
 "name": "Brandon Marsh",
@@ -2854,9 +591,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4188,
-"proj": 8.4,
-"consensus": 8.1,
+"salary": 4156,
+"proj": 8.3,
+"consensus": 8.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -2865,11 +602,11 @@ window.DFS_DATA = {
 "hr": 17,
 "rbi": 58,
 "sb": 11,
-"ops": ".711",
+"ops": ".710",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 203
+"model_rank": 210
 },
 {
 "name": "Bryan De La Cruz",
@@ -2913,7 +650,7 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".272",
+"avg": ".273",
 "hr": 28,
 "rbi": 85,
 "sb": 7,
@@ -2921,7 +658,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 59
+"model_rank": 55
 },
 {
 "name": "Bryson Stott",
@@ -2939,15 +676,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".250",
+"avg": ".249",
 "hr": 10,
 "rbi": 65,
 "sb": 25,
-"ops": ".717",
+"ops": ".714",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 147
+"model_rank": 145
 },
 {
 "name": "Derek Hill",
@@ -2984,22 +721,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3900,
-"proj": 7.5,
-"consensus": 7.2,
+"salary": 3868,
+"proj": 7.4,
+"consensus": 7.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".249",
+"avg": ".247",
 "hr": 8,
 "rbi": 43,
 "sb": 4,
-"ops": ".708",
+"ops": ".702",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 256
+"model_rank": 261
 },
 {
 "name": "Garrett Stubbs",
@@ -3036,22 +773,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3996,
-"proj": 7.8,
-"consensus": 7.5,
+"salary": 3964,
+"proj": 7.7,
+"consensus": 7.4,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".215",
+"avg": ".213",
 "hr": 11,
 "rbi": 49,
 "sb": 3,
-"ops": ".634",
+"ops": ".630",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 243
+"model_rank": 247
 },
 {
 "name": "Justin Crawford",
@@ -3062,22 +799,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3580,
-"proj": 6.5,
-"consensus": 6.2,
+"salary": 3548,
+"proj": 6.4,
+"consensus": 6.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".266",
+"avg": ".264",
 "hr": 3,
 "rbi": 38,
 "sb": 16,
-"ops": ".670",
+"ops": ".665",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 304
+"model_rank": 308
 },
 {
 "name": "Kyle Schwarber",
@@ -3094,11 +831,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".236",
+"avg": ".235",
 "hr": 45,
 "rbi": 95,
 "sb": 3,
-"ops": ".867",
+"ops": ".866",
 "imp_total": 4.5,
 "order": 0
 },
@@ -3122,13 +859,13 @@ window.DFS_DATA = {
 "stats": {
 "avg": ".313",
 "hr": 6,
-"rbi": 62,
+"rbi": 63,
 "sb": 10,
 "ops": ".774",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 152
+"model_rank": 154
 },
 {
 "name": "Rafael March\u00e1n",
@@ -3154,7 +891,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 424
+"model_rank": 423
 },
 {
 "name": "Trea Turner",
@@ -3172,15 +909,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".241",
+"avg": ".240",
 "hr": 19,
 "rbi": 57,
 "sb": 21,
-"ops": ".674",
+"ops": ".676",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 113
+"model_rank": 109
 },
 {
 "name": "Philadelphia Phillies P",
@@ -3203,453 +940,92 @@ window.DFS_DATA = {
 "win_prob": 0.5,
 "exp_ip": 6.0
 },
-"model_rank": 10
+"model_rank": 4
 },
 {
-"name": "Angel Genao",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3516,
-"proj": 6.3,
-"consensus": 6.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".222",
-"hr": 2,
-"rbi": 6,
-"sb": 1,
-"ops": ".597",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 317
-},
-{
-"name": "Angel Mart\u00ednez",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
+"name": "Billy Cook",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
 "pos": [
 "OF",
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4348,
-"proj": 8.9,
-"consensus": 8.5,
+"salary": 2500,
+"proj": 1.5,
+"consensus": 1.4,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".248",
-"hr": 15,
-"rbi": 53,
-"sb": 11,
-"ops": ".728",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 182
-},
-{
-"name": "Austin Hedges",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3388,
-"proj": 5.9,
-"consensus": 5.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".251",
-"hr": 5,
-"rbi": 23,
-"sb": 1,
-"ops": ".694",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 342
-},
-{
-"name": "Brayan Rocchio",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4348,
-"proj": 8.9,
-"consensus": 8.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".250",
-"hr": 13,
-"rbi": 69,
-"sb": 20,
-"ops": ".691",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 183
-},
-{
-"name": "Chase DeLauter",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4796,
-"proj": 10.3,
-"consensus": 9.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".289",
-"hr": 14,
-"rbi": 62,
-"sb": 11,
-"ops": ".815",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 99
-},
-{
-"name": "Daniel Schneemann",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3484,
-"proj": 6.2,
-"consensus": 6.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".205",
-"hr": 6,
-"rbi": 29,
+"avg": ".176",
+"hr": 0,
+"rbi": 2,
 "sb": 6,
-"ops": ".591",
+"ops": ".443",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 324
+"model_rank": 429
 },
 {
-"name": "David Fry",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2940,
-"proj": 4.5,
-"consensus": 4.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".188",
-"hr": 7,
-"rbi": 15,
-"sb": 0,
-"ops": ".654",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 399
-},
-{
-"name": "Jo Adell",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4508,
-"proj": 9.4,
-"consensus": 9.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".240",
-"hr": 22,
-"rbi": 92,
-"sb": 4,
-"ops": ".697",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 148
-},
-{
-"name": "Jos\u00e9 Ram\u00edrez",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5020,
-"proj": 11.0,
-"consensus": 10.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".232",
-"hr": 12,
-"rbi": 51,
-"sb": 34,
-"ops": ".692",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 72
-},
-{
-"name": "Nathaniel Lowe",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4092,
-"proj": 8.1,
-"consensus": 7.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".255",
-"hr": 17,
-"rbi": 59,
-"sb": 0,
-"ops": ".777",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 221
-},
-{
-"name": "Patrick Bailey",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3324,
-"proj": 5.7,
-"consensus": 5.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".207",
-"hr": 8,
-"rbi": 34,
-"sb": 3,
-"ops": ".597",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 354
-},
-{
-"name": "Petey Halpin",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3164,
-"proj": 5.2,
-"consensus": 5.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".218",
-"hr": 4,
-"rbi": 13,
-"sb": 10,
-"ops": ".580",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 376
-},
-{
-"name": "Steven Kwan",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4188,
-"proj": 8.4,
-"consensus": 8.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".275",
-"hr": 3,
-"rbi": 30,
-"sb": 10,
-"ops": ".718",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 204
-},
-{
-"name": "Travis Bazzana",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
+"name": "Brandon Lowe",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
 "pos": [
 "2B",
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4860,
-"proj": 10.5,
-"consensus": 10.1,
+"salary": 5212,
+"proj": 11.6,
+"consensus": 11.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".250",
-"hr": 15,
-"rbi": 57,
-"sb": 19,
-"ops": ".757",
+"avg": ".262",
+"hr": 33,
+"rbi": 93,
+"sb": 2,
+"ops": ".826",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 88
+"model_rank": 56
 },
 {
-"name": "Cleveland Guardians P",
-"team": "Cleveland Guardians",
-"opp": "Athletics",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 11
-},
-{
-"name": "Alika Williams",
-"team": "Athletics",
-"opp": "Cleveland Guardians",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3164,
-"proj": 5.2,
-"consensus": 5.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".259",
-"hr": 4,
-"rbi": 16,
-"sb": 1,
-"ops": ".717",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 377
-},
-{
-"name": "Brian Serven",
-"team": "Athletics",
-"opp": "Cleveland Guardians",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3804,
-"proj": 7.2,
-"consensus": 6.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".194",
-"hr": 5,
-"rbi": 14,
-"sb": 0,
-"ops": ".654",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 276
-},
-{
-"name": "Carlos Cortes",
-"team": "Athletics",
-"opp": "Cleveland Guardians",
+"name": "Bryan Reynolds",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
 "pos": [
 "OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4988,
+"proj": 10.9,
+"consensus": 10.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".261",
+"hr": 17,
+"rbi": 71,
+"sb": 9,
+"ops": ".788",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 76
+},
+{
+"name": "Henry Davis",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
+"pos": [
+"C",
 "UTIL"
 ],
 "role": "hitter",
@@ -3660,150 +1036,46 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".252",
-"hr": 9,
-"rbi": 40,
+"avg": ".169",
+"hr": 10,
+"rbi": 38,
+"sb": 3,
+"ops": ".585",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 309
+},
+{
+"name": "Jacob Gonzalez",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3356,
+"proj": 5.8,
+"consensus": 5.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".223",
+"hr": 6,
+"rbi": 30,
 "sb": 2,
-"ops": ".708",
+"ops": ".631",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 314
+"model_rank": 347
 },
 {
-"name": "Denzel Clarke",
-"team": "Athletics",
-"opp": "Cleveland Guardians",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2716,
-"proj": 3.8,
-"consensus": 3.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".164",
-"hr": 0,
-"rbi": 6,
-"sb": 4,
-"ops": ".422",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 414
-},
-{
-"name": "Donovan Walton",
-"team": "Athletics",
-"opp": "Cleveland Guardians",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3772,
-"proj": 7.1,
-"consensus": 6.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".258",
-"hr": 7,
-"rbi": 25,
-"sb": 2,
-"ops": ".795",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 283
-},
-{
-"name": "Henry Bolte",
-"team": "Athletics",
-"opp": "Cleveland Guardians",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4540,
-"proj": 9.5,
-"consensus": 9.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".274",
-"hr": 11,
-"rbi": 34,
-"sb": 21,
-"ops": ".759",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 143
-},
-{
-"name": "Jeff McNeil",
-"team": "Athletics",
-"opp": "Cleveland Guardians",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3900,
-"proj": 7.5,
-"consensus": 7.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".268",
-"hr": 8,
-"rbi": 54,
-"sb": 8,
-"ops": ".684",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 257
-},
-{
-"name": "Jonah Heim",
-"team": "Athletics",
-"opp": "Cleveland Guardians",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3836,
-"proj": 7.3,
-"consensus": 7.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".203",
-"hr": 13,
-"rbi": 42,
-"sb": 0,
-"ops": ".627",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 270
-},
-{
-"name": "Lawrence Butler",
-"team": "Athletics",
-"opp": "Cleveland Guardians",
+"name": "Jake Mangum",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
 "pos": [
 "OF",
 "UTIL"
@@ -3816,74 +1088,22 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".230",
-"hr": 17,
-"rbi": 59,
-"sb": 10,
+"avg": ".281",
+"hr": 5,
+"rbi": 32,
+"sb": 23,
 "ops": ".710",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 232
+"model_rank": 227
 },
 {
-"name": "Max Muncy",
-"team": "Athletics",
-"opp": "Cleveland Guardians",
+"name": "Jared Triolo",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
 "pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3868,
-"proj": 7.4,
-"consensus": 7.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".230",
-"hr": 9,
-"rbi": 30,
-"sb": 3,
-"ops": ".683",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 264
-},
-{
-"name": "Shea Langeliers",
-"team": "Athletics",
-"opp": "Cleveland Guardians",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5084,
-"proj": 11.2,
-"consensus": 10.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".263",
-"hr": 23,
-"rbi": 55,
-"sb": 3,
-"ops": ".816",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 67
-},
-{
-"name": "Tommy White",
-"team": "Athletics",
-"opp": "Cleveland Guardians",
-"pos": [
-"3B",
+"SS",
 "UTIL"
 ],
 "role": "hitter",
@@ -3894,22 +1114,22 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".250",
+"avg": ".241",
 "hr": 3,
-"rbi": 9,
-"sb": 0,
-"ops": ".601",
+"rbi": 29,
+"sb": 13,
+"ops": ".618",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 343
+"model_rank": 340
 },
 {
-"name": "Zack Gelof",
-"team": "Athletics",
-"opp": "Cleveland Guardians",
+"name": "Konnor Griffin",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
 "pos": [
-"3B",
+"SS",
 "UTIL"
 ],
 "role": "hitter",
@@ -3920,20 +1140,176 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".247",
-"hr": 19,
-"rbi": 49,
-"sb": 14,
-"ops": ".768",
+"avg": ".268",
+"hr": 5,
+"rbi": 31,
+"sb": 22,
+"ops": ".710",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 82
+"model_rank": 80
 },
 {
-"name": "Athletics P",
-"team": "Athletics",
-"opp": "Cleveland Guardians",
+"name": "Nick Gonzales",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4380,
+"proj": 9.0,
+"consensus": 8.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".304",
+"hr": 6,
+"rbi": 60,
+"sb": 7,
+"ops": ".759",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 171
+},
+{
+"name": "Oneil Cruz",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5916,
+"proj": 13.8,
+"consensus": 13.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".280",
+"hr": 19,
+"rbi": 66,
+"sb": 28,
+"ops": ".852",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 33
+},
+{
+"name": "Rafael Flores Jr.",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4252,
+"proj": 8.6,
+"consensus": 8.3,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".277",
+"hr": 9,
+"rbi": 20,
+"sb": 0,
+"ops": ".866",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 193
+},
+{
+"name": "Ronny Simon",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4412,
+"proj": 9.1,
+"consensus": 8.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".313",
+"hr": 1,
+"rbi": 4,
+"sb": 3,
+"ops": ".791",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 163
+},
+{
+"name": "Ryan O'Hearn",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4892,
+"proj": 10.6,
+"consensus": 10.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".264",
+"hr": 18,
+"rbi": 73,
+"sb": 1,
+"ops": ".773",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 85
+},
+{
+"name": "Spencer Horwitz",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4156,
+"proj": 8.3,
+"consensus": 8.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".248",
+"hr": 10,
+"rbi": 46,
+"sb": 1,
+"ops": ".715",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 211
+},
+{
+"name": "Pittsburgh Pirates P",
+"team": "Pittsburgh Pirates",
+"opp": "Kansas City Royals",
 "pos": [
 "P"
 ],
@@ -3951,7 +1327,393 @@ window.DFS_DATA = {
 "win_prob": 0.5,
 "exp_ip": 6.0
 },
-"model_rank": 12
+"model_rank": 5
+},
+{
+"name": "Bobby Witt Jr.",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5404,
+"proj": 12.2,
+"consensus": 11.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".281",
+"hr": 18,
+"rbi": 54,
+"sb": 43,
+"ops": ".804",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 45
+},
+{
+"name": "Carter Jensen",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4700,
+"proj": 10.0,
+"consensus": 9.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".233",
+"hr": 25,
+"rbi": 76,
+"sb": 2,
+"ops": ".773",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 115
+},
+{
+"name": "Isaac Collins",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3772,
+"proj": 7.1,
+"consensus": 6.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".217",
+"hr": 6,
+"rbi": 40,
+"sb": 8,
+"ops": ".653",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 280
+},
+{
+"name": "Jac Caglianone",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4668,
+"proj": 9.9,
+"consensus": 9.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".281",
+"hr": 23,
+"rbi": 71,
+"sb": 7,
+"ops": ".819",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 120
+},
+{
+"name": "John Rave",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4092,
+"proj": 8.1,
+"consensus": 7.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".228",
+"hr": 6,
+"rbi": 13,
+"sb": 7,
+"ops": ".764",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 221
+},
+{
+"name": "Josh Rojas",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3164,
+"proj": 5.2,
+"consensus": 5.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".240",
+"hr": 2,
+"rbi": 13,
+"sb": 1,
+"ops": ".623",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 376
+},
+{
+"name": "Kyle Isbel",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3388,
+"proj": 5.9,
+"consensus": 5.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".218",
+"hr": 6,
+"rbi": 24,
+"sb": 6,
+"ops": ".584",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 341
+},
+{
+"name": "Luke Maile",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2780,
+"proj": 4.0,
+"consensus": 3.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".162",
+"hr": 1,
+"rbi": 5,
+"sb": 0,
+"ops": ".514",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 409
+},
+{
+"name": "Maikel Garcia",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4284,
+"proj": 8.7,
+"consensus": 8.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".260",
+"hr": 3,
+"rbi": 34,
+"sb": 5,
+"ops": ".691",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 190
+},
+{
+"name": "Michael Massey",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3932,
+"proj": 7.6,
+"consensus": 7.3,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".276",
+"hr": 13,
+"rbi": 48,
+"sb": 3,
+"ops": ".749",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 248
+},
+{
+"name": "Nick Loftin",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3900,
+"proj": 7.5,
+"consensus": 7.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".239",
+"hr": 7,
+"rbi": 43,
+"sb": 3,
+"ops": ".705",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 252
+},
+{
+"name": "Salvador Perez",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 4060,
+"proj": 8.0,
+"consensus": 7.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".227",
+"hr": 19,
+"rbi": 73,
+"sb": 1,
+"ops": ".644",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 228
+},
+{
+"name": "Tyler Tolbert",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3388,
+"proj": 5.9,
+"consensus": 5.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".293",
+"hr": 3,
+"rbi": 8,
+"sb": 22,
+"ops": ".765",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 342
+},
+{
+"name": "Vinnie Pasquantino",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4540,
+"proj": 9.5,
+"consensus": 9.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".242",
+"hr": 13,
+"rbi": 52,
+"sb": 5,
+"ops": ".724",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 140
+},
+{
+"name": "Kansas City Royals P",
+"team": "Kansas City Royals",
+"opp": "Pittsburgh Pirates",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 6
 },
 {
 "name": "Dane Myers",
@@ -3962,18 +1724,18 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3548,
-"proj": 6.4,
-"consensus": 6.1,
+"salary": 3516,
+"proj": 6.3,
+"consensus": 6.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".263",
+"avg": ".262",
 "hr": 7,
 "rbi": 26,
 "sb": 10,
-"ops": ".729",
+"ops": ".726",
 "imp_total": 4.5,
 "order": 0
 },
@@ -3988,18 +1750,18 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5756,
-"proj": 13.3,
-"consensus": 12.8,
+"salary": 5724,
+"proj": 13.2,
+"consensus": 12.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".287",
+"avg": ".286",
 "hr": 28,
 "rbi": 74,
 "sb": 27,
-"ops": ".885",
+"ops": ".884",
 "imp_total": 4.5,
 "order": 0
 },
@@ -4020,15 +1782,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".211",
+"avg": ".209",
 "hr": 24,
 "rbi": 69,
 "sb": 1,
-"ops": ".732",
+"ops": ".728",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 149
+"model_rank": 146
 },
 {
 "name": "H\u00e9ctor Rodr\u00edguez",
@@ -4054,7 +1816,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 265
+"model_rank": 262
 },
 {
 "name": "JJ Bleday",
@@ -4065,9 +1827,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4572,
-"proj": 9.6,
-"consensus": 9.2,
+"salary": 4540,
+"proj": 9.5,
+"consensus": 9.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -4076,11 +1838,11 @@ window.DFS_DATA = {
 "hr": 22,
 "rbi": 56,
 "sb": 6,
-"ops": ".734",
+"ops": ".733",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 138
+"model_rank": 141
 },
 {
 "name": "Jose Trevino",
@@ -4106,7 +1868,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 378
+"model_rank": 377
 },
 {
 "name": "Juan Brito",
@@ -4117,22 +1879,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4092,
-"proj": 8.1,
-"consensus": 7.8,
+"salary": 3996,
+"proj": 7.8,
+"consensus": 7.5,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".253",
+"avg": ".242",
 "hr": 2,
 "rbi": 13,
 "sb": 1,
-"ops": ".696",
+"ops": ".667",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 222
+"model_rank": 240
 },
 {
 "name": "Ke'Bryan Hayes",
@@ -4150,15 +1912,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".144",
+"avg": ".147",
 "hr": 5,
-"rbi": 8,
+"rbi": 9,
 "sb": 1,
-"ops": ".433",
+"ops": ".436",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 419
+"model_rank": 420
 },
 {
 "name": "Matt McLain",
@@ -4169,22 +1931,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4092,
-"proj": 8.1,
-"consensus": 7.8,
+"salary": 4060,
+"proj": 8.0,
+"consensus": 7.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".184",
+"avg": ".183",
 "hr": 15,
 "rbi": 39,
 "sb": 18,
-"ops": ".611",
+"ops": ".608",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 223
+"model_rank": 229
 },
 {
 "name": "Sal Stewart",
@@ -4195,22 +1957,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5308,
-"proj": 11.9,
-"consensus": 11.4,
+"salary": 5244,
+"proj": 11.7,
+"consensus": 11.2,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".271",
+"avg": ".269",
 "hr": 32,
 "rbi": 110,
 "sb": 15,
-"ops": ".814",
+"ops": ".809",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 52
+"model_rank": 51
 },
 {
 "name": "Tyler Stephenson",
@@ -4221,9 +1983,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4028,
-"proj": 7.9,
-"consensus": 7.6,
+"salary": 3996,
+"proj": 7.8,
+"consensus": 7.5,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -4232,11 +1994,11 @@ window.DFS_DATA = {
 "hr": 15,
 "rbi": 54,
 "sb": 0,
-"ops": ".748",
+"ops": ".745",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 238
+"model_rank": 241
 },
 {
 "name": "Cincinnati Reds P",
@@ -4259,7 +2021,7 @@ window.DFS_DATA = {
 "win_prob": 0.5,
 "exp_ip": 6.0
 },
-"model_rank": 13
+"model_rank": 7
 },
 {
 "name": "Alex Bregman",
@@ -4270,8 +2032,8 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5116,
-"proj": 11.3,
+"salary": 5084,
+"proj": 11.2,
 "consensus": 10.8,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
@@ -4279,13 +2041,13 @@ window.DFS_DATA = {
 "stats": {
 "avg": ".262",
 "hr": 26,
-"rbi": 88,
+"rbi": 89,
 "sb": 3,
-"ops": ".805",
+"ops": ".803",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 63
+"model_rank": 66
 },
 {
 "name": "Carson Kelly",
@@ -4303,11 +2065,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".266",
+"avg": ".264",
 "hr": 10,
 "rbi": 58,
 "sb": 0,
-"ops": ".737",
+"ops": ".730",
 "imp_total": 4.5,
 "order": 0
 },
@@ -4322,22 +2084,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4860,
-"proj": 10.5,
-"consensus": 10.1,
+"salary": 4892,
+"proj": 10.6,
+"consensus": 10.2,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".217",
-"hr": 18,
-"rbi": 66,
+"avg": ".220",
+"hr": 19,
+"rbi": 67,
 "sb": 17,
-"ops": ".706",
+"ops": ".715",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 89
+"model_rank": 86
 },
 {
 "name": "Gabriel Arias",
@@ -4363,7 +2125,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 334
+"model_rank": 333
 },
 {
 "name": "Ian Happ",
@@ -4374,22 +2136,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4668,
-"proj": 9.9,
-"consensus": 9.5,
+"salary": 4636,
+"proj": 9.8,
+"consensus": 9.4,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".220",
+"avg": ".221",
 "hr": 24,
 "rbi": 66,
 "sb": 4,
-"ops": ".745",
+"ops": ".750",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 122
+"model_rank": 125
 },
 {
 "name": "Matt Shaw",
@@ -4407,11 +2169,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".245",
+"avg": ".241",
 "hr": 5,
-"rbi": 23,
+"rbi": 24,
 "sb": 4,
-"ops": ".769",
+"ops": ".754",
 "imp_total": 4.5,
 "order": 0
 },
@@ -4426,22 +2188,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4700,
-"proj": 10.0,
-"consensus": 9.6,
+"salary": 4732,
+"proj": 10.1,
+"consensus": 9.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".236",
-"hr": 19,
-"rbi": 76,
+"avg": ".238",
+"hr": 20,
+"rbi": 77,
 "sb": 3,
-"ops": ".739",
+"ops": ".746",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 118
+"model_rank": 110
 },
 {
 "name": "Michael Conforto",
@@ -4503,22 +2265,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4444,
-"proj": 9.2,
-"consensus": 8.8,
+"salary": 4412,
+"proj": 9.1,
+"consensus": 8.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".263",
+"avg": ".264",
 "hr": 8,
-"rbi": 69,
+"rbi": 70,
 "sb": 22,
-"ops": ".668",
+"ops": ".671",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 159
+"model_rank": 164
 },
 {
 "name": "Pedro Ram\u00edrez",
@@ -4544,7 +2306,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 224
+"model_rank": 222
 },
 {
 "name": "Pete Crow-Armstrong",
@@ -4555,18 +2317,18 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 6300,
-"proj": 15.0,
-"consensus": 14.4,
+"salary": 6268,
+"proj": 14.9,
+"consensus": 14.3,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".280",
+"avg": ".279",
 "hr": 44,
 "rbi": 105,
-"sb": 37,
-"ops": ".948",
+"sb": 38,
+"ops": ".942",
 "imp_total": 4.5,
 "order": 0
 },
@@ -4581,22 +2343,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5276,
-"proj": 11.8,
-"consensus": 11.3,
+"salary": 5244,
+"proj": 11.7,
+"consensus": 11.2,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".265",
+"avg": ".267",
 "hr": 24,
-"rbi": 83,
+"rbi": 84,
 "sb": 3,
-"ops": ".830",
+"ops": ".832",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 53
+"model_rank": 52
 },
 {
 "name": "Tyrone Taylor",
@@ -4607,22 +2369,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3676,
-"proj": 6.8,
-"consensus": 6.5,
+"salary": 3644,
+"proj": 6.7,
+"consensus": 6.4,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".278",
+"avg": ".274",
 "hr": 11,
 "rbi": 37,
 "sb": 3,
-"ops": ".833",
+"ops": ".822",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 291
+"model_rank": 296
 },
 {
 "name": "Chicago Cubs P",
@@ -4645,1378 +2407,12 @@ window.DFS_DATA = {
 "win_prob": 0.5,
 "exp_ip": 6.0
 },
-"model_rank": 14
+"model_rank": 8
 },
 {
-"name": "Billy Cook",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2500,
-"proj": 1.5,
-"consensus": 1.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".176",
-"hr": 0,
-"rbi": 2,
-"sb": 6,
-"ops": ".443",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 429
-},
-{
-"name": "Brandon Lowe",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5212,
-"proj": 11.6,
-"consensus": 11.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".260",
-"hr": 32,
-"rbi": 91,
-"sb": 2,
-"ops": ".819",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 60
-},
-{
-"name": "Bryan Reynolds",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4988,
-"proj": 10.9,
-"consensus": 10.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".263",
-"hr": 17,
-"rbi": 71,
-"sb": 9,
-"ops": ".793",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 76
-},
-{
-"name": "Henry Davis",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3580,
-"proj": 6.5,
-"consensus": 6.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".169",
-"hr": 10,
-"rbi": 38,
-"sb": 3,
-"ops": ".585",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 306
-},
-{
-"name": "Jacob Gonzalez",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3356,
-"proj": 5.8,
-"consensus": 5.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".223",
-"hr": 6,
-"rbi": 30,
-"sb": 2,
-"ops": ".631",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 350
-},
-{
-"name": "Jake Mangum",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4060,
-"proj": 8.0,
-"consensus": 7.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".281",
-"hr": 4,
-"rbi": 30,
-"sb": 23,
-"ops": ".703",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 233
-},
-{
-"name": "Jared Triolo",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3388,
-"proj": 5.9,
-"consensus": 5.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".241",
-"hr": 3,
-"rbi": 29,
-"sb": 13,
-"ops": ".618",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 344
-},
-{
-"name": "Konnor Griffin",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5020,
-"proj": 11.0,
-"consensus": 10.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".271",
-"hr": 5,
-"rbi": 31,
-"sb": 22,
-"ops": ".718",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 73
-},
-{
-"name": "Nick Gonzales",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4380,
-"proj": 9.0,
-"consensus": 8.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".304",
-"hr": 6,
-"rbi": 60,
-"sb": 7,
-"ops": ".759",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 173
-},
-{
-"name": "Oneil Cruz",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5948,
-"proj": 13.9,
-"consensus": 13.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".277",
-"hr": 19,
-"rbi": 66,
-"sb": 27,
-"ops": ".847",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 33
-},
-{
-"name": "Rafael Flores Jr.",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4284,
-"proj": 8.7,
-"consensus": 8.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".268",
-"hr": 9,
-"rbi": 20,
-"sb": 0,
-"ops": ".843",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 190
-},
-{
-"name": "Ronny Simon",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4092,
-"proj": 8.1,
-"consensus": 7.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".318",
-"hr": 0,
-"rbi": 2,
-"sb": 3,
-"ops": ".748",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 225
-},
-{
-"name": "Ryan O'Hearn",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4924,
-"proj": 10.7,
-"consensus": 10.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".266",
-"hr": 18,
-"rbi": 73,
-"sb": 1,
-"ops": ".782",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 83
-},
-{
-"name": "Spencer Horwitz",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4188,
-"proj": 8.4,
-"consensus": 8.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".248",
-"hr": 10,
-"rbi": 46,
-"sb": 1,
-"ops": ".715",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 205
-},
-{
-"name": "Pittsburgh Pirates P",
-"team": "Pittsburgh Pirates",
-"opp": "Kansas City Royals",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 15
-},
-{
-"name": "Bobby Witt Jr.",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5404,
-"proj": 12.2,
-"consensus": 11.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".276",
-"hr": 18,
-"rbi": 54,
-"sb": 42,
-"ops": ".798",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 45
-},
-{
-"name": "Carter Jensen",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4668,
-"proj": 9.9,
-"consensus": 9.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".233",
-"hr": 24,
-"rbi": 75,
-"sb": 2,
-"ops": ".770",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 123
-},
-{
-"name": "Isaac Collins",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3772,
-"proj": 7.1,
-"consensus": 6.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".219",
-"hr": 6,
-"rbi": 40,
-"sb": 8,
-"ops": ".657",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 284
-},
-{
-"name": "Jac Caglianone",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4636,
-"proj": 9.8,
-"consensus": 9.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".277",
-"hr": 23,
-"rbi": 70,
-"sb": 6,
-"ops": ".811",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 125
-},
-{
-"name": "John Rave",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4156,
-"proj": 8.3,
-"consensus": 8.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".227",
-"hr": 6,
-"rbi": 13,
-"sb": 7,
-"ops": ".773",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 213
-},
-{
-"name": "Josh Rojas",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3164,
-"proj": 5.2,
-"consensus": 5.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".240",
-"hr": 2,
-"rbi": 13,
-"sb": 1,
-"ops": ".623",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 379
-},
-{
-"name": "Kyle Isbel",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3420,
-"proj": 6.0,
-"consensus": 5.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".221",
-"hr": 6,
-"rbi": 24,
-"sb": 6,
-"ops": ".593",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 335
-},
-{
-"name": "Luke Maile",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2844,
-"proj": 4.2,
-"consensus": 4.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".162",
-"hr": 1,
-"rbi": 5,
-"sb": 0,
-"ops": ".514",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 407
-},
-{
-"name": "Maikel Garcia",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4380,
-"proj": 9.0,
-"consensus": 8.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".262",
-"hr": 3,
-"rbi": 34,
-"sb": 5,
-"ops": ".696",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 174
-},
-{
-"name": "Michael Massey",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3932,
-"proj": 7.6,
-"consensus": 7.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".279",
-"hr": 13,
-"rbi": 47,
-"sb": 3,
-"ops": ".756",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 249
-},
-{
-"name": "Nick Loftin",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3900,
-"proj": 7.5,
-"consensus": 7.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".232",
-"hr": 7,
-"rbi": 42,
-"sb": 3,
-"ops": ".695",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 258
-},
-{
-"name": "Salvador Perez",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 4092,
-"proj": 8.1,
-"consensus": 7.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".226",
-"hr": 19,
-"rbi": 72,
-"sb": 1,
-"ops": ".644",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 226
-},
-{
-"name": "Tyler Tolbert",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3420,
-"proj": 6.0,
-"consensus": 5.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".293",
-"hr": 3,
-"rbi": 8,
-"sb": 21,
-"ops": ".765",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 336
-},
-{
-"name": "Vinnie Pasquantino",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4540,
-"proj": 9.5,
-"consensus": 9.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".240",
-"hr": 13,
-"rbi": 51,
-"sb": 5,
-"ops": ".722",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 144
-},
-{
-"name": "Kansas City Royals P",
-"team": "Kansas City Royals",
-"opp": "Pittsburgh Pirates",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 16
-},
-{
-"name": "Alejandro Osuna",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3356,
-"proj": 5.8,
-"consensus": 5.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".254",
-"hr": 1,
-"rbi": 24,
-"sb": 5,
-"ops": ".640",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 351
-},
-{
-"name": "Brandon Nimmo",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4412,
-"proj": 9.1,
-"consensus": 8.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".260",
-"hr": 14,
-"rbi": 61,
-"sb": 7,
-"ops": ".733",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 163
-},
-{
-"name": "Cody Freeman",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3068,
-"proj": 4.9,
-"consensus": 4.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".256",
-"hr": 1,
-"rbi": 6,
-"sb": 1,
-"ops": ".651",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 385
-},
-{
-"name": "Corey Seager",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4828,
-"proj": 10.4,
-"consensus": 10.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".234",
-"hr": 18,
-"rbi": 47,
-"sb": 2,
-"ops": ".760",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 94
-},
-{
-"name": "Danny Jansen",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3644,
-"proj": 6.7,
-"consensus": 6.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".202",
-"hr": 6,
-"rbi": 22,
-"sb": 1,
-"ops": ".653",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 295
-},
-{
-"name": "Elias D\u00edaz",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3324,
-"proj": 5.7,
-"consensus": 5.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".236",
-"hr": 7,
-"rbi": 33,
-"sb": 0,
-"ops": ".666",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 355
-},
-{
-"name": "Evan Carter",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3676,
-"proj": 6.8,
-"consensus": 6.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".190",
-"hr": 9,
-"rbi": 37,
-"sb": 16,
-"ops": ".601",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 292
-},
-{
-"name": "Ezequiel Duran",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4636,
-"proj": 9.8,
-"consensus": 9.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".268",
-"hr": 17,
-"rbi": 83,
-"sb": 11,
-"ops": ".763",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 126
-},
-{
-"name": "Jake Burger",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4604,
-"proj": 9.7,
-"consensus": 9.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".234",
-"hr": 26,
-"rbi": 86,
-"sb": 4,
-"ops": ".734",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 128
-},
-{
-"name": "Joc Pederson",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 4124,
-"proj": 8.2,
-"consensus": 7.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".235",
-"hr": 26,
-"rbi": 53,
-"sb": 2,
-"ops": ".816",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 216
-},
-{
-"name": "Josh Jung",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4604,
-"proj": 9.7,
-"consensus": 9.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".297",
-"hr": 10,
-"rbi": 38,
-"sb": 1,
-"ops": ".809",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 129
-},
-{
-"name": "Justin Foscue",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3516,
-"proj": 6.3,
-"consensus": 6.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".271",
-"hr": 11,
-"rbi": 34,
-"sb": 0,
-"ops": ".827",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 318
-},
-{
-"name": "Nicky Lopez",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3068,
-"proj": 4.9,
-"consensus": 4.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".272",
-"hr": 1,
-"rbi": 24,
-"sb": 5,
-"ops": ".628",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 386
-},
-{
-"name": "Wyatt Langford",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4988,
-"proj": 10.9,
-"consensus": 10.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".242",
-"hr": 17,
-"rbi": 41,
-"sb": 14,
-"ops": ".771",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 77
-},
-{
-"name": "Texas Rangers P",
-"team": "Texas Rangers",
-"opp": "Toronto Blue Jays",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 17
-},
-{
-"name": "Alejandro Kirk",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4380,
-"proj": 9.0,
-"consensus": 8.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".279",
-"hr": 10,
-"rbi": 41,
-"sb": 1,
-"ops": ".773",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 175
-},
-{
-"name": "Andr\u00e9s Gim\u00e9nez",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3836,
-"proj": 7.3,
-"consensus": 7.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".243",
-"hr": 9,
-"rbi": 57,
-"sb": 20,
-"ops": ".647",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 271
-},
-{
-"name": "Brandon Valenzuela",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3420,
-"proj": 6.0,
-"consensus": 5.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".217",
-"hr": 8,
-"rbi": 21,
-"sb": 2,
-"ops": ".662",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 337
-},
-{
-"name": "Brett Bateman",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4828,
-"proj": 10.4,
-"consensus": 10.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".324",
-"hr": 2,
-"rbi": 11,
-"sb": 3,
-"ops": ".805",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 95
-},
-{
-"name": "Charles McAdoo",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3356,
-"proj": 5.8,
-"consensus": 5.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".247",
-"hr": 2,
-"rbi": 10,
-"sb": 2,
-"ops": ".634",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 352
-},
-{
-"name": "Davis Schneider",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2908,
-"proj": 4.4,
-"consensus": 4.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".139",
-"hr": 3,
-"rbi": 12,
-"sb": 1,
-"ops": ".561",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 402
-},
-{
-"name": "Ernie Clement",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3900,
-"proj": 7.5,
-"consensus": 7.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".266",
-"hr": 9,
-"rbi": 48,
-"sb": 7,
-"ops": ".666",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 259
-},
-{
-"name": "George Springer",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 4604,
-"proj": 9.7,
-"consensus": 9.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".251",
-"hr": 15,
-"rbi": 53,
-"sb": 12,
-"ops": ".738",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 130
-},
-{
-"name": "Josh Smith",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
+"name": "Angel Genao",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
 "pos": [
 "2B",
 "UTIL"
@@ -6029,22 +2425,334 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".219",
-"hr": 6,
-"rbi": 15,
-"sb": 4,
-"ops": ".656",
+"avg": ".220",
+"hr": 2,
+"rbi": 6,
+"sb": 1,
+"ops": ".592",
 "imp_total": 4.5,
 "order": 0
 },
 "model_rank": 330
 },
 {
-"name": "Kazuma Okamoto",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
+"name": "Angel Mart\u00ednez",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4508,
+"proj": 9.4,
+"consensus": 9.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".255",
+"hr": 17,
+"rbi": 57,
+"sb": 11,
+"ops": ".759",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 147
+},
+{
+"name": "Austin Hedges",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3420,
+"proj": 6.0,
+"consensus": 5.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".251",
+"hr": 5,
+"rbi": 24,
+"sb": 1,
+"ops": ".695",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 334
+},
+{
+"name": "Brayan Rocchio",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4380,
+"proj": 9.0,
+"consensus": 8.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".250",
+"hr": 13,
+"rbi": 70,
+"sb": 20,
+"ops": ".693",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 172
+},
+{
+"name": "Chase DeLauter",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4860,
+"proj": 10.5,
+"consensus": 10.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".290",
+"hr": 15,
+"rbi": 65,
+"sb": 11,
+"ops": ".821",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 90
+},
+{
+"name": "Daniel Schneemann",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3484,
+"proj": 6.2,
+"consensus": 6.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".205",
+"hr": 6,
+"rbi": 29,
+"sb": 6,
+"ops": ".591",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 325
+},
+{
+"name": "David Fry",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2972,
+"proj": 4.6,
+"consensus": 4.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".189",
+"hr": 7,
+"rbi": 17,
+"sb": 0,
+"ops": ".657",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 392
+},
+{
+"name": "Jo Adell",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4508,
+"proj": 9.4,
+"consensus": 9.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".241",
+"hr": 22,
+"rbi": 92,
+"sb": 4,
+"ops": ".698",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 148
+},
+{
+"name": "Jos\u00e9 Ram\u00edrez",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
 "pos": [
 "3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5020,
+"proj": 11.0,
+"consensus": 10.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".234",
+"hr": 12,
+"rbi": 51,
+"sb": 34,
+"ops": ".695",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 72
+},
+{
+"name": "Nathaniel Lowe",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4092,
+"proj": 8.1,
+"consensus": 7.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".255",
+"hr": 17,
+"rbi": 59,
+"sb": 0,
+"ops": ".777",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 223
+},
+{
+"name": "Patrick Bailey",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3324,
+"proj": 5.7,
+"consensus": 5.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".207",
+"hr": 8,
+"rbi": 34,
+"sb": 3,
+"ops": ".597",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 354
+},
+{
+"name": "Petey Halpin",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3164,
+"proj": 5.2,
+"consensus": 5.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".218",
+"hr": 4,
+"rbi": 13,
+"sb": 10,
+"ops": ".580",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 378
+},
+{
+"name": "Steven Kwan",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4220,
+"proj": 8.5,
+"consensus": 8.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".277",
+"hr": 3,
+"rbi": 31,
+"sb": 10,
+"ops": ".718",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 196
+},
+{
+"name": "Travis Bazzana",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
+"pos": [
+"2B",
 "UTIL"
 ],
 "role": "hitter",
@@ -6055,123 +2763,20 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".235",
-"hr": 33,
-"rbi": 88,
-"sb": 1,
-"ops": ".774",
+"avg": ".248",
+"hr": 15,
+"rbi": 57,
+"sb": 19,
+"ops": ".750",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 96
+"model_rank": 93
 },
 {
-"name": "Myles Straw",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3004,
-"proj": 4.7,
-"consensus": 4.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".239",
-"hr": 3,
-"rbi": 26,
-"sb": 7,
-"ops": ".652",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 391
-},
-{
-"name": "Nathan Lukes",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3740,
-"proj": 7.0,
-"consensus": 6.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".273",
-"hr": 10,
-"rbi": 37,
-"sb": 1,
-"ops": ".707",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 287
-},
-{
-"name": "Sean Keys",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 3228,
-"proj": 5.4,
-"consensus": 5.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".196",
-"hr": 2,
-"rbi": 7,
-"sb": 0,
-"ops": ".577",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 367
-},
-{
-"name": "Vladimir Guerrero Jr.",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4348,
-"proj": 8.9,
-"consensus": 8.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".261",
-"hr": 9,
-"rbi": 56,
-"sb": 7,
-"ops": ".693",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 184
-},
-{
-"name": "Toronto Blue Jays P",
-"team": "Toronto Blue Jays",
-"opp": "Texas Rangers",
+"name": "Cleveland Guardians P",
+"team": "Cleveland Guardians",
+"opp": "Athletics",
 "pos": [
 "P"
 ],
@@ -6189,7 +2794,1139 @@ window.DFS_DATA = {
 "win_prob": 0.5,
 "exp_ip": 6.0
 },
-"model_rank": 18
+"model_rank": 9
+},
+{
+"name": "Alika Williams",
+"team": "Athletics",
+"opp": "Cleveland Guardians",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3196,
+"proj": 5.3,
+"consensus": 5.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".263",
+"hr": 4,
+"rbi": 16,
+"sb": 1,
+"ops": ".732",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 371
+},
+{
+"name": "Brian Serven",
+"team": "Athletics",
+"opp": "Cleveland Guardians",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3708,
+"proj": 6.9,
+"consensus": 6.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".184",
+"hr": 5,
+"rbi": 14,
+"sb": 0,
+"ops": ".620",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 290
+},
+{
+"name": "Carlos Cortes",
+"team": "Athletics",
+"opp": "Cleveland Guardians",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3548,
+"proj": 6.4,
+"consensus": 6.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".253",
+"hr": 9,
+"rbi": 40,
+"sb": 2,
+"ops": ".711",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 310
+},
+{
+"name": "Denzel Clarke",
+"team": "Athletics",
+"opp": "Cleveland Guardians",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2716,
+"proj": 3.8,
+"consensus": 3.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".164",
+"hr": 0,
+"rbi": 6,
+"sb": 4,
+"ops": ".432",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 416
+},
+{
+"name": "Donovan Walton",
+"team": "Athletics",
+"opp": "Cleveland Guardians",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3900,
+"proj": 7.5,
+"consensus": 7.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".269",
+"hr": 8,
+"rbi": 29,
+"sb": 3,
+"ops": ".825",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 253
+},
+{
+"name": "Henry Bolte",
+"team": "Athletics",
+"opp": "Cleveland Guardians",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4508,
+"proj": 9.4,
+"consensus": 9.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".273",
+"hr": 11,
+"rbi": 35,
+"sb": 21,
+"ops": ".755",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 149
+},
+{
+"name": "Jeff McNeil",
+"team": "Athletics",
+"opp": "Cleveland Guardians",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3868,
+"proj": 7.4,
+"consensus": 7.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".265",
+"hr": 8,
+"rbi": 54,
+"sb": 8,
+"ops": ".677",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 263
+},
+{
+"name": "Jonah Heim",
+"team": "Athletics",
+"opp": "Cleveland Guardians",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3836,
+"proj": 7.3,
+"consensus": 7.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".203",
+"hr": 13,
+"rbi": 42,
+"sb": 0,
+"ops": ".627",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 269
+},
+{
+"name": "Lawrence Butler",
+"team": "Athletics",
+"opp": "Cleveland Guardians",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4092,
+"proj": 8.1,
+"consensus": 7.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".230",
+"hr": 17,
+"rbi": 59,
+"sb": 10,
+"ops": ".708",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 224
+},
+{
+"name": "Max Muncy",
+"team": "Athletics",
+"opp": "Cleveland Guardians",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3868,
+"proj": 7.4,
+"consensus": 7.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".230",
+"hr": 9,
+"rbi": 30,
+"sb": 3,
+"ops": ".683",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 264
+},
+{
+"name": "Shea Langeliers",
+"team": "Athletics",
+"opp": "Cleveland Guardians",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5084,
+"proj": 11.2,
+"consensus": 10.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".265",
+"hr": 23,
+"rbi": 55,
+"sb": 3,
+"ops": ".819",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 67
+},
+{
+"name": "Tommy White",
+"team": "Athletics",
+"opp": "Cleveland Guardians",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3324,
+"proj": 5.7,
+"consensus": 5.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".249",
+"hr": 3,
+"rbi": 9,
+"sb": 0,
+"ops": ".597",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 355
+},
+{
+"name": "Zack Gelof",
+"team": "Athletics",
+"opp": "Cleveland Guardians",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4924,
+"proj": 10.7,
+"consensus": 10.3,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".249",
+"hr": 19,
+"rbi": 50,
+"sb": 14,
+"ops": ".768",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 81
+},
+{
+"name": "Athletics P",
+"team": "Athletics",
+"opp": "Cleveland Guardians",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 10
+},
+{
+"name": "Ben Williamson",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3612,
+"proj": 6.6,
+"consensus": 6.3,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".247",
+"hr": 3,
+"rbi": 26,
+"sb": 8,
+"ops": ".641",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 302
+},
+{
+"name": "Cedric Mullins",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4060,
+"proj": 8.0,
+"consensus": 7.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".202",
+"hr": 14,
+"rbi": 45,
+"sb": 20,
+"ops": ".623",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 230
+},
+{
+"name": "Chandler Simpson",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4348,
+"proj": 8.9,
+"consensus": 8.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".309",
+"hr": 0,
+"rbi": 36,
+"sb": 45,
+"ops": ".697",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 181
+},
+{
+"name": "Jonathan Aranda",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4860,
+"proj": 10.5,
+"consensus": 10.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".277",
+"hr": 22,
+"rbi": 92,
+"sb": 0,
+"ops": ".800",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 91
+},
+{
+"name": "Jonny DeLuca",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4028,
+"proj": 7.9,
+"consensus": 7.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".259",
+"hr": 9,
+"rbi": 44,
+"sb": 15,
+"ops": ".699",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 235
+},
+{
+"name": "Jorge Mateo",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3356,
+"proj": 5.8,
+"consensus": 5.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".207",
+"hr": 5,
+"rbi": 18,
+"sb": 19,
+"ops": ".573",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 348
+},
+{
+"name": "Junior Caminero",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5404,
+"proj": 12.2,
+"consensus": 11.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".277",
+"hr": 41,
+"rbi": 97,
+"sb": 3,
+"ops": ".895",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 46
+},
+{
+"name": "Liam Hicks",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4636,
+"proj": 9.8,
+"consensus": 9.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".288",
+"hr": 18,
+"rbi": 81,
+"sb": 3,
+"ops": ".811",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 126
+},
+{
+"name": "Nick Fortes",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3388,
+"proj": 5.9,
+"consensus": 5.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".267",
+"hr": 5,
+"rbi": 34,
+"sb": 0,
+"ops": ".696",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 343
+},
+{
+"name": "Richie Palacios",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4124,
+"proj": 8.2,
+"consensus": 7.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".234",
+"hr": 10,
+"rbi": 53,
+"sb": 15,
+"ops": ".707",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 216
+},
+{
+"name": "Ryan Vilade",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3772,
+"proj": 7.1,
+"consensus": 6.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".259",
+"hr": 11,
+"rbi": 40,
+"sb": 3,
+"ops": ".792",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 281
+},
+{
+"name": "Taylor Walls",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3868,
+"proj": 7.4,
+"consensus": 7.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".218",
+"hr": 2,
+"rbi": 35,
+"sb": 21,
+"ops": ".597",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 265
+},
+{
+"name": "Victor Mesa Jr.",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4380,
+"proj": 9.0,
+"consensus": 8.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".249",
+"hr": 13,
+"rbi": 30,
+"sb": 9,
+"ops": ".806",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 173
+},
+{
+"name": "Yandy D\u00edaz",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 4956,
+"proj": 10.8,
+"consensus": 10.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".293",
+"hr": 22,
+"rbi": 81,
+"sb": 3,
+"ops": ".811",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 78
+},
+{
+"name": "Tampa Bay Rays P",
+"team": "Tampa Bay Rays",
+"opp": "Boston Red Sox",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 11
+},
+{
+"name": "Adley Rutschman",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4572,
+"proj": 9.6,
+"consensus": 9.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".233",
+"hr": 12,
+"rbi": 57,
+"sb": 0,
+"ops": ".723",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 131
+},
+{
+"name": "Andruw Monasterio",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3772,
+"proj": 7.1,
+"consensus": 6.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".239",
+"hr": 6,
+"rbi": 40,
+"sb": 4,
+"ops": ".683",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 282
+},
+{
+"name": "Caleb Durbin",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4444,
+"proj": 9.2,
+"consensus": 8.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".253",
+"hr": 13,
+"rbi": 64,
+"sb": 19,
+"ops": ".725",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 156
+},
+{
+"name": "Connor Wong",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3516,
+"proj": 6.3,
+"consensus": 6.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".234",
+"hr": 4,
+"rbi": 24,
+"sb": 3,
+"ops": ".656",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 316
+},
+{
+"name": "Isiah Kiner-Falefa",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3452,
+"proj": 6.1,
+"consensus": 5.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".252",
+"hr": 2,
+"rbi": 16,
+"sb": 8,
+"ops": ".652",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 331
+},
+{
+"name": "Jahmai Jones",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 2844,
+"proj": 4.2,
+"consensus": 4.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".211",
+"hr": 6,
+"rbi": 16,
+"sb": 3,
+"ops": ".693",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 406
+},
+{
+"name": "Jarren Duran",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4380,
+"proj": 9.0,
+"consensus": 8.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".206",
+"hr": 20,
+"rbi": 69,
+"sb": 19,
+"ops": ".626",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 174
+},
+{
+"name": "Mickey Gasper",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 4156,
+"proj": 8.3,
+"consensus": 8.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".258",
+"hr": 9,
+"rbi": 23,
+"sb": 0,
+"ops": ".831",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 213
+},
+{
+"name": "Nate Eaton",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3068,
+"proj": 4.9,
+"consensus": 4.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".140",
+"hr": 1,
+"rbi": 6,
+"sb": 2,
+"ops": ".544",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 384
+},
+{
+"name": "Nick Sogard",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4220,
+"proj": 8.5,
+"consensus": 8.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".255",
+"hr": 5,
+"rbi": 19,
+"sb": 0,
+"ops": ".742",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 197
+},
+{
+"name": "Roman Anthony",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4348,
+"proj": 8.9,
+"consensus": 8.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".240",
+"hr": 5,
+"rbi": 15,
+"sb": 2,
+"ops": ".716",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 182
+},
+{
+"name": "Trevor Story",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4156,
+"proj": 8.3,
+"consensus": 8.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".246",
+"hr": 4,
+"rbi": 28,
+"sb": 5,
+"ops": ".633",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 214
+},
+{
+"name": "Willson Contreras",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5212,
+"proj": 11.6,
+"consensus": 11.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".276",
+"hr": 27,
+"rbi": 81,
+"sb": 3,
+"ops": ".905",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 57
+},
+{
+"name": "Wilyer Abreu",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4892,
+"proj": 10.6,
+"consensus": 10.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".251",
+"hr": 24,
+"rbi": 74,
+"sb": 8,
+"ops": ".785",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 87
+},
+{
+"name": "Boston Red Sox P",
+"team": "Boston Red Sox",
+"opp": "Tampa Bay Rays",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 12
 },
 {
 "name": "Brice Matthews",
@@ -6226,22 +3963,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4060,
-"proj": 8.0,
-"consensus": 7.7,
+"salary": 4028,
+"proj": 7.9,
+"consensus": 7.6,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".212",
+"avg": ".210",
 "hr": 20,
 "rbi": 54,
 "sb": 11,
-"ops": ".673",
+"ops": ".668",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 234
+"model_rank": 236
 },
 {
 "name": "Christian V\u00e1zquez",
@@ -6267,7 +4004,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 368
+"model_rank": 367
 },
 {
 "name": "Christian Walker",
@@ -6278,22 +4015,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4444,
-"proj": 9.2,
-"consensus": 8.8,
+"salary": 4412,
+"proj": 9.1,
+"consensus": 8.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".220",
+"avg": ".222",
 "hr": 25,
 "rbi": 80,
 "sb": 0,
-"ops": ".702",
+"ops": ".704",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 160
+"model_rank": 165
 },
 {
 "name": "Daulton Varsho",
@@ -6304,22 +4041,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3900,
-"proj": 7.5,
-"consensus": 7.2,
+"salary": 3868,
+"proj": 7.4,
+"consensus": 7.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".222",
+"avg": ".221",
 "hr": 12,
 "rbi": 40,
 "sb": 12,
-"ops": ".641",
+"ops": ".636",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 260
+"model_rank": 266
 },
 {
 "name": "Isaac Paredes",
@@ -6330,22 +4067,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4732,
-"proj": 10.1,
-"consensus": 9.7,
+"salary": 4764,
+"proj": 10.2,
+"consensus": 9.8,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".259",
-"hr": 21,
-"rbi": 88,
+"avg": ".261",
+"hr": 22,
+"rbi": 90,
 "sb": 0,
-"ops": ".786",
+"ops": ".796",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 114
+"model_rank": 105
 },
 {
 "name": "Jeremy Pe\u00f1a",
@@ -6367,11 +4104,11 @@ window.DFS_DATA = {
 "hr": 20,
 "rbi": 51,
 "sb": 9,
-"ops": ".799",
+"ops": ".801",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 64
+"model_rank": 63
 },
 {
 "name": "Jose Altuve",
@@ -6389,15 +4126,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".243",
+"avg": ".247",
 "hr": 15,
 "rbi": 44,
 "sb": 5,
-"ops": ".694",
+"ops": ".701",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 185
+"model_rank": 183
 },
 {
 "name": "LaMonte Wade Jr.",
@@ -6408,22 +4145,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3420,
-"proj": 6.0,
-"consensus": 5.8,
+"salary": 3388,
+"proj": 5.9,
+"consensus": 5.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".215",
+"avg": ".208",
 "hr": 4,
 "rbi": 19,
 "sb": 0,
-"ops": ".681",
+"ops": ".660",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 338
+"model_rank": 344
 },
 {
 "name": "Nelson Vel\u00e1zquez",
@@ -6434,22 +4171,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3260,
-"proj": 5.5,
-"consensus": 5.3,
+"salary": 3228,
+"proj": 5.4,
+"consensus": 5.2,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".196",
+"avg": ".194",
 "hr": 6,
 "rbi": 18,
 "sb": 0,
-"ops": ".682",
+"ops": ".675",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 360
+"model_rank": 368
 },
 {
 "name": "Nick Allen",
@@ -6475,7 +4212,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 415
+"model_rank": 417
 },
 {
 "name": "Taylor Trammell",
@@ -6486,9 +4223,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3420,
-"proj": 6.0,
-"consensus": 5.8,
+"salary": 3388,
+"proj": 5.9,
+"consensus": 5.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -6501,7 +4238,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 339
+"model_rank": 345
 },
 {
 "name": "Yainer Diaz",
@@ -6521,13 +4258,13 @@ window.DFS_DATA = {
 "stats": {
 "avg": ".276",
 "hr": 12,
-"rbi": 38,
+"rbi": 39,
 "sb": 0,
 "ops": ".743",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 244
+"model_rank": 242
 },
 {
 "name": "Yordan Alvarez",
@@ -6537,9 +4274,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5820,
-"proj": 13.5,
-"consensus": 13.0,
+"salary": 5788,
+"proj": 13.4,
+"consensus": 12.9,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -6548,7 +4285,7 @@ window.DFS_DATA = {
 "hr": 40,
 "rbi": 99,
 "sb": 1,
-"ops": "1.031",
+"ops": "1.026",
 "imp_total": 4.5,
 "order": 0
 },
@@ -6575,7 +4312,7 @@ window.DFS_DATA = {
 "win_prob": 0.5,
 "exp_ip": 6.0
 },
-"model_rank": 19
+"model_rank": 13
 },
 {
 "name": "Austin Riley",
@@ -6601,7 +4338,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 206
+"model_rank": 203
 },
 {
 "name": "Dominic Smith",
@@ -6626,7 +4363,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 319
+"model_rank": 317
 },
 {
 "name": "Drake Baldwin",
@@ -6637,22 +4374,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5084,
-"proj": 11.2,
+"salary": 5116,
+"proj": 11.3,
 "consensus": 10.8,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".279",
+"avg": ".282",
 "hr": 24,
 "rbi": 77,
 "sb": 3,
-"ops": ".809",
+"ops": ".814",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 68
+"model_rank": 64
 },
 {
 "name": "Ha-Seong Kim",
@@ -6678,7 +4415,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 418
+"model_rank": 419
 },
 {
 "name": "Matt Olson",
@@ -6689,22 +4426,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5244,
-"proj": 11.7,
-"consensus": 11.2,
+"salary": 5212,
+"proj": 11.6,
+"consensus": 11.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".253",
+"avg": ".255",
 "hr": 40,
-"rbi": 88,
+"rbi": 89,
 "sb": 4,
-"ops": ".834",
+"ops": ".835",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 54
+"model_rank": 58
 },
 {
 "name": "Mauricio Dub\u00f3n",
@@ -6726,7 +4463,7 @@ window.DFS_DATA = {
 "hr": 11,
 "rbi": 70,
 "sb": 9,
-"ops": ".713",
+"ops": ".712",
 "imp_total": 4.5,
 "order": 0
 },
@@ -6741,18 +4478,18 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4828,
-"proj": 10.4,
-"consensus": 10.0,
+"salary": 4796,
+"proj": 10.3,
+"consensus": 9.9,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".293",
+"avg": ".290",
 "hr": 26,
 "rbi": 85,
 "sb": 11,
-"ops": ".810",
+"ops": ".804",
 "imp_total": 4.5,
 "order": 0
 },
@@ -6767,22 +4504,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3452,
-"proj": 6.1,
-"consensus": 5.9,
+"salary": 3516,
+"proj": 6.3,
+"consensus": 6.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".225",
-"hr": 10,
-"rbi": 36,
+"avg": ".228",
+"hr": 11,
+"rbi": 37,
 "sb": 1,
-"ops": ".682",
+"ops": ".694",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 331
+"model_rank": 318
 },
 {
 "name": "Ozzie Albies",
@@ -6793,22 +4530,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4508,
-"proj": 9.4,
-"consensus": 9.0,
+"salary": 4476,
+"proj": 9.3,
+"consensus": 8.9,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".244",
+"avg": ".242",
 "hr": 22,
 "rbi": 71,
 "sb": 4,
-"ops": ".706",
+"ops": ".701",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 150
+"model_rank": 155
 },
 {
 "name": "Ronald Acu\u00f1a Jr.",
@@ -6819,22 +4556,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5340,
-"proj": 12.0,
-"consensus": 11.5,
+"salary": 5404,
+"proj": 12.2,
+"consensus": 11.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".256",
-"hr": 19,
-"rbi": 51,
+"avg": ".259",
+"hr": 20,
+"rbi": 55,
 "sb": 20,
-"ops": ".801",
+"ops": ".815",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 49
+"model_rank": 47
 },
 {
 "name": "Sean Murphy",
@@ -6845,22 +4582,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3644,
-"proj": 6.7,
-"consensus": 6.4,
+"salary": 3676,
+"proj": 6.8,
+"consensus": 6.5,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".183",
+"avg": ".179",
 "hr": 3,
 "rbi": 10,
 "sb": 0,
-"ops": ".563",
+"ops": ".566",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 296
+"model_rank": 292
 },
 {
 "name": "Atlanta Braves P",
@@ -6883,7 +4620,752 @@ window.DFS_DATA = {
 "win_prob": 0.5,
 "exp_ip": 6.0
 },
-"model_rank": 20
+"model_rank": 14
+},
+{
+"name": "Andrew Benintendi",
+"team": "Chicago White Sox",
+"opp": "Detroit Tigers",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 4060,
+"proj": 8.0,
+"consensus": 7.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".243",
+"hr": 14,
+"rbi": 71,
+"sb": 1,
+"ops": ".718",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 231
+},
+{
+"name": "Braden Montgomery",
+"team": "Chicago White Sox",
+"opp": "Detroit Tigers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4124,
+"proj": 8.2,
+"consensus": 7.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".208",
+"hr": 6,
+"rbi": 37,
+"sb": 1,
+"ops": ".639",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 217
+},
+{
+"name": "Brenton Doyle",
+"team": "Chicago White Sox",
+"opp": "Detroit Tigers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3292,
+"proj": 5.6,
+"consensus": 5.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".228",
+"hr": 3,
+"rbi": 12,
+"sb": 14,
+"ops": ".594",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 359
+},
+{
+"name": "Chase Meidroth",
+"team": "Chicago White Sox",
+"opp": "Detroit Tigers",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4444,
+"proj": 9.2,
+"consensus": 8.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".268",
+"hr": 14,
+"rbi": 56,
+"sb": 3,
+"ops": ".743",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 157
+},
+{
+"name": "Colson Montgomery",
+"team": "Chicago White Sox",
+"opp": "Detroit Tigers",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4668,
+"proj": 9.9,
+"consensus": 9.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".204",
+"hr": 31,
+"rbi": 87,
+"sb": 1,
+"ops": ".710",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 121
+},
+{
+"name": "Jake Rogers",
+"team": "Chicago White Sox",
+"opp": "Detroit Tigers",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3164,
+"proj": 5.2,
+"consensus": 5.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".161",
+"hr": 4,
+"rbi": 14,
+"sb": 1,
+"ops": ".563",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 379
+},
+{
+"name": "Kyle Teel",
+"team": "Chicago White Sox",
+"opp": "Detroit Tigers",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4156,
+"proj": 8.3,
+"consensus": 8.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".182",
+"hr": 4,
+"rbi": 20,
+"sb": 0,
+"ops": ".635",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 215
+},
+{
+"name": "Luisangel Acu\u00f1a",
+"team": "Chicago White Sox",
+"opp": "Detroit Tigers",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2812,
+"proj": 4.1,
+"consensus": 3.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".227",
+"hr": 1,
+"rbi": 12,
+"sb": 17,
+"ops": ".521",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 407
+},
+{
+"name": "Miguel Vargas",
+"team": "Chicago White Sox",
+"opp": "Detroit Tigers",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5500,
+"proj": 12.5,
+"consensus": 12.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".250",
+"hr": 33,
+"rbi": 88,
+"sb": 20,
+"ops": ".841",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 38
+},
+{
+"name": "Munetaka Murakami",
+"team": "Chicago White Sox",
+"opp": "Detroit Tigers",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5212,
+"proj": 11.6,
+"consensus": 11.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".203",
+"hr": 32,
+"rbi": 69,
+"sb": 1,
+"ops": ".809",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 59
+},
+{
+"name": "Randal Grichuk",
+"team": "Chicago White Sox",
+"opp": "Detroit Tigers",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 3548,
+"proj": 6.4,
+"consensus": 6.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".285",
+"hr": 13,
+"rbi": 39,
+"sb": 0,
+"ops": ".866",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 311
+},
+{
+"name": "Sam Antonacci",
+"team": "Chicago White Sox",
+"opp": "Detroit Tigers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4540,
+"proj": 9.5,
+"consensus": 9.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".268",
+"hr": 8,
+"rbi": 46,
+"sb": 18,
+"ops": ".750",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 142
+},
+{
+"name": "Tristan Peters",
+"team": "Chicago White Sox",
+"opp": "Detroit Tigers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3996,
+"proj": 7.8,
+"consensus": 7.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".272",
+"hr": 12,
+"rbi": 54,
+"sb": 8,
+"ops": ".795",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 243
+},
+{
+"name": "Chicago White Sox P",
+"team": "Chicago White Sox",
+"opp": "Detroit Tigers",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 15
+},
+{
+"name": "Ben Malgeri",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3292,
+"proj": 5.6,
+"consensus": 5.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".231",
+"hr": 3,
+"rbi": 15,
+"sb": 5,
+"ops": ".693",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 360
+},
+{
+"name": "Brett Callahan",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2940,
+"proj": 4.5,
+"consensus": 4.3,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".220",
+"hr": 1,
+"rbi": 8,
+"sb": 0,
+"ops": ".644",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 400
+},
+{
+"name": "Colt Keith",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3612,
+"proj": 6.6,
+"consensus": 6.3,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".258",
+"hr": 10,
+"rbi": 36,
+"sb": 6,
+"ops": ".728",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 303
+},
+{
+"name": "Dillon Dingler",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4732,
+"proj": 10.1,
+"consensus": 9.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".243",
+"hr": 27,
+"rbi": 89,
+"sb": 0,
+"ops": ".751",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 111
+},
+{
+"name": "Eduardo Valencia",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 4572,
+"proj": 9.6,
+"consensus": 9.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".324",
+"hr": 6,
+"rbi": 18,
+"sb": 0,
+"ops": ".955",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 132
+},
+{
+"name": "Gleyber Torres",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4572,
+"proj": 9.6,
+"consensus": 9.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".265",
+"hr": 8,
+"rbi": 38,
+"sb": 0,
+"ops": ".739",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 133
+},
+{
+"name": "Hao-Yu Lee",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3836,
+"proj": 7.3,
+"consensus": 7.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".266",
+"hr": 10,
+"rbi": 45,
+"sb": 2,
+"ops": ".753",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 270
+},
+{
+"name": "Javier B\u00e1ez",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3548,
+"proj": 6.4,
+"consensus": 6.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".237",
+"hr": 2,
+"rbi": 17,
+"sb": 1,
+"ops": ".610",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 312
+},
+{
+"name": "John Peck",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3644,
+"proj": 6.7,
+"consensus": 6.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".208",
+"hr": 0,
+"rbi": 7,
+"sb": 4,
+"ops": ".557",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 297
+},
+{
+"name": "Kevin McGonigle",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5084,
+"proj": 11.2,
+"consensus": 10.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".276",
+"hr": 17,
+"rbi": 70,
+"sb": 12,
+"ops": ".804",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 68
+},
+{
+"name": "Max Clark",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4828,
+"proj": 10.4,
+"consensus": 10.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".278",
+"hr": 3,
+"rbi": 22,
+"sb": 5,
+"ops": ".797",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 94
+},
+{
+"name": "Riley Greene",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5020,
+"proj": 11.0,
+"consensus": 10.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".286",
+"hr": 21,
+"rbi": 75,
+"sb": 3,
+"ops": ".857",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 73
+},
+{
+"name": "Spencer Torkelson",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4348,
+"proj": 8.9,
+"consensus": 8.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".228",
+"hr": 24,
+"rbi": 72,
+"sb": 1,
+"ops": ".744",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 184
+},
+{
+"name": "Zach McKinstry",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3356,
+"proj": 5.8,
+"consensus": 5.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".202",
+"hr": 4,
+"rbi": 26,
+"sb": 3,
+"ops": ".584",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 349
+},
+{
+"name": "Detroit Tigers P",
+"team": "Detroit Tigers",
+"opp": "Chicago White Sox",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 16
 },
 {
 "name": "Alec Burleson",
@@ -6894,14 +5376,14 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5116,
-"proj": 11.3,
+"salary": 5084,
+"proj": 11.2,
 "consensus": 10.8,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".283",
+"avg": ".284",
 "hr": 23,
 "rbi": 111,
 "sb": 4,
@@ -6909,7 +5391,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 65
+"model_rank": 69
 },
 {
 "name": "Bryan Torres",
@@ -6935,7 +5417,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 380
+"model_rank": 381
 },
 {
 "name": "C\u00e9sar Prieto",
@@ -6978,15 +5460,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".242",
+"avg": ".245",
 "hr": 16,
 "rbi": 66,
 "sb": 8,
-"ops": ".728",
+"ops": ".735",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 104
+"model_rank": 106
 },
 {
 "name": "JJ Wetherholt",
@@ -7004,15 +5486,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".240",
+"avg": ".242",
 "hr": 17,
-"rbi": 48,
+"rbi": 49,
 "sb": 14,
-"ops": ".708",
+"ops": ".710",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 100
+"model_rank": 98
 },
 {
 "name": "Jordan Walker",
@@ -7023,22 +5505,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5340,
-"proj": 12.0,
-"consensus": 11.5,
+"salary": 5308,
+"proj": 11.9,
+"consensus": 11.4,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".279",
+"avg": ".276",
 "hr": 28,
 "rbi": 100,
 "sb": 20,
-"ops": ".817",
+"ops": ".809",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 50
+"model_rank": 49
 },
 {
 "name": "Jos\u00e9 Ferm\u00edn",
@@ -7049,22 +5531,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3580,
-"proj": 6.5,
-"consensus": 6.2,
+"salary": 3612,
+"proj": 6.6,
+"consensus": 6.3,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".241",
+"avg": ".247",
 "hr": 6,
-"rbi": 40,
+"rbi": 41,
 "sb": 8,
-"ops": ".656",
+"ops": ".667",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 307
+"model_rank": 304
 },
 {
 "name": "Leo Bernal",
@@ -7075,22 +5557,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5372,
-"proj": 12.1,
-"consensus": 11.6,
+"salary": 5244,
+"proj": 11.7,
+"consensus": 11.2,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".323",
+"avg": ".310",
 "hr": 3,
 "rbi": 15,
 "sb": 0,
-"ops": ".870",
+"ops": ".826",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 48
+"model_rank": 53
 },
 {
 "name": "Masyn Winn",
@@ -7101,22 +5583,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4028,
-"proj": 7.9,
-"consensus": 7.6,
+"salary": 4060,
+"proj": 8.0,
+"consensus": 7.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".236",
+"avg": ".235",
 "hr": 5,
-"rbi": 54,
+"rbi": 55,
 "sb": 10,
-"ops": ".632",
+"ops": ".629",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 239
+"model_rank": 232
 },
 {
 "name": "Nathan Church",
@@ -7134,15 +5616,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".252",
+"avg": ".254",
 "hr": 10,
 "rbi": 50,
 "sb": 10,
-"ops": ".671",
+"ops": ".674",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 277
+"model_rank": 275
 },
 {
 "name": "Nolan Gorman",
@@ -7168,7 +5650,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 297
+"model_rank": 298
 },
 {
 "name": "Pedro Pag\u00e9s",
@@ -7179,22 +5661,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 2716,
-"proj": 3.8,
-"consensus": 3.6,
+"salary": 2748,
+"proj": 3.9,
+"consensus": 3.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".209",
+"avg": ".215",
 "hr": 4,
-"rbi": 11,
+"rbi": 12,
 "sb": 2,
-"ops": ".571",
+"ops": ".579",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 416
+"model_rank": 414
 },
 {
 "name": "Thomas Saggese",
@@ -7205,22 +5687,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3804,
-"proj": 7.2,
-"consensus": 6.9,
+"salary": 3772,
+"proj": 7.1,
+"consensus": 6.8,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".261",
+"avg": ".254",
 "hr": 4,
 "rbi": 13,
 "sb": 4,
-"ops": ".713",
+"ops": ".697",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 278
+"model_rank": 283
 },
 {
 "name": "Victor Scott II",
@@ -7238,15 +5720,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".194",
+"avg": ".190",
 "hr": 2,
 "rbi": 9,
 "sb": 11,
-"ops": ".530",
+"ops": ".521",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 400
+"model_rank": 401
 },
 {
 "name": "St. Louis Cardinals P",
@@ -7269,7 +5751,7 @@ window.DFS_DATA = {
 "win_prob": 0.5,
 "exp_ip": 6.0
 },
-"model_rank": 21
+"model_rank": 17
 },
 {
 "name": "Abimelec Ortiz",
@@ -7280,22 +5762,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3580,
-"proj": 6.5,
-"consensus": 6.2,
+"salary": 3548,
+"proj": 6.4,
+"consensus": 6.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".205",
+"avg": ".200",
 "hr": 5,
 "rbi": 13,
 "sb": 0,
-"ops": ".626",
+"ops": ".611",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 308
+"model_rank": 313
 },
 {
 "name": "Andr\u00e9s Chaparro",
@@ -7306,14 +5788,14 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4028,
-"proj": 7.9,
-"consensus": 7.6,
+"salary": 3996,
+"proj": 7.8,
+"consensus": 7.5,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".258",
+"avg": ".260",
 "hr": 11,
 "rbi": 37,
 "sb": 0,
@@ -7321,7 +5803,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 240
+"model_rank": 244
 },
 {
 "name": "Brady House",
@@ -7332,9 +5814,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4284,
-"proj": 8.7,
-"consensus": 8.4,
+"salary": 4252,
+"proj": 8.6,
+"consensus": 8.3,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -7343,11 +5825,11 @@ window.DFS_DATA = {
 "hr": 10,
 "rbi": 45,
 "sb": 3,
-"ops": ".696",
+"ops": ".698",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 191
+"model_rank": 194
 },
 {
 "name": "CJ Abrams",
@@ -7365,11 +5847,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".264",
+"avg": ".261",
 "hr": 30,
 "rbi": 97,
-"sb": 30,
-"ops": ".831",
+"sb": 32,
+"ops": ".825",
 "imp_total": 4.5,
 "order": 0
 },
@@ -7384,22 +5866,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4796,
-"proj": 10.3,
-"consensus": 9.9,
+"salary": 4828,
+"proj": 10.4,
+"consensus": 10.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".250",
-"hr": 21,
-"rbi": 86,
+"avg": ".249",
+"hr": 22,
+"rbi": 88,
 "sb": 15,
-"ops": ".738",
+"ops": ".740",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 101
+"model_rank": 95
 },
 {
 "name": "Dylan Crews",
@@ -7417,15 +5899,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".225",
+"avg": ".224",
 "hr": 12,
-"rbi": 42,
+"rbi": 43,
 "sb": 9,
-"ops": ".668",
+"ops": ".664",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 176
+"model_rank": 175
 },
 {
 "name": "Harry Ford",
@@ -7436,9 +5918,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3868,
-"proj": 7.4,
-"consensus": 7.1,
+"salary": 3836,
+"proj": 7.3,
+"consensus": 7.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -7451,7 +5933,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 266
+"model_rank": 271
 },
 {
 "name": "Jacob Young",
@@ -7471,13 +5953,13 @@ window.DFS_DATA = {
 "stats": {
 "avg": ".248",
 "hr": 10,
-"rbi": 47,
+"rbi": 48,
 "sb": 18,
 "ops": ".706",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 235
+"model_rank": 233
 },
 {
 "name": "James Wood",
@@ -7495,11 +5977,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".266",
+"avg": ".267",
 "hr": 30,
 "rbi": 76,
 "sb": 21,
-"ops": ".911",
+"ops": ".909",
 "imp_total": 4.5,
 "order": 0
 },
@@ -7514,22 +5996,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3292,
-"proj": 5.6,
-"consensus": 5.4,
+"salary": 3324,
+"proj": 5.7,
+"consensus": 5.5,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".240",
+"avg": ".248",
 "hr": 3,
-"rbi": 30,
+"rbi": 31,
 "sb": 2,
-"ops": ".664",
+"ops": ".677",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 358
+"model_rank": 356
 },
 {
 "name": "Jos\u00e9 Tena",
@@ -7539,22 +6021,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3228,
-"proj": 5.4,
-"consensus": 5.2,
+"salary": 3260,
+"proj": 5.5,
+"consensus": 5.3,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".220",
+"avg": ".223",
 "hr": 7,
-"rbi": 23,
-"sb": 5,
-"ops": ".668",
+"rbi": 25,
+"sb": 6,
+"ops": ".674",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 369
+"model_rank": 364
 },
 {
 "name": "Keibert Ruiz",
@@ -7572,15 +6054,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".288",
+"avg": ".286",
 "hr": 10,
 "rbi": 47,
 "sb": 2,
-"ops": ".785",
+"ops": ".780",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 207
+"model_rank": 204
 },
 {
 "name": "Nasim Nu\u00f1ez",
@@ -7591,22 +6073,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3868,
-"proj": 7.4,
-"consensus": 7.1,
+"salary": 3900,
+"proj": 7.5,
+"consensus": 7.2,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
 "avg": ".211",
 "hr": 1,
-"rbi": 35,
+"rbi": 36,
 "sb": 46,
-"ops": ".537",
+"ops": ".538",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 267
+"model_rank": 254
 },
 {
 "name": "Yohandy Morales",
@@ -7617,22 +6099,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4764,
-"proj": 10.2,
-"consensus": 9.8,
+"salary": 4572,
+"proj": 9.6,
+"consensus": 9.2,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".294",
+"avg": ".286",
 "hr": 2,
 "rbi": 6,
 "sb": 1,
-"ops": ".882",
+"ops": ".857",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 105
+"model_rank": 134
 },
 {
 "name": "Washington Nationals P",
@@ -7655,7 +6137,778 @@ window.DFS_DATA = {
 "win_prob": 0.5,
 "exp_ip": 6.0
 },
-"model_rank": 22
+"model_rank": 18
+},
+{
+"name": "Alejandro Osuna",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3356,
+"proj": 5.8,
+"consensus": 5.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".254",
+"hr": 1,
+"rbi": 24,
+"sb": 5,
+"ops": ".640",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 350
+},
+{
+"name": "Brandon Nimmo",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4380,
+"proj": 9.0,
+"consensus": 8.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".260",
+"hr": 14,
+"rbi": 61,
+"sb": 7,
+"ops": ".732",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 176
+},
+{
+"name": "Cody Freeman",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3068,
+"proj": 4.9,
+"consensus": 4.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".256",
+"hr": 1,
+"rbi": 6,
+"sb": 1,
+"ops": ".651",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 385
+},
+{
+"name": "Corey Seager",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4796,
+"proj": 10.3,
+"consensus": 9.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".234",
+"hr": 18,
+"rbi": 47,
+"sb": 2,
+"ops": ".757",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 99
+},
+{
+"name": "Danny Jansen",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3708,
+"proj": 6.9,
+"consensus": 6.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".206",
+"hr": 6,
+"rbi": 23,
+"sb": 1,
+"ops": ".669",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 291
+},
+{
+"name": "Elias D\u00edaz",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3324,
+"proj": 5.7,
+"consensus": 5.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".236",
+"hr": 7,
+"rbi": 33,
+"sb": 0,
+"ops": ".666",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 357
+},
+{
+"name": "Evan Carter",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3676,
+"proj": 6.8,
+"consensus": 6.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".189",
+"hr": 9,
+"rbi": 38,
+"sb": 16,
+"ops": ".595",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 293
+},
+{
+"name": "Ezequiel Duran",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4604,
+"proj": 9.7,
+"consensus": 9.3,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".266",
+"hr": 17,
+"rbi": 83,
+"sb": 11,
+"ops": ".758",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 127
+},
+{
+"name": "Jake Burger",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4572,
+"proj": 9.6,
+"consensus": 9.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".232",
+"hr": 26,
+"rbi": 86,
+"sb": 4,
+"ops": ".729",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 135
+},
+{
+"name": "Joc Pederson",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 4124,
+"proj": 8.2,
+"consensus": 7.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".235",
+"hr": 26,
+"rbi": 53,
+"sb": 2,
+"ops": ".816",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 218
+},
+{
+"name": "Josh Jung",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4668,
+"proj": 9.9,
+"consensus": 9.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".298",
+"hr": 11,
+"rbi": 39,
+"sb": 1,
+"ops": ".817",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 122
+},
+{
+"name": "Justin Foscue",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3516,
+"proj": 6.3,
+"consensus": 6.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".270",
+"hr": 11,
+"rbi": 34,
+"sb": 0,
+"ops": ".824",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 319
+},
+{
+"name": "Nicky Lopez",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3100,
+"proj": 5.0,
+"consensus": 4.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".271",
+"hr": 1,
+"rbi": 24,
+"sb": 5,
+"ops": ".631",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 383
+},
+{
+"name": "Wyatt Langford",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5052,
+"proj": 11.1,
+"consensus": 10.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".244",
+"hr": 17,
+"rbi": 42,
+"sb": 15,
+"ops": ".777",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 70
+},
+{
+"name": "Texas Rangers P",
+"team": "Texas Rangers",
+"opp": "Toronto Blue Jays",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 19
+},
+{
+"name": "Alejandro Kirk",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4380,
+"proj": 9.0,
+"consensus": 8.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".282",
+"hr": 10,
+"rbi": 42,
+"sb": 1,
+"ops": ".777",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 177
+},
+{
+"name": "Andr\u00e9s Gim\u00e9nez",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3836,
+"proj": 7.3,
+"consensus": 7.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".242",
+"hr": 9,
+"rbi": 57,
+"sb": 20,
+"ops": ".646",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 272
+},
+{
+"name": "Brandon Valenzuela",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3420,
+"proj": 6.0,
+"consensus": 5.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".217",
+"hr": 8,
+"rbi": 21,
+"sb": 2,
+"ops": ".662",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 335
+},
+{
+"name": "Brett Bateman",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4764,
+"proj": 10.2,
+"consensus": 9.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".322",
+"hr": 2,
+"rbi": 11,
+"sb": 3,
+"ops": ".798",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 107
+},
+{
+"name": "Charles McAdoo",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3356,
+"proj": 5.8,
+"consensus": 5.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".247",
+"hr": 2,
+"rbi": 10,
+"sb": 2,
+"ops": ".634",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 351
+},
+{
+"name": "Davis Schneider",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2972,
+"proj": 4.6,
+"consensus": 4.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".145",
+"hr": 4,
+"rbi": 13,
+"sb": 1,
+"ops": ".593",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 393
+},
+{
+"name": "Ernie Clement",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3900,
+"proj": 7.5,
+"consensus": 7.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".265",
+"hr": 9,
+"rbi": 48,
+"sb": 7,
+"ops": ".662",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 255
+},
+{
+"name": "George Springer",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 4572,
+"proj": 9.6,
+"consensus": 9.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".249",
+"hr": 15,
+"rbi": 53,
+"sb": 12,
+"ops": ".731",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 136
+},
+{
+"name": "Josh Smith",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3420,
+"proj": 6.0,
+"consensus": 5.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".218",
+"hr": 6,
+"rbi": 15,
+"sb": 4,
+"ops": ".653",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 336
+},
+{
+"name": "Kazuma Okamoto",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4796,
+"proj": 10.3,
+"consensus": 9.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".235",
+"hr": 33,
+"rbi": 88,
+"sb": 1,
+"ops": ".772",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 100
+},
+{
+"name": "Myles Straw",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2972,
+"proj": 4.6,
+"consensus": 4.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".237",
+"hr": 3,
+"rbi": 26,
+"sb": 7,
+"ops": ".645",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 394
+},
+{
+"name": "Nathan Lukes",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3740,
+"proj": 7.0,
+"consensus": 6.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".271",
+"hr": 10,
+"rbi": 37,
+"sb": 1,
+"ops": ".704",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 286
+},
+{
+"name": "Sean Keys",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 3228,
+"proj": 5.4,
+"consensus": 5.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".196",
+"hr": 2,
+"rbi": 7,
+"sb": 0,
+"ops": ".577",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 369
+},
+{
+"name": "Vladimir Guerrero Jr.",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4348,
+"proj": 8.9,
+"consensus": 8.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".262",
+"hr": 9,
+"rbi": 56,
+"sb": 7,
+"ops": ".694",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 185
+},
+{
+"name": "Toronto Blue Jays P",
+"team": "Toronto Blue Jays",
+"opp": "Texas Rangers",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 20
 },
 {
 "name": "Adael Amador",
@@ -7666,22 +6919,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4988,
-"proj": 10.9,
-"consensus": 10.5,
+"salary": 4924,
+"proj": 10.7,
+"consensus": 10.3,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".270",
+"avg": ".281",
 "hr": 4,
 "rbi": 13,
 "sb": 0,
-"ops": ".860",
+"ops": ".877",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 78
+"model_rank": 82
 },
 {
 "name": "Braxton Fulford",
@@ -7706,7 +6959,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 412
+"model_rank": 410
 },
 {
 "name": "Brett Sullivan",
@@ -7732,7 +6985,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 325
+"model_rank": 326
 },
 {
 "name": "Cole Carrigg",
@@ -7750,15 +7003,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".272",
+"avg": ".271",
 "hr": 10,
-"rbi": 46,
+"rbi": 48,
 "sb": 11,
-"ops": ".804",
+"ops": ".800",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 84
+"model_rank": 83
 },
 {
 "name": "Connor Norby",
@@ -7776,15 +7029,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".242",
+"avg": ".245",
 "hr": 7,
 "rbi": 32,
 "sb": 10,
-"ops": ".724",
+"ops": ".726",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 217
+"model_rank": 219
 },
 {
 "name": "Ezequiel Tovar",
@@ -7802,15 +7055,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".217",
+"avg": ".216",
 "hr": 11,
 "rbi": 42,
 "sb": 8,
-"ops": ".606",
+"ops": ".603",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 298
+"model_rank": 299
 },
 {
 "name": "Hunter Goodman",
@@ -7821,14 +7074,14 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5244,
-"proj": 11.7,
-"consensus": 11.2,
+"salary": 5212,
+"proj": 11.6,
+"consensus": 11.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".244",
+"avg": ".245",
 "hr": 38,
 "rbi": 81,
 "sb": 5,
@@ -7836,7 +7089,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 55
+"model_rank": 60
 },
 {
 "name": "Jake McCarthy",
@@ -7856,13 +7109,13 @@ window.DFS_DATA = {
 "stats": {
 "avg": ".298",
 "hr": 15,
-"rbi": 82,
+"rbi": 83,
 "sb": 31,
-"ops": ".832",
+"ops": ".829",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 56
+"model_rank": 54
 },
 {
 "name": "Jordan Beck",
@@ -7880,15 +7133,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".199",
+"avg": ".197",
 "hr": 1,
 "rbi": 11,
 "sb": 2,
-"ops": ".552",
+"ops": ".548",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 389
+"model_rank": 387
 },
 {
 "name": "Kyle Karros",
@@ -7906,15 +7159,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".259",
+"avg": ".258",
 "hr": 12,
 "rbi": 48,
 "sb": 5,
-"ops": ".774",
+"ops": ".773",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 192
+"model_rank": 191
 },
 {
 "name": "Mickey Moniak",
@@ -7925,22 +7178,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4540,
-"proj": 9.5,
-"consensus": 9.1,
+"salary": 4508,
+"proj": 9.4,
+"consensus": 9.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".244",
+"avg": ".242",
 "hr": 22,
 "rbi": 64,
 "sb": 1,
-"ops": ".773",
+"ops": ".765",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 145
+"model_rank": 150
 },
 {
 "name": "TJ Rumfield",
@@ -7958,15 +7211,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".300",
+"avg": ".302",
 "hr": 15,
-"rbi": 69,
+"rbi": 70,
 "sb": 0,
-"ops": ".845",
+"ops": ".846",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 139
+"model_rank": 137
 },
 {
 "name": "Troy Johnston",
@@ -7992,7 +7245,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 250
+"model_rank": 249
 },
 {
 "name": "Zac Veen",
@@ -8003,18 +7256,18 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3260,
-"proj": 5.5,
-"consensus": 5.3,
+"salary": 3292,
+"proj": 5.6,
+"consensus": 5.4,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".232",
+"avg": ".237",
 "hr": 2,
 "rbi": 12,
 "sb": 1,
-"ops": ".728",
+"ops": ".735",
 "imp_total": 4.5,
 "order": 0
 },
@@ -8041,7 +7294,7 @@ window.DFS_DATA = {
 "win_prob": 0.5,
 "exp_ip": 6.0
 },
-"model_rank": 23
+"model_rank": 21
 },
 {
 "name": "Brock Rodden",
@@ -8067,7 +7320,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 403
+"model_rank": 402
 },
 {
 "name": "Cal Raleigh",
@@ -8078,22 +7331,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4444,
-"proj": 9.2,
-"consensus": 8.8,
+"salary": 4508,
+"proj": 9.4,
+"consensus": 9.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".181",
-"hr": 22,
-"rbi": 66,
+"avg": ".184",
+"hr": 23,
+"rbi": 68,
 "sb": 2,
-"ops": ".662",
+"ops": ".673",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 161
+"model_rank": 151
 },
 {
 "name": "Cole Young",
@@ -8119,7 +7372,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 199
+"model_rank": 198
 },
 {
 "name": "Dominic Canzone",
@@ -8136,15 +7389,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".258",
+"avg": ".259",
 "hr": 22,
 "rbi": 70,
 "sb": 2,
-"ops": ".810",
+"ops": ".813",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 164
+"model_rank": 166
 },
 {
 "name": "J.P. Crawford",
@@ -8155,22 +7408,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4252,
-"proj": 8.6,
-"consensus": 8.3,
+"salary": 4220,
+"proj": 8.5,
+"consensus": 8.2,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".224",
+"avg": ".222",
 "hr": 13,
 "rbi": 38,
 "sb": 1,
-"ops": ".698",
+"ops": ".691",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 195
+"model_rank": 199
 },
 {
 "name": "Jhonny Pereda",
@@ -8196,7 +7449,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 309
+"model_rank": 306
 },
 {
 "name": "Josh Naylor",
@@ -8207,22 +7460,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4476,
-"proj": 9.3,
-"consensus": 8.9,
+"salary": 4444,
+"proj": 9.2,
+"consensus": 8.8,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".272",
+"avg": ".270",
 "hr": 10,
 "rbi": 54,
 "sb": 29,
-"ops": ".691",
+"ops": ".686",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 153
+"model_rank": 158
 },
 {
 "name": "Julio Rodr\u00edguez",
@@ -8233,22 +7486,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4732,
-"proj": 10.1,
-"consensus": 9.7,
+"salary": 4700,
+"proj": 10.0,
+"consensus": 9.6,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".241",
+"avg": ".243",
 "hr": 21,
 "rbi": 66,
 "sb": 22,
-"ops": ".696",
+"ops": ".700",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 115
+"model_rank": 116
 },
 {
 "name": "Lazaro Montes",
@@ -8259,22 +7512,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4380,
-"proj": 9.0,
-"consensus": 8.6,
+"salary": 4188,
+"proj": 8.4,
+"consensus": 8.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".250",
+"avg": ".222",
 "hr": 4,
 "rbi": 10,
 "sb": 0,
-"ops": ".970",
+"ops": ".865",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 177
+"model_rank": 205
 },
 {
 "name": "Randy Arozarena",
@@ -8285,22 +7538,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 5468,
-"proj": 12.4,
-"consensus": 11.9,
+"salary": 5500,
+"proj": 12.5,
+"consensus": 12.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
 "avg": ".281",
-"hr": 25,
-"rbi": 75,
+"hr": 26,
+"rbi": 76,
 "sb": 23,
-"ops": ".858",
+"ops": ".861",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 43
+"model_rank": 39
 },
 {
 "name": "Taylor Ward",
@@ -8325,7 +7578,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 208
+"model_rank": 206
 },
 {
 "name": "Victor Robles",
@@ -8362,22 +7615,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3228,
-"proj": 5.4,
-"consensus": 5.2,
+"salary": 3196,
+"proj": 5.3,
+"consensus": 5.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".219",
+"avg": ".213",
 "hr": 4,
 "rbi": 13,
 "sb": 6,
-"ops": ".633",
+"ops": ".618",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 370
+"model_rank": 373
 },
 {
 "name": "Seattle Mariners P",
@@ -8400,2141 +7653,7 @@ window.DFS_DATA = {
 "win_prob": 0.5,
 "exp_ip": 6.0
 },
-"model_rank": 24
-},
-{
-"name": "Corbin Carroll",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5212,
-"proj": 11.6,
-"consensus": 11.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".240",
-"hr": 22,
-"rbi": 69,
-"sb": 21,
-"ops": ".804",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 61
-},
-{
-"name": "Gabriel Moreno",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5052,
-"proj": 11.1,
-"consensus": 10.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".304",
-"hr": 15,
-"rbi": 75,
-"sb": 6,
-"ops": ".863",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 70
-},
-{
-"name": "Geraldo Perdomo",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4508,
-"proj": 9.4,
-"consensus": 9.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".254",
-"hr": 9,
-"rbi": 50,
-"sb": 20,
-"ops": ".726",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 151
-},
-{
-"name": "Ildemaro Vargas",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3996,
-"proj": 7.8,
-"consensus": 7.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".251",
-"hr": 9,
-"rbi": 67,
-"sb": 3,
-"ops": ".671",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 245
-},
-{
-"name": "James McCann",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3804,
-"proj": 7.2,
-"consensus": 6.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".282",
-"hr": 5,
-"rbi": 24,
-"sb": 0,
-"ops": ".743",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 279
-},
-{
-"name": "Jes\u00fas S\u00e1nchez",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3484,
-"proj": 6.2,
-"consensus": 6.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".261",
-"hr": 8,
-"rbi": 35,
-"sb": 1,
-"ops": ".730",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 326
-},
-{
-"name": "Jordan Lawlar",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4124,
-"proj": 8.2,
-"consensus": 7.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".264",
-"hr": 5,
-"rbi": 13,
-"sb": 5,
-"ops": ".776",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 218
-},
-{
-"name": "Jose Fernandez",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 3612,
-"proj": 6.6,
-"consensus": 6.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".260",
-"hr": 3,
-"rbi": 16,
-"sb": 9,
-"ops": ".655",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 302
-},
-{
-"name": "Ketel Marte",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4860,
-"proj": 10.5,
-"consensus": 10.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".249",
-"hr": 22,
-"rbi": 74,
-"sb": 4,
-"ops": ".753",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 90
-},
-{
-"name": "Lars Nootbaar",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 3996,
-"proj": 7.8,
-"consensus": 7.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".235",
-"hr": 7,
-"rbi": 31,
-"sb": 2,
-"ops": ".712",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 246
-},
-{
-"name": "Nolan Arenado",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4604,
-"proj": 9.7,
-"consensus": 9.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".245",
-"hr": 26,
-"rbi": 74,
-"sb": 4,
-"ops": ".771",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 131
-},
-{
-"name": "Pavin Smith",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3100,
-"proj": 5.0,
-"consensus": 4.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".163",
-"hr": 2,
-"rbi": 8,
-"sb": 2,
-"ops": ".493",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 383
-},
-{
-"name": "Ryan Waldschmidt",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3804,
-"proj": 7.2,
-"consensus": 6.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".254",
-"hr": 3,
-"rbi": 22,
-"sb": 7,
-"ops": ".683",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 280
-},
-{
-"name": "Tim Tawa",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3900,
-"proj": 7.5,
-"consensus": 7.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".239",
-"hr": 10,
-"rbi": 38,
-"sb": 8,
-"ops": ".692",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 261
-},
-{
-"name": "Arizona Diamondbacks P",
-"team": "Arizona Diamondbacks",
-"opp": "New York Yankees",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 25
-},
-{
-"name": "Ali S\u00e1nchez",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2500,
-"proj": 2.9,
-"consensus": 2.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".250",
-"hr": 1,
-"rbi": 8,
-"sb": 0,
-"ops": ".591",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 422
-},
-{
-"name": "Amed Rosario",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3548,
-"proj": 6.4,
-"consensus": 6.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".235",
-"hr": 10,
-"rbi": 33,
-"sb": 2,
-"ops": ".688",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 316
-},
-{
-"name": "Anthony Volpe",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4092,
-"proj": 8.1,
-"consensus": 7.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".247",
-"hr": 2,
-"rbi": 26,
-"sb": 11,
-"ops": ".670",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 227
-},
-{
-"name": "Austin Wells",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3388,
-"proj": 5.9,
-"consensus": 5.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".180",
-"hr": 12,
-"rbi": 30,
-"sb": 3,
-"ops": ".593",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 345
-},
-{
-"name": "Ben Rice",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 5532,
-"proj": 12.6,
-"consensus": 12.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".264",
-"hr": 39,
-"rbi": 94,
-"sb": 3,
-"ops": ".897",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 38
-},
-{
-"name": "Cody Bellinger",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4988,
-"proj": 10.9,
-"consensus": 10.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".273",
-"hr": 16,
-"rbi": 71,
-"sb": 12,
-"ops": ".788",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 79
-},
-{
-"name": "George Lombard Jr.",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4284,
-"proj": 8.7,
-"consensus": 8.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".234",
-"hr": 4,
-"rbi": 15,
-"sb": 2,
-"ops": ".663",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 193
-},
-{
-"name": "Heliot Ramos",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4188,
-"proj": 8.4,
-"consensus": 8.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".241",
-"hr": 11,
-"rbi": 42,
-"sb": 4,
-"ops": ".703",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 209
-},
-{
-"name": "Jos\u00e9 Caballero",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4220,
-"proj": 8.5,
-"consensus": 8.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".234",
-"hr": 14,
-"rbi": 51,
-"sb": 32,
-"ops": ".664",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 200
-},
-{
-"name": "Luis Garc\u00eda Jr.",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4796,
-"proj": 10.3,
-"consensus": 9.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".283",
-"hr": 30,
-"rbi": 91,
-"sb": 5,
-"ops": ".852",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 102
-},
-{
-"name": "Max Schuemann",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3228,
-"proj": 5.4,
-"consensus": 5.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".194",
-"hr": 2,
-"rbi": 8,
-"sb": 3,
-"ops": ".694",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 371
-},
-{
-"name": "Paul Goldschmidt",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4316,
-"proj": 8.8,
-"consensus": 8.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".253",
-"hr": 18,
-"rbi": 50,
-"sb": 1,
-"ops": ".771",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 188
-},
-{
-"name": "Ryan McMahon",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3292,
-"proj": 5.6,
-"consensus": 5.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".208",
-"hr": 10,
-"rbi": 35,
-"sb": 3,
-"ops": ".618",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 359
-},
-{
-"name": "Spencer Jones",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4252,
-"proj": 8.6,
-"consensus": 8.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".248",
-"hr": 10,
-"rbi": 38,
-"sb": 9,
-"ops": ".751",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 196
-},
-{
-"name": "New York Yankees P",
-"team": "New York Yankees",
-"opp": "Arizona Diamondbacks",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 26
-},
-{
-"name": "Austin Hays",
-"team": "San Diego Padres",
-"opp": "Miami Marlins",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 3516,
-"proj": 6.3,
-"consensus": 6.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".267",
-"hr": 3,
-"rbi": 12,
-"sb": 0,
-"ops": ".687",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 320
-},
-{
-"name": "Dustin Harris",
-"team": "San Diego Padres",
-"opp": "Miami Marlins",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4380,
-"proj": 9.0,
-"consensus": 8.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".314",
-"hr": 0,
-"rbi": 18,
-"sb": 9,
-"ops": ".776",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 178
-},
-{
-"name": "Fernando Tatis Jr.",
-"team": "San Diego Padres",
-"opp": "Miami Marlins",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5404,
-"proj": 12.2,
-"consensus": 11.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".285",
-"hr": 23,
-"rbi": 79,
-"sb": 35,
-"ops": ".816",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 46
-},
-{
-"name": "Freddy Fermin",
-"team": "San Diego Padres",
-"opp": "Miami Marlins",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3004,
-"proj": 4.7,
-"consensus": 4.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".197",
-"hr": 4,
-"rbi": 20,
-"sb": 1,
-"ops": ".581",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 392
-},
-{
-"name": "Jackson Merrill",
-"team": "San Diego Padres",
-"opp": "Miami Marlins",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5020,
-"proj": 11.0,
-"consensus": 10.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".256",
-"hr": 26,
-"rbi": 86,
-"sb": 26,
-"ops": ".752",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 74
-},
-{
-"name": "Jake Cronenworth",
-"team": "San Diego Padres",
-"opp": "Miami Marlins",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3836,
-"proj": 7.3,
-"consensus": 7.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".223",
-"hr": 5,
-"rbi": 30,
-"sb": 7,
-"ops": ".607",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 272
-},
-{
-"name": "Jase Bowen",
-"team": "San Diego Padres",
-"opp": "Miami Marlins",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2500,
-"proj": 2.6,
-"consensus": 2.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".154",
-"hr": 2,
-"rbi": 7,
-"sb": 6,
-"ops": ".462",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 427
-},
-{
-"name": "Luis Campusano",
-"team": "San Diego Padres",
-"opp": "Miami Marlins",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4092,
-"proj": 8.1,
-"consensus": 7.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".267",
-"hr": 8,
-"rbi": 29,
-"sb": 0,
-"ops": ".808",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 228
-},
-{
-"name": "Manny Machado",
-"team": "San Diego Padres",
-"opp": "Miami Marlins",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4764,
-"proj": 10.2,
-"consensus": 9.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".219",
-"hr": 28,
-"rbi": 84,
-"sb": 5,
-"ops": ".717",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 106
-},
-{
-"name": "Samad Taylor",
-"team": "San Diego Padres",
-"opp": "Miami Marlins",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4764,
-"proj": 10.2,
-"consensus": 9.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".326",
-"hr": 1,
-"rbi": 15,
-"sb": 10,
-"ops": ".805",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 107
-},
-{
-"name": "Sung-Mun Song",
-"team": "San Diego Padres",
-"opp": "Miami Marlins",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3004,
-"proj": 4.7,
-"consensus": 4.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".187",
-"hr": 1,
-"rbi": 16,
-"sb": 13,
-"ops": ".533",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 393
-},
-{
-"name": "Ty France",
-"team": "San Diego Padres",
-"opp": "Miami Marlins",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4636,
-"proj": 9.8,
-"consensus": 9.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".301",
-"hr": 21,
-"rbi": 69,
-"sb": 1,
-"ops": ".887",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 127
-},
-{
-"name": "Xander Bogaerts",
-"team": "San Diego Padres",
-"opp": "Miami Marlins",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4316,
-"proj": 8.8,
-"consensus": 8.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".228",
-"hr": 12,
-"rbi": 56,
-"sb": 21,
-"ops": ".665",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 189
-},
-{
-"name": "San Diego Padres P",
-"team": "San Diego Padres",
-"opp": "Miami Marlins",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 27
-},
-{
-"name": "Agust\u00edn Ram\u00edrez",
-"team": "Miami Marlins",
-"opp": "San Diego Padres",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 3964,
-"proj": 7.7,
-"consensus": 7.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".231",
-"hr": 5,
-"rbi": 22,
-"sb": 4,
-"ops": ".681",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 247
-},
-{
-"name": "Brian Navarreto",
-"team": "Miami Marlins",
-"opp": "San Diego Padres",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2500,
-"proj": 2.7,
-"consensus": 2.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".128",
-"hr": 1,
-"rbi": 3,
-"sb": 0,
-"ops": ".426",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 426
-},
-{
-"name": "Esteury Ruiz",
-"team": "Miami Marlins",
-"opp": "San Diego Padres",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3676,
-"proj": 6.8,
-"consensus": 6.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".222",
-"hr": 6,
-"rbi": 15,
-"sb": 30,
-"ops": ".723",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 293
-},
-{
-"name": "Graham Pauley",
-"team": "Miami Marlins",
-"opp": "San Diego Padres",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3356,
-"proj": 5.8,
-"consensus": 5.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".211",
-"hr": 4,
-"rbi": 25,
-"sb": 1,
-"ops": ".642",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 353
-},
-{
-"name": "Griffin Conine",
-"team": "Miami Marlins",
-"opp": "San Diego Padres",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4412,
-"proj": 9.1,
-"consensus": 8.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".253",
-"hr": 16,
-"rbi": 38,
-"sb": 4,
-"ops": ".820",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 165
-},
-{
-"name": "Heriberto Hern\u00e1ndez",
-"team": "Miami Marlins",
-"opp": "San Diego Padres",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4604,
-"proj": 9.7,
-"consensus": 9.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".230",
-"hr": 24,
-"rbi": 64,
-"sb": 11,
-"ops": ".759",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 132
-},
-{
-"name": "Jakob Marsee",
-"team": "Miami Marlins",
-"opp": "San Diego Padres",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4412,
-"proj": 9.1,
-"consensus": 8.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".228",
-"hr": 11,
-"rbi": 39,
-"sb": 23,
-"ops": ".703",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 166
-},
-{
-"name": "Javier Sanoja",
-"team": "Miami Marlins",
-"opp": "San Diego Padres",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4156,
-"proj": 8.3,
-"consensus": 8.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".294",
-"hr": 9,
-"rbi": 64,
-"sb": 11,
-"ops": ".784",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 214
-},
-{
-"name": "Joe Mack",
-"team": "Miami Marlins",
-"opp": "San Diego Padres",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3772,
-"proj": 7.1,
-"consensus": 6.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".232",
-"hr": 13,
-"rbi": 47,
-"sb": 0,
-"ops": ".678",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 285
-},
-{
-"name": "Kyle Stowers",
-"team": "Miami Marlins",
-"opp": "San Diego Padres",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4732,
-"proj": 10.1,
-"consensus": 9.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".237",
-"hr": 19,
-"rbi": 61,
-"sb": 1,
-"ops": ".774",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 116
-},
-{
-"name": "Otto Lopez",
-"team": "Miami Marlins",
-"opp": "San Diego Padres",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 5084,
-"proj": 11.2,
-"consensus": 10.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".307",
-"hr": 10,
-"rbi": 69,
-"sb": 31,
-"ops": ".790",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 69
-},
-{
-"name": "Xavier Edwards",
-"team": "Miami Marlins",
-"opp": "San Diego Padres",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4476,
-"proj": 9.3,
-"consensus": 8.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".282",
-"hr": 6,
-"rbi": 52,
-"sb": 21,
-"ops": ".734",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 154
-},
-{
-"name": "Miami Marlins P",
-"team": "Miami Marlins",
-"opp": "San Diego Padres",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 28
-},
-{
-"name": "Alex Call",
-"team": "Los Angeles Dodgers",
-"opp": "San Francisco Giants",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2972,
-"proj": 4.6,
-"consensus": 4.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".233",
-"hr": 1,
-"rbi": 19,
-"sb": 1,
-"ops": ".653",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 396
-},
-{
-"name": "Alex Freeland",
-"team": "Los Angeles Dodgers",
-"opp": "San Francisco Giants",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3420,
-"proj": 6.0,
-"consensus": 5.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".230",
-"hr": 4,
-"rbi": 21,
-"sb": 4,
-"ops": ".644",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 340
-},
-{
-"name": "Enrique Hern\u00e1ndez",
-"team": "Los Angeles Dodgers",
-"opp": "San Francisco Giants",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3100,
-"proj": 5.0,
-"consensus": 4.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".218",
-"hr": 3,
-"rbi": 10,
-"sb": 0,
-"ops": ".646",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 384
-},
-{
-"name": "Freddie Freeman",
-"team": "Los Angeles Dodgers",
-"opp": "San Francisco Giants",
-"pos": [
-"1B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4764,
-"proj": 10.2,
-"consensus": 9.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".293",
-"hr": 16,
-"rbi": 67,
-"sb": 7,
-"ops": ".811",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 108
-},
-{
-"name": "Hunter Feduccia",
-"team": "Los Angeles Dodgers",
-"opp": "San Francisco Giants",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3036,
-"proj": 4.8,
-"consensus": 4.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".233",
-"hr": 3,
-"rbi": 19,
-"sb": 0,
-"ops": ".653",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 390
-},
-{
-"name": "Kyle Tucker",
-"team": "Los Angeles Dodgers",
-"opp": "San Francisco Giants",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4700,
-"proj": 10.0,
-"consensus": 9.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".234",
-"hr": 17,
-"rbi": 70,
-"sb": 11,
-"ops": ".728",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 119
-},
-{
-"name": "Max Muncy",
-"team": "Los Angeles Dodgers",
-"opp": "San Francisco Giants",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4764,
-"proj": 10.2,
-"consensus": 9.8,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".253",
-"hr": 29,
-"rbi": 74,
-"sb": 2,
-"ops": ".847",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 109
-},
-{
-"name": "Miguel Rojas",
-"team": "Los Angeles Dodgers",
-"opp": "San Francisco Giants",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2972,
-"proj": 4.6,
-"consensus": 4.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".268",
-"hr": 4,
-"rbi": 21,
-"sb": 1,
-"ops": ".703",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 397
-},
-{
-"name": "Mookie Betts",
-"team": "Los Angeles Dodgers",
-"opp": "San Francisco Giants",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4860,
-"proj": 10.5,
-"consensus": 10.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".254",
-"hr": 22,
-"rbi": 65,
-"sb": 2,
-"ops": ".766",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 91
-},
-{
-"name": "Teoscar Hern\u00e1ndez",
-"team": "Los Angeles Dodgers",
-"opp": "San Francisco Giants",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4604,
-"proj": 9.7,
-"consensus": 9.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".265",
-"hr": 15,
-"rbi": 63,
-"sb": 5,
-"ops": ".760",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 133
-},
-{
-"name": "Tommy Edman",
-"team": "Los Angeles Dodgers",
-"opp": "San Francisco Giants",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4412,
-"proj": 9.1,
-"consensus": 8.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".244",
-"hr": 6,
-"rbi": 35,
-"sb": 6,
-"ops": ".698",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 167
-},
-{
-"name": "Will Smith",
-"team": "Los Angeles Dodgers",
-"opp": "San Francisco Giants",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4252,
-"proj": 8.6,
-"consensus": 8.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".241",
-"hr": 8,
-"rbi": 31,
-"sb": 0,
-"ops": ".733",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 197
-},
-{
-"name": "Los Angeles Dodgers P",
-"team": "Los Angeles Dodgers",
-"opp": "San Francisco Giants",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 29
-},
-{
-"name": "Andrew Knizner",
-"team": "San Francisco Giants",
-"opp": "Los Angeles Dodgers",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3196,
-"proj": 5.3,
-"consensus": 5.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".222",
-"hr": 2,
-"rbi": 4,
-"sb": 0,
-"ops": ".689",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 373
-},
-{
-"name": "Bryce Eldridge",
-"team": "San Francisco Giants",
-"opp": "Los Angeles Dodgers",
-"pos": [
-"UTIL"
-],
-"role": "hitter",
-"salary": 4796,
-"proj": 10.3,
-"consensus": 9.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".269",
-"hr": 17,
-"rbi": 57,
-"sb": 1,
-"ops": ".825",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 103
-},
-{
-"name": "Christian Koss",
-"team": "San Francisco Giants",
-"opp": "Los Angeles Dodgers",
-"pos": [
-"SS",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3388,
-"proj": 5.9,
-"consensus": 5.7,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".236",
-"hr": 4,
-"rbi": 12,
-"sb": 5,
-"ops": ".611",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 346
-},
-{
-"name": "Drew Cavanaugh",
-"team": "San Francisco Giants",
-"opp": "Los Angeles Dodgers",
-"pos": [
-"C",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2908,
-"proj": 4.4,
-"consensus": 4.2,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".231",
-"hr": 1,
-"rbi": 10,
-"sb": 1,
-"ops": ".598",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 404
-},
-{
-"name": "Drew Gilbert",
-"team": "San Francisco Giants",
-"opp": "Los Angeles Dodgers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3644,
-"proj": 6.7,
-"consensus": 6.4,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".232",
-"hr": 10,
-"rbi": 40,
-"sb": 2,
-"ops": ".706",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 299
-},
-{
-"name": "Grant McCray",
-"team": "San Francisco Giants",
-"opp": "Los Angeles Dodgers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3132,
-"proj": 5.1,
-"consensus": 4.9,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".153",
-"hr": 2,
-"rbi": 4,
-"sb": 6,
-"ops": ".548",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 381
-},
-{
-"name": "Jonah Cox",
-"team": "San Francisco Giants",
-"opp": "Los Angeles Dodgers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3836,
-"proj": 7.3,
-"consensus": 7.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".295",
-"hr": 4,
-"rbi": 14,
-"sb": 13,
-"ops": ".776",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 273
-},
-{
-"name": "Jung Hoo Lee",
-"team": "San Francisco Giants",
-"opp": "Los Angeles Dodgers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4348,
-"proj": 8.9,
-"consensus": 8.5,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".274",
-"hr": 10,
-"rbi": 56,
-"sb": 12,
-"ops": ".718",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 186
-},
-{
-"name": "Osleivis Basabe",
-"team": "San Francisco Giants",
-"opp": "Los Angeles Dodgers",
-"pos": [
-"2B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3516,
-"proj": 6.3,
-"consensus": 6.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".200",
-"hr": 5,
-"rbi": 13,
-"sb": 2,
-"ops": ".610",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 321
-},
-{
-"name": "Shay Whitcomb",
-"team": "San Francisco Giants",
-"opp": "Los Angeles Dodgers",
-"pos": [
-"3B",
-"UTIL"
-],
-"role": "hitter",
-"salary": 2844,
-"proj": 4.2,
-"consensus": 4.0,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".188",
-"hr": 4,
-"rbi": 11,
-"sb": 0,
-"ops": ".556",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 408
-},
-{
-"name": "Turner Hill",
-"team": "San Francisco Giants",
-"opp": "Los Angeles Dodgers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4188,
-"proj": 8.4,
-"consensus": 8.1,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".239",
-"hr": 1,
-"rbi": 15,
-"sb": 1,
-"ops": ".681",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 210
-},
-{
-"name": "Victor Bericoto",
-"team": "San Francisco Giants",
-"opp": "Los Angeles Dodgers",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 3260,
-"proj": 5.5,
-"consensus": 5.3,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".241",
-"hr": 4,
-"rbi": 12,
-"sb": 1,
-"ops": ".664",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 362
-},
-{
-"name": "San Francisco Giants P",
-"team": "San Francisco Giants",
-"opp": "Los Angeles Dodgers",
-"pos": [
-"P"
-],
-"role": "pitcher",
-"salary": 9040,
-"proj": 14.0,
-"consensus": 13.4,
-"verified": false,
-"note": "Modeled projection (no probable yet)",
-"status": "live",
-"stats": {
-"era": null,
-"k9": null,
-"w": null,
-"win_prob": 0.5,
-"exp_ip": 6.0
-},
-"model_rank": 30
+"model_rank": 22
 },
 {
 "name": "Adam Frazier",
@@ -10545,22 +7664,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 2940,
-"proj": 4.5,
-"consensus": 4.3,
+"salary": 2972,
+"proj": 4.6,
+"consensus": 4.4,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".234",
+"avg": ".240",
 "hr": 1,
-"rbi": 11,
+"rbi": 13,
 "sb": 3,
-"ops": ".646",
+"ops": ".664",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 401
+"model_rank": 396
 },
 {
 "name": "Bryce Teodosio",
@@ -10572,8 +7691,8 @@ window.DFS_DATA = {
 ],
 "role": "hitter",
 "salary": 2500,
-"proj": 2.8,
-"consensus": 2.7,
+"proj": 2.9,
+"consensus": 2.8,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -10581,12 +7700,12 @@ window.DFS_DATA = {
 "avg": ".204",
 "hr": 0,
 "rbi": 2,
-"sb": 4,
+"sb": 5,
 "ops": ".509",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 425
+"model_rank": 422
 },
 {
 "name": "Christian Moore",
@@ -10604,11 +7723,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".165",
+"avg": ".173",
 "hr": 1,
-"rbi": 10,
+"rbi": 11,
 "sb": 1,
-"ops": ".459",
+"ops": ".472",
 "imp_total": 4.5,
 "order": 0
 },
@@ -10623,9 +7742,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3612,
-"proj": 6.6,
-"consensus": 6.3,
+"salary": 3644,
+"proj": 6.7,
+"consensus": 6.4,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -10638,7 +7757,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 303
+"model_rank": 300
 },
 {
 "name": "Jose Siri",
@@ -10649,22 +7768,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3260,
-"proj": 5.5,
-"consensus": 5.3,
+"salary": 3388,
+"proj": 5.9,
+"consensus": 5.7,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".232",
-"hr": 8,
-"rbi": 28,
-"sb": 7,
-"ops": ".682",
+"avg": ".237",
+"hr": 9,
+"rbi": 30,
+"sb": 9,
+"ops": ".705",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 363
+"model_rank": 346
 },
 {
 "name": "Josh Lowe",
@@ -10686,7 +7805,7 @@ window.DFS_DATA = {
 "hr": 12,
 "rbi": 29,
 "sb": 10,
-"ops": ".644",
+"ops": ".643",
 "imp_total": 4.5,
 "order": 0
 },
@@ -10708,15 +7827,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".239",
+"avg": ".241",
 "hr": 21,
 "rbi": 53,
 "sb": 11,
-"ops": ".796",
+"ops": ".800",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 75
+"model_rank": 74
 },
 {
 "name": "Mois\u00e9s Ballesteros",
@@ -10733,15 +7852,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".228",
+"avg": ".223",
 "hr": 9,
 "rbi": 35,
 "sb": 1,
-"ops": ".647",
+"ops": ".635",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 322
+"model_rank": 320
 },
 {
 "name": "Oswald Peraza",
@@ -10752,22 +7871,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3388,
-"proj": 5.9,
-"consensus": 5.7,
+"salary": 3356,
+"proj": 5.8,
+"consensus": 5.6,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".225",
+"avg": ".224",
 "hr": 7,
 "rbi": 25,
 "sb": 12,
-"ops": ".617",
+"ops": ".615",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 347
+"model_rank": 352
 },
 {
 "name": "Travis d'Arnaud",
@@ -10793,7 +7912,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 417
+"model_rank": 418
 },
 {
 "name": "Tyler Heineman",
@@ -10811,11 +7930,11 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".171",
+"avg": ".173",
 "hr": 1,
 "rbi": 9,
 "sb": 1,
-"ops": ".435",
+"ops": ".439",
 "imp_total": 4.5,
 "order": 0
 },
@@ -10830,22 +7949,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4252,
-"proj": 8.6,
-"consensus": 8.3,
+"salary": 4284,
+"proj": 8.7,
+"consensus": 8.4,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
 "avg": ".237",
-"hr": 11,
-"rbi": 65,
+"hr": 12,
+"rbi": 66,
 "sb": 1,
-"ops": ".680",
+"ops": ".689",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 198
+"model_rank": 192
 },
 {
 "name": "Wade Meckler",
@@ -10863,15 +7982,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".295",
+"avg": ".293",
 "hr": 3,
 "rbi": 27,
 "sb": 8,
-"ops": ".751",
+"ops": ".746",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 251
+"model_rank": 250
 },
 {
 "name": "Zach Neto",
@@ -10889,15 +8008,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".240",
+"avg": ".239",
 "hr": 26,
 "rbi": 74,
 "sb": 21,
-"ops": ".762",
+"ops": ".759",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 62
+"model_rank": 61
 },
 {
 "name": "Los Angeles Angels P",
@@ -10920,7 +8039,7 @@ window.DFS_DATA = {
 "win_prob": 0.5,
 "exp_ip": 6.0
 },
-"model_rank": 31
+"model_rank": 23
 },
 {
 "name": "Alan Roden",
@@ -10972,7 +8091,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 387
+"model_rank": 386
 },
 {
 "name": "Austin Martin",
@@ -10983,22 +8102,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3580,
-"proj": 6.5,
-"consensus": 6.2,
+"salary": 3548,
+"proj": 6.4,
+"consensus": 6.1,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".234",
+"avg": ".232",
 "hr": 3,
-"rbi": 23,
+"rbi": 24,
 "sb": 12,
-"ops": ".668",
+"ops": ".662",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 310
+"model_rank": 314
 },
 {
 "name": "Brooks Lee",
@@ -11020,11 +8139,11 @@ window.DFS_DATA = {
 "hr": 23,
 "rbi": 81,
 "sb": 8,
-"ops": ".727",
+"ops": ".725",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 146
+"model_rank": 143
 },
 {
 "name": "Josh Bell",
@@ -11041,15 +8160,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".252",
+"avg": ".254",
 "hr": 20,
 "rbi": 89,
 "sb": 2,
-"ops": ".733",
+"ops": ".735",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 134
+"model_rank": 128
 },
 {
 "name": "Kody Clemens",
@@ -11060,9 +8179,9 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4828,
-"proj": 10.4,
-"consensus": 10.0,
+"salary": 4796,
+"proj": 10.3,
+"consensus": 9.9,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
@@ -11075,7 +8194,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 98
+"model_rank": 101
 },
 {
 "name": "Luke Keaschall",
@@ -11086,22 +8205,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4476,
-"proj": 9.3,
-"consensus": 8.9,
+"salary": 4508,
+"proj": 9.4,
+"consensus": 9.0,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".279",
+"avg": ".278",
 "hr": 9,
-"rbi": 45,
-"sb": 18,
+"rbi": 46,
+"sb": 19,
 "ops": ".757",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 155
+"model_rank": 152
 },
 {
 "name": "Royce Lewis",
@@ -11119,15 +8238,15 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".226",
+"avg": ".228",
 "hr": 14,
 "rbi": 54,
 "sb": 15,
-"ops": ".670",
+"ops": ".674",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 168
+"model_rank": 167
 },
 {
 "name": "Ryan Jeffers",
@@ -11138,22 +8257,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 4956,
-"proj": 10.8,
-"consensus": 10.4,
+"salary": 4924,
+"proj": 10.7,
+"consensus": 10.3,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".259",
+"avg": ".255",
 "hr": 14,
 "rbi": 55,
 "sb": 1,
-"ops": ".835",
+"ops": ".822",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 81
+"model_rank": 84
 },
 {
 "name": "Ryan Kreidler",
@@ -11164,22 +8283,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3260,
-"proj": 5.5,
-"consensus": 5.3,
+"salary": 3292,
+"proj": 5.6,
+"consensus": 5.4,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".217",
-"hr": 7,
-"rbi": 27,
+"avg": ".218",
+"hr": 8,
+"rbi": 28,
 "sb": 4,
-"ops": ".654",
+"ops": ".667",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 364
+"model_rank": 362
 },
 {
 "name": "Victor Caratini",
@@ -11190,22 +8309,22 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
-"salary": 3644,
-"proj": 6.7,
-"consensus": 6.4,
+"salary": 3676,
+"proj": 6.8,
+"consensus": 6.5,
 "verified": false,
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".221",
+"avg": ".224",
 "hr": 7,
-"rbi": 42,
+"rbi": 44,
 "sb": 0,
-"ops": ".631",
+"ops": ".634",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 300
+"model_rank": 294
 },
 {
 "name": "Walker Jenkins",
@@ -11216,6 +8335,1265 @@ window.DFS_DATA = {
 "UTIL"
 ],
 "role": "hitter",
+"salary": 4188,
+"proj": 8.4,
+"consensus": 8.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".211",
+"hr": 3,
+"rbi": 8,
+"sb": 1,
+"ops": ".712",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 207
+},
+{
+"name": "Minnesota Twins P",
+"team": "Minnesota Twins",
+"opp": "Los Angeles Angels",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 24
+},
+{
+"name": "Alex Call",
+"team": "Los Angeles Dodgers",
+"opp": "San Francisco Giants",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2972,
+"proj": 4.6,
+"consensus": 4.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".231",
+"hr": 1,
+"rbi": 19,
+"sb": 1,
+"ops": ".649",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 397
+},
+{
+"name": "Alex Freeland",
+"team": "Los Angeles Dodgers",
+"opp": "San Francisco Giants",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3420,
+"proj": 6.0,
+"consensus": 5.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".234",
+"hr": 4,
+"rbi": 21,
+"sb": 4,
+"ops": ".652",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 337
+},
+{
+"name": "Enrique Hern\u00e1ndez",
+"team": "Los Angeles Dodgers",
+"opp": "San Francisco Giants",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3036,
+"proj": 4.8,
+"consensus": 4.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".218",
+"hr": 3,
+"rbi": 10,
+"sb": 0,
+"ops": ".646",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 388
+},
+{
+"name": "Freddie Freeman",
+"team": "Los Angeles Dodgers",
+"opp": "San Francisco Giants",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4732,
+"proj": 10.1,
+"consensus": 9.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".290",
+"hr": 16,
+"rbi": 67,
+"sb": 7,
+"ops": ".805",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 112
+},
+{
+"name": "Hunter Feduccia",
+"team": "Los Angeles Dodgers",
+"opp": "San Francisco Giants",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3036,
+"proj": 4.8,
+"consensus": 4.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".233",
+"hr": 3,
+"rbi": 19,
+"sb": 0,
+"ops": ".653",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 389
+},
+{
+"name": "Kyle Tucker",
+"team": "Los Angeles Dodgers",
+"opp": "San Francisco Giants",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4700,
+"proj": 10.0,
+"consensus": 9.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".235",
+"hr": 17,
+"rbi": 70,
+"sb": 11,
+"ops": ".728",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 117
+},
+{
+"name": "Max Muncy",
+"team": "Los Angeles Dodgers",
+"opp": "San Francisco Giants",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4796,
+"proj": 10.3,
+"consensus": 9.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".254",
+"hr": 29,
+"rbi": 75,
+"sb": 2,
+"ops": ".851",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 102
+},
+{
+"name": "Miguel Rojas",
+"team": "Los Angeles Dodgers",
+"opp": "San Francisco Giants",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2972,
+"proj": 4.6,
+"consensus": 4.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".270",
+"hr": 4,
+"rbi": 22,
+"sb": 1,
+"ops": ".706",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 398
+},
+{
+"name": "Mookie Betts",
+"team": "Los Angeles Dodgers",
+"opp": "San Francisco Giants",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4956,
+"proj": 10.8,
+"consensus": 10.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".261",
+"hr": 22,
+"rbi": 67,
+"sb": 2,
+"ops": ".785",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 79
+},
+{
+"name": "Teoscar Hern\u00e1ndez",
+"team": "Los Angeles Dodgers",
+"opp": "San Francisco Giants",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4572,
+"proj": 9.6,
+"consensus": 9.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".264",
+"hr": 15,
+"rbi": 63,
+"sb": 5,
+"ops": ".755",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 138
+},
+{
+"name": "Tommy Edman",
+"team": "Los Angeles Dodgers",
+"opp": "San Francisco Giants",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4412,
+"proj": 9.1,
+"consensus": 8.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".244",
+"hr": 6,
+"rbi": 37,
+"sb": 6,
+"ops": ".696",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 168
+},
+{
+"name": "Will Smith",
+"team": "Los Angeles Dodgers",
+"opp": "San Francisco Giants",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4380,
+"proj": 9.0,
+"consensus": 8.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".249",
+"hr": 9,
+"rbi": 33,
+"sb": 0,
+"ops": ".756",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 178
+},
+{
+"name": "Los Angeles Dodgers P",
+"team": "Los Angeles Dodgers",
+"opp": "San Francisco Giants",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 25
+},
+{
+"name": "Andrew Knizner",
+"team": "San Francisco Giants",
+"opp": "Los Angeles Dodgers",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3228,
+"proj": 5.4,
+"consensus": 5.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".224",
+"hr": 2,
+"rbi": 4,
+"sb": 0,
+"ops": ".676",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 370
+},
+{
+"name": "Bryce Eldridge",
+"team": "San Francisco Giants",
+"opp": "Los Angeles Dodgers",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 4796,
+"proj": 10.3,
+"consensus": 9.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".269",
+"hr": 17,
+"rbi": 57,
+"sb": 1,
+"ops": ".825",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 103
+},
+{
+"name": "Christian Koss",
+"team": "San Francisco Giants",
+"opp": "Los Angeles Dodgers",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3356,
+"proj": 5.8,
+"consensus": 5.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".232",
+"hr": 4,
+"rbi": 12,
+"sb": 5,
+"ops": ".602",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 353
+},
+{
+"name": "Drew Cavanaugh",
+"team": "San Francisco Giants",
+"opp": "Los Angeles Dodgers",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2908,
+"proj": 4.4,
+"consensus": 4.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".231",
+"hr": 1,
+"rbi": 10,
+"sb": 1,
+"ops": ".598",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 403
+},
+{
+"name": "Drew Gilbert",
+"team": "San Francisco Giants",
+"opp": "Los Angeles Dodgers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3644,
+"proj": 6.7,
+"consensus": 6.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".232",
+"hr": 10,
+"rbi": 40,
+"sb": 2,
+"ops": ".708",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 301
+},
+{
+"name": "Grant McCray",
+"team": "San Francisco Giants",
+"opp": "Los Angeles Dodgers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3164,
+"proj": 5.2,
+"consensus": 5.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".153",
+"hr": 2,
+"rbi": 4,
+"sb": 7,
+"ops": ".557",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 380
+},
+{
+"name": "Jonah Cox",
+"team": "San Francisco Giants",
+"opp": "Los Angeles Dodgers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3836,
+"proj": 7.3,
+"consensus": 7.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".288",
+"hr": 4,
+"rbi": 15,
+"sb": 13,
+"ops": ".758",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 273
+},
+{
+"name": "Jung Hoo Lee",
+"team": "San Francisco Giants",
+"opp": "Los Angeles Dodgers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4348,
+"proj": 8.9,
+"consensus": 8.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".276",
+"hr": 10,
+"rbi": 57,
+"sb": 12,
+"ops": ".722",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 186
+},
+{
+"name": "Osleivis Basabe",
+"team": "San Francisco Giants",
+"opp": "Los Angeles Dodgers",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3516,
+"proj": 6.3,
+"consensus": 6.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".203",
+"hr": 5,
+"rbi": 13,
+"sb": 2,
+"ops": ".617",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 321
+},
+{
+"name": "Shay Whitcomb",
+"team": "San Francisco Giants",
+"opp": "Los Angeles Dodgers",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2812,
+"proj": 4.1,
+"consensus": 3.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".180",
+"hr": 4,
+"rbi": 11,
+"sb": 0,
+"ops": ".534",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 408
+},
+{
+"name": "Turner Hill",
+"team": "San Francisco Giants",
+"opp": "Los Angeles Dodgers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4220,
+"proj": 8.5,
+"consensus": 8.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".239",
+"hr": 1,
+"rbi": 15,
+"sb": 2,
+"ops": ".673",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 200
+},
+{
+"name": "Victor Bericoto",
+"team": "San Francisco Giants",
+"opp": "Los Angeles Dodgers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3516,
+"proj": 6.3,
+"consensus": 6.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".253",
+"hr": 5,
+"rbi": 14,
+"sb": 1,
+"ops": ".731",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 322
+},
+{
+"name": "San Francisco Giants P",
+"team": "San Francisco Giants",
+"opp": "Los Angeles Dodgers",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 26
+},
+{
+"name": "Austin Hays",
+"team": "San Diego Padres",
+"opp": "Miami Marlins",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 3516,
+"proj": 6.3,
+"consensus": 6.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".267",
+"hr": 3,
+"rbi": 12,
+"sb": 0,
+"ops": ".687",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 323
+},
+{
+"name": "Dustin Harris",
+"team": "San Diego Padres",
+"opp": "Miami Marlins",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4412,
+"proj": 9.1,
+"consensus": 8.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".308",
+"hr": 0,
+"rbi": 18,
+"sb": 9,
+"ops": ".769",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 169
+},
+{
+"name": "Fernando Tatis Jr.",
+"team": "San Diego Padres",
+"opp": "Miami Marlins",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5436,
+"proj": 12.3,
+"consensus": 11.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".285",
+"hr": 24,
+"rbi": 80,
+"sb": 36,
+"ops": ".819",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 44
+},
+{
+"name": "Freddy Fermin",
+"team": "San Diego Padres",
+"opp": "Miami Marlins",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2972,
+"proj": 4.6,
+"consensus": 4.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".194",
+"hr": 4,
+"rbi": 20,
+"sb": 1,
+"ops": ".572",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 399
+},
+{
+"name": "Jackson Merrill",
+"team": "San Diego Padres",
+"opp": "Miami Marlins",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5020,
+"proj": 11.0,
+"consensus": 10.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".255",
+"hr": 26,
+"rbi": 86,
+"sb": 26,
+"ops": ".752",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 75
+},
+{
+"name": "Jake Cronenworth",
+"team": "San Diego Padres",
+"opp": "Miami Marlins",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3900,
+"proj": 7.5,
+"consensus": 7.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".223",
+"hr": 5,
+"rbi": 31,
+"sb": 9,
+"ops": ".608",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 256
+},
+{
+"name": "Jase Bowen",
+"team": "San Diego Padres",
+"opp": "Miami Marlins",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2500,
+"proj": 2.6,
+"consensus": 2.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".154",
+"hr": 2,
+"rbi": 7,
+"sb": 6,
+"ops": ".462",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 427
+},
+{
+"name": "Luis Campusano",
+"team": "San Diego Padres",
+"opp": "Miami Marlins",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4092,
+"proj": 8.1,
+"consensus": 7.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".263",
+"hr": 8,
+"rbi": 29,
+"sb": 0,
+"ops": ".802",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 225
+},
+{
+"name": "Manny Machado",
+"team": "San Diego Padres",
+"opp": "Miami Marlins",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4732,
+"proj": 10.1,
+"consensus": 9.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".220",
+"hr": 28,
+"rbi": 84,
+"sb": 5,
+"ops": ".718",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 113
+},
+{
+"name": "Samad Taylor",
+"team": "San Diego Padres",
+"opp": "Miami Marlins",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4892,
+"proj": 10.6,
+"consensus": 10.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".328",
+"hr": 2,
+"rbi": 17,
+"sb": 10,
+"ops": ".830",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 88
+},
+{
+"name": "Sung-Mun Song",
+"team": "San Diego Padres",
+"opp": "Miami Marlins",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3004,
+"proj": 4.7,
+"consensus": 4.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".185",
+"hr": 1,
+"rbi": 16,
+"sb": 13,
+"ops": ".529",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 391
+},
+{
+"name": "Ty France",
+"team": "San Diego Padres",
+"opp": "Miami Marlins",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4668,
+"proj": 9.9,
+"consensus": 9.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".304",
+"hr": 21,
+"rbi": 70,
+"sb": 1,
+"ops": ".893",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 123
+},
+{
+"name": "Xander Bogaerts",
+"team": "San Diego Padres",
+"opp": "Miami Marlins",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4316,
+"proj": 8.8,
+"consensus": 8.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".228",
+"hr": 12,
+"rbi": 56,
+"sb": 21,
+"ops": ".665",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 188
+},
+{
+"name": "San Diego Padres P",
+"team": "San Diego Padres",
+"opp": "Miami Marlins",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 27
+},
+{
+"name": "Agust\u00edn Ram\u00edrez",
+"team": "Miami Marlins",
+"opp": "San Diego Padres",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 4028,
+"proj": 7.9,
+"consensus": 7.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".235",
+"hr": 5,
+"rbi": 23,
+"sb": 4,
+"ops": ".688",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 237
+},
+{
+"name": "Brian Navarreto",
+"team": "Miami Marlins",
+"opp": "San Diego Padres",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2500,
+"proj": 2.7,
+"consensus": 2.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".128",
+"hr": 1,
+"rbi": 3,
+"sb": 0,
+"ops": ".426",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 426
+},
+{
+"name": "Esteury Ruiz",
+"team": "Miami Marlins",
+"opp": "San Diego Padres",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3740,
+"proj": 7.0,
+"consensus": 6.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".223",
+"hr": 6,
+"rbi": 16,
+"sb": 33,
+"ops": ".725",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 287
+},
+{
+"name": "Graham Pauley",
+"team": "Miami Marlins",
+"opp": "San Diego Padres",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3324,
+"proj": 5.7,
+"consensus": 5.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".211",
+"hr": 4,
+"rbi": 25,
+"sb": 1,
+"ops": ".642",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 358
+},
+{
+"name": "Griffin Conine",
+"team": "Miami Marlins",
+"opp": "San Diego Padres",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4444,
+"proj": 9.2,
+"consensus": 8.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".256",
+"hr": 17,
+"rbi": 39,
+"sb": 4,
+"ops": ".835",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 159
+},
+{
+"name": "Heriberto Hern\u00e1ndez",
+"team": "Miami Marlins",
+"opp": "San Diego Padres",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4604,
+"proj": 9.7,
+"consensus": 9.3,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".230",
+"hr": 24,
+"rbi": 64,
+"sb": 12,
+"ops": ".760",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 129
+},
+{
+"name": "Jakob Marsee",
+"team": "Miami Marlins",
+"opp": "San Diego Padres",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4444,
+"proj": 9.2,
+"consensus": 8.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".232",
+"hr": 11,
+"rbi": 39,
+"sb": 23,
+"ops": ".710",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 160
+},
+{
+"name": "Javier Sanoja",
+"team": "Miami Marlins",
+"opp": "San Diego Padres",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
 "salary": 4124,
 "proj": 8.2,
 "consensus": 7.9,
@@ -11223,20 +9601,1642 @@ window.DFS_DATA = {
 "note": "Modeled projection (StatsAPI season stats)",
 "status": "live",
 "stats": {
-"avg": ".189",
-"hr": 3,
-"rbi": 8,
-"sb": 1,
-"ops": ".679",
+"avg": ".291",
+"hr": 9,
+"rbi": 64,
+"sb": 11,
+"ops": ".778",
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 219
+"model_rank": 220
 },
 {
-"name": "Minnesota Twins P",
-"team": "Minnesota Twins",
-"opp": "Los Angeles Angels",
+"name": "Joe Mack",
+"team": "Miami Marlins",
+"opp": "San Diego Padres",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3772,
+"proj": 7.1,
+"consensus": 6.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".229",
+"hr": 13,
+"rbi": 48,
+"sb": 0,
+"ops": ".671",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 284
+},
+{
+"name": "Kyle Stowers",
+"team": "Miami Marlins",
+"opp": "San Diego Padres",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4700,
+"proj": 10.0,
+"consensus": 9.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".237",
+"hr": 19,
+"rbi": 61,
+"sb": 1,
+"ops": ".773",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 118
+},
+{
+"name": "Otto Lopez",
+"team": "Miami Marlins",
+"opp": "San Diego Padres",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5116,
+"proj": 11.3,
+"consensus": 10.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".307",
+"hr": 11,
+"rbi": 71,
+"sb": 32,
+"ops": ".794",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 65
+},
+{
+"name": "Xavier Edwards",
+"team": "Miami Marlins",
+"opp": "San Diego Padres",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4444,
+"proj": 9.2,
+"consensus": 8.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".280",
+"hr": 6,
+"rbi": 52,
+"sb": 21,
+"ops": ".731",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 161
+},
+{
+"name": "Miami Marlins P",
+"team": "Miami Marlins",
+"opp": "San Diego Padres",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 28
+},
+{
+"name": "Corbin Carroll",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5180,
+"proj": 11.5,
+"consensus": 11.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".239",
+"hr": 22,
+"rbi": 70,
+"sb": 21,
+"ops": ".801",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 62
+},
+{
+"name": "Gabriel Moreno",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5052,
+"proj": 11.1,
+"consensus": 10.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".304",
+"hr": 15,
+"rbi": 75,
+"sb": 6,
+"ops": ".863",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 71
+},
+{
+"name": "Geraldo Perdomo",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4508,
+"proj": 9.4,
+"consensus": 9.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".254",
+"hr": 9,
+"rbi": 50,
+"sb": 20,
+"ops": ".725",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 153
+},
+{
+"name": "Ildemaro Vargas",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3996,
+"proj": 7.8,
+"consensus": 7.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".253",
+"hr": 9,
+"rbi": 67,
+"sb": 3,
+"ops": ".675",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 245
+},
+{
+"name": "James McCann",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3804,
+"proj": 7.2,
+"consensus": 6.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".282",
+"hr": 5,
+"rbi": 24,
+"sb": 0,
+"ops": ".743",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 276
+},
+{
+"name": "Jes\u00fas S\u00e1nchez",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3484,
+"proj": 6.2,
+"consensus": 6.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".259",
+"hr": 8,
+"rbi": 35,
+"sb": 1,
+"ops": ".725",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 328
+},
+{
+"name": "Jordan Lawlar",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4188,
+"proj": 8.4,
+"consensus": 8.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".264",
+"hr": 5,
+"rbi": 15,
+"sb": 5,
+"ops": ".786",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 208
+},
+{
+"name": "Jose Fernandez",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 3580,
+"proj": 6.5,
+"consensus": 6.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".259",
+"hr": 3,
+"rbi": 16,
+"sb": 9,
+"ops": ".651",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 307
+},
+{
+"name": "Ketel Marte",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4860,
+"proj": 10.5,
+"consensus": 10.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".247",
+"hr": 22,
+"rbi": 74,
+"sb": 4,
+"ops": ".750",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 92
+},
+{
+"name": "Lars Nootbaar",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 3996,
+"proj": 7.8,
+"consensus": 7.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".232",
+"hr": 7,
+"rbi": 31,
+"sb": 2,
+"ops": ".705",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 246
+},
+{
+"name": "Nolan Arenado",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4604,
+"proj": 9.7,
+"consensus": 9.3,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".247",
+"hr": 26,
+"rbi": 74,
+"sb": 4,
+"ops": ".774",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 130
+},
+{
+"name": "Pavin Smith",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3260,
+"proj": 5.5,
+"consensus": 5.3,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".172",
+"hr": 3,
+"rbi": 10,
+"sb": 2,
+"ops": ".540",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 365
+},
+{
+"name": "Ryan Waldschmidt",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3804,
+"proj": 7.2,
+"consensus": 6.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".254",
+"hr": 3,
+"rbi": 22,
+"sb": 7,
+"ops": ".683",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 277
+},
+{
+"name": "Tim Tawa",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3900,
+"proj": 7.5,
+"consensus": 7.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".237",
+"hr": 10,
+"rbi": 38,
+"sb": 8,
+"ops": ".685",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 257
+},
+{
+"name": "Arizona Diamondbacks P",
+"team": "Arizona Diamondbacks",
+"opp": "New York Yankees",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 29
+},
+{
+"name": "Ali S\u00e1nchez",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2500,
+"proj": 2.8,
+"consensus": 2.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".250",
+"hr": 1,
+"rbi": 8,
+"sb": 0,
+"ops": ".591",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 424
+},
+{
+"name": "Amed Rosario",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3516,
+"proj": 6.3,
+"consensus": 6.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".233",
+"hr": 10,
+"rbi": 33,
+"sb": 2,
+"ops": ".681",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 324
+},
+{
+"name": "Anthony Volpe",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4092,
+"proj": 8.1,
+"consensus": 7.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".248",
+"hr": 2,
+"rbi": 26,
+"sb": 11,
+"ops": ".668",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 226
+},
+{
+"name": "Austin Wells",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3420,
+"proj": 6.0,
+"consensus": 5.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".185",
+"hr": 13,
+"rbi": 31,
+"sb": 3,
+"ops": ".610",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 338
+},
+{
+"name": "Ben Rice",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 5500,
+"proj": 12.5,
+"consensus": 12.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".263",
+"hr": 39,
+"rbi": 95,
+"sb": 3,
+"ops": ".892",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 40
+},
+{
+"name": "Cody Bellinger",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4988,
+"proj": 10.9,
+"consensus": 10.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".270",
+"hr": 16,
+"rbi": 71,
+"sb": 12,
+"ops": ".781",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 77
+},
+{
+"name": "George Lombard Jr.",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4188,
+"proj": 8.4,
+"consensus": 8.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".227",
+"hr": 4,
+"rbi": 15,
+"sb": 2,
+"ops": ".643",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 209
+},
+{
+"name": "Heliot Ramos",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4220,
+"proj": 8.5,
+"consensus": 8.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".241",
+"hr": 12,
+"rbi": 43,
+"sb": 4,
+"ops": ".708",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 201
+},
+{
+"name": "Jos\u00e9 Caballero",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4220,
+"proj": 8.5,
+"consensus": 8.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".238",
+"hr": 14,
+"rbi": 51,
+"sb": 32,
+"ops": ".672",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 202
+},
+{
+"name": "Luis Garc\u00eda Jr.",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4796,
+"proj": 10.3,
+"consensus": 9.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".281",
+"hr": 30,
+"rbi": 91,
+"sb": 5,
+"ops": ".846",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 104
+},
+{
+"name": "Max Schuemann",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3196,
+"proj": 5.3,
+"consensus": 5.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".194",
+"hr": 2,
+"rbi": 8,
+"sb": 3,
+"ops": ".694",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 375
+},
+{
+"name": "Paul Goldschmidt",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4316,
+"proj": 8.8,
+"consensus": 8.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".253",
+"hr": 18,
+"rbi": 50,
+"sb": 1,
+"ops": ".771",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 189
+},
+{
+"name": "Ryan McMahon",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3292,
+"proj": 5.6,
+"consensus": 5.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".208",
+"hr": 10,
+"rbi": 35,
+"sb": 3,
+"ops": ".618",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 363
+},
+{
+"name": "Spencer Jones",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4252,
+"proj": 8.6,
+"consensus": 8.3,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".248",
+"hr": 10,
+"rbi": 38,
+"sb": 9,
+"ops": ".751",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 195
+},
+{
+"name": "New York Yankees P",
+"team": "New York Yankees",
+"opp": "Arizona Diamondbacks",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 30
+},
+{
+"name": "Carlos Narv\u00e1ez",
+"team": "Baltimore Orioles",
+"opp": "Milwaukee Brewers",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2780,
+"proj": 4.0,
+"consensus": 3.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".164",
+"hr": 3,
+"rbi": 10,
+"sb": 2,
+"ops": ".474",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 411
+},
+{
+"name": "Christian Encarnacion-Strand",
+"team": "Baltimore Orioles",
+"opp": "Milwaukee Brewers",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4668,
+"proj": 9.9,
+"consensus": 9.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".267",
+"hr": 10,
+"rbi": 36,
+"sb": 1,
+"ops": ".816",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 124
+},
+{
+"name": "Christian Franklin",
+"team": "Baltimore Orioles",
+"opp": "Milwaukee Brewers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2780,
+"proj": 4.0,
+"consensus": 3.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".135",
+"hr": 0,
+"rbi": 0,
+"sb": 2,
+"ops": ".478",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 412
+},
+{
+"name": "Coby Mayo",
+"team": "Baltimore Orioles",
+"opp": "Milwaukee Brewers",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4380,
+"proj": 9.0,
+"consensus": 8.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".228",
+"hr": 24,
+"rbi": 63,
+"sb": 4,
+"ops": ".768",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 179
+},
+{
+"name": "Colton Cowser",
+"team": "Baltimore Orioles",
+"opp": "Milwaukee Brewers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3420,
+"proj": 6.0,
+"consensus": 5.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".221",
+"hr": 13,
+"rbi": 39,
+"sb": 10,
+"ops": ".676",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 339
+},
+{
+"name": "Dylan Beavers",
+"team": "Baltimore Orioles",
+"opp": "Milwaukee Brewers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3900,
+"proj": 7.5,
+"consensus": 7.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".237",
+"hr": 7,
+"rbi": 39,
+"sb": 5,
+"ops": ".686",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 258
+},
+{
+"name": "Gunnar Henderson",
+"team": "Baltimore Orioles",
+"opp": "Milwaukee Brewers",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4700,
+"proj": 10.0,
+"consensus": 9.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".224",
+"hr": 23,
+"rbi": 58,
+"sb": 10,
+"ops": ".707",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 119
+},
+{
+"name": "Jeremiah Jackson",
+"team": "Baltimore Orioles",
+"opp": "Milwaukee Brewers",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3452,
+"proj": 6.1,
+"consensus": 5.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".225",
+"hr": 9,
+"rbi": 43,
+"sb": 2,
+"ops": ".623",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 332
+},
+{
+"name": "Leody Taveras",
+"team": "Baltimore Orioles",
+"opp": "Milwaukee Brewers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3900,
+"proj": 7.5,
+"consensus": 7.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".218",
+"hr": 8,
+"rbi": 54,
+"sb": 11,
+"ops": ".631",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 259
+},
+{
+"name": "Pete Alonso",
+"team": "Baltimore Orioles",
+"opp": "Milwaukee Brewers",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5372,
+"proj": 12.1,
+"consensus": 11.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".266",
+"hr": 38,
+"rbi": 105,
+"sb": 5,
+"ops": ".864",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 48
+},
+{
+"name": "Rece Hinds",
+"team": "Baltimore Orioles",
+"opp": "Milwaukee Brewers",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2748,
+"proj": 3.9,
+"consensus": 3.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".164",
+"hr": 0,
+"rbi": 6,
+"sb": 0,
+"ops": ".493",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 415
+},
+{
+"name": "Samuel Basallo",
+"team": "Baltimore Orioles",
+"opp": "Milwaukee Brewers",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4060,
+"proj": 8.0,
+"consensus": 7.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".225",
+"hr": 18,
+"rbi": 54,
+"sb": 0,
+"ops": ".704",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 234
+},
+{
+"name": "Yohel Pozo",
+"team": "Baltimore Orioles",
+"opp": "Milwaukee Brewers",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 2500,
+"proj": 2.8,
+"consensus": 2.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".264",
+"hr": 1,
+"rbi": 7,
+"sb": 0,
+"ops": ".613",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 425
+},
+{
+"name": "Baltimore Orioles P",
+"team": "Baltimore Orioles",
+"opp": "Milwaukee Brewers",
+"pos": [
+"P"
+],
+"role": "pitcher",
+"salary": 9040,
+"proj": 14.0,
+"consensus": 13.4,
+"verified": false,
+"note": "Modeled projection (no probable yet)",
+"status": "live",
+"stats": {
+"era": null,
+"k9": null,
+"w": null,
+"win_prob": 0.5,
+"exp_ip": 6.0
+},
+"model_rank": 31
+},
+{
+"name": "Andrew Vaughn",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3900,
+"proj": 7.5,
+"consensus": 7.2,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".306",
+"hr": 6,
+"rbi": 43,
+"sb": 0,
+"ops": ".834",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 260
+},
+{
+"name": "Bo Naylor",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3036,
+"proj": 4.8,
+"consensus": 4.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".154",
+"hr": 3,
+"rbi": 10,
+"sb": 0,
+"ops": ".489",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 390
+},
+{
+"name": "Brice Turang",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
+"pos": [
+"2B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5468,
+"proj": 12.4,
+"consensus": 11.9,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".266",
+"hr": 19,
+"rbi": 93,
+"sb": 19,
+"ops": ".808",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 43
+},
+{
+"name": "Christian Yelich",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
+"pos": [
+"UTIL"
+],
+"role": "hitter",
+"salary": 4732,
+"proj": 10.1,
+"consensus": 9.7,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".239",
+"hr": 11,
+"rbi": 57,
+"sb": 11,
+"ops": ".698",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 114
+},
+{
+"name": "Cooper Pratt",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4444,
+"proj": 9.2,
+"consensus": 8.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".276",
+"hr": 3,
+"rbi": 31,
+"sb": 15,
+"ops": ".710",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 162
+},
+{
+"name": "David Hamilton",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3836,
+"proj": 7.3,
+"consensus": 7.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".240",
+"hr": 4,
+"rbi": 26,
+"sb": 28,
+"ops": ".637",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 274
+},
+{
+"name": "Garrett Mitchell",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4540,
+"proj": 9.5,
+"consensus": 9.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".265",
+"hr": 11,
+"rbi": 65,
+"sb": 14,
+"ops": ".785",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 144
+},
+{
+"name": "Gary S\u00e1nchez",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4028,
+"proj": 7.9,
+"consensus": 7.6,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".209",
+"hr": 11,
+"rbi": 36,
+"sb": 0,
+"ops": ".771",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 238
+},
+{
+"name": "Jackson Chourio",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5596,
+"proj": 12.8,
+"consensus": 12.3,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".285",
+"hr": 24,
+"rbi": 70,
+"sb": 19,
+"ops": ".824",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 37
+},
+{
+"name": "Jake Bauers",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
+"pos": [
+"1B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 5308,
+"proj": 11.9,
+"consensus": 11.4,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".268",
+"hr": 26,
+"rbi": 83,
+"sb": 11,
+"ops": ".888",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 50
+},
+{
+"name": "Joey Ortiz",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
+"pos": [
+"SS",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3772,
+"proj": 7.1,
+"consensus": 6.8,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".270",
+"hr": 9,
+"rbi": 46,
+"sb": 9,
+"ops": ".736",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 285
+},
+{
+"name": "Luis Lara",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3868,
+"proj": 7.4,
+"consensus": 7.1,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".251",
+"hr": 1,
+"rbi": 24,
+"sb": 3,
+"ops": ".655",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 267
+},
+{
+"name": "Sal Frelick",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
+"pos": [
+"OF",
+"UTIL"
+],
+"role": "hitter",
+"salary": 3676,
+"proj": 6.8,
+"consensus": 6.5,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".236",
+"hr": 4,
+"rbi": 39,
+"sb": 7,
+"ops": ".624",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 295
+},
+{
+"name": "William Contreras",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
+"pos": [
+"C",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4828,
+"proj": 10.4,
+"consensus": 10.0,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".271",
+"hr": 17,
+"rbi": 87,
+"sb": 1,
+"ops": ".759",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 96
+},
+{
+"name": "Milwaukee Brewers P",
+"team": "Milwaukee Brewers",
+"opp": "Baltimore Orioles",
 "pos": [
 "P"
 ],
