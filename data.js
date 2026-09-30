@@ -3,13 +3,13 @@
 window.DFS_DATA = {
 "mlb": {
 "meta": {
-"date": "2026-09-29",
+"date": "2026-09-30",
 "site": "FanDuel",
 "cap": 35000,
 "scoring": "FanDuel MLB Classic",
 "slate": "4-game slate",
 "odds_source": "modeled (no odds)",
-"fresh": "2026-09-29",
+"fresh": "2026-09-30",
 "sample": false
 },
 "games": [
