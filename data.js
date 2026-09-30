@@ -268,7 +268,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 26
+"model_rank": 27
 },
 {
 "name": "Mike Yastrzemski",
@@ -320,7 +320,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 49
+"model_rank": 50
 },
 {
 "name": "Ronald Acu\u00f1a Jr.",
@@ -525,7 +525,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 37
+"model_rank": 38
 },
 {
 "name": "Derek Hill",
@@ -732,7 +732,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 35
+"model_rank": 36
 },
 {
 "name": "Philadelphia Phillies P",
@@ -833,7 +833,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 46
+"model_rank": 47
 },
 {
 "name": "Isaac Paredes",
@@ -859,7 +859,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 27
+"model_rank": 28
 },
 {
 "name": "Jeremy Pe\u00f1a",
@@ -937,7 +937,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 54
+"model_rank": 55
 },
 {
 "name": "Lucas Spence",
@@ -963,7 +963,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 43
+"model_rank": 44
 },
 {
 "name": "Nelson Vel\u00e1zquez",
@@ -1244,7 +1244,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 44
+"model_rank": 45
 },
 {
 "name": "Colson Montgomery",
@@ -1270,7 +1270,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 45
+"model_rank": 46
 },
 {
 "name": "Jake Rogers",
@@ -1322,7 +1322,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 48
+"model_rank": 49
 },
 {
 "name": "Luisangel Acu\u00f1a",
@@ -1451,7 +1451,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 38
+"model_rank": 39
 },
 {
 "name": "Tommy Pham",
@@ -1706,7 +1706,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 47
+"model_rank": 48
 },
 {
 "name": "Giancarlo Stanton",
@@ -1731,7 +1731,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 50
+"model_rank": 51
 },
 {
 "name": "Heliot Ramos",
@@ -1783,7 +1783,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 28
+"model_rank": 29
 },
 {
 "name": "Jos\u00e9 Caballero",
@@ -1835,7 +1835,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 32
+"model_rank": 33
 },
 {
 "name": "Paul Goldschmidt",
@@ -1939,7 +1939,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 39
+"model_rank": 40
 },
 {
 "name": "New York Yankees P",
@@ -1988,7 +1988,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 40
+"model_rank": 41
 },
 {
 "name": "Andruw Monasterio",
@@ -2040,7 +2040,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 51
+"model_rank": 52
 },
 {
 "name": "Ceddanne Rafaela",
@@ -2066,7 +2066,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 33
+"model_rank": 34
 },
 {
 "name": "Connor Wong",
@@ -2093,6 +2093,32 @@ window.DFS_DATA = {
 "order": 0
 },
 "model_rank": 95
+},
+{
+"name": "Curtis Mead",
+"team": "Boston Red Sox",
+"opp": "New York Yankees",
+"pos": [
+"3B",
+"UTIL"
+],
+"role": "hitter",
+"salary": 4924,
+"proj": 10.7,
+"consensus": 10.3,
+"verified": false,
+"note": "Modeled projection (StatsAPI season stats)",
+"status": "live",
+"stats": {
+"avg": ".253",
+"hr": 17,
+"rbi": 48,
+"sb": 6,
+"ops": ".851",
+"imp_total": 4.5,
+"order": 0
+},
+"model_rank": 26
 },
 {
 "name": "Isiah Kiner-Falefa",
@@ -2224,32 +2250,6 @@ window.DFS_DATA = {
 "model_rank": 68
 },
 {
-"name": "Roman Anthony",
-"team": "Boston Red Sox",
-"opp": "New York Yankees",
-"pos": [
-"OF",
-"UTIL"
-],
-"role": "hitter",
-"salary": 4380,
-"proj": 9.0,
-"consensus": 8.6,
-"verified": false,
-"note": "Modeled projection (StatsAPI season stats)",
-"status": "live",
-"stats": {
-"avg": ".245",
-"hr": 5,
-"rbi": 15,
-"sb": 2,
-"ops": ".735",
-"imp_total": 4.5,
-"order": 0
-},
-"model_rank": 55
-},
-{
 "name": "Trevor Story",
 "team": "Boston Red Sox",
 "opp": "New York Yankees",
@@ -2325,7 +2325,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 29
+"model_rank": 30
 },
 {
 "name": "Boston Red Sox P",
@@ -2399,7 +2399,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 52
+"model_rank": 53
 },
 {
 "name": "Ethan Salas",
@@ -2633,7 +2633,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 34
+"model_rank": 35
 },
 {
 "name": "Miguel Andujar",
@@ -2684,7 +2684,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 31
+"model_rank": 32
 },
 {
 "name": "Ty France",
@@ -2710,7 +2710,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 41
+"model_rank": 42
 },
 {
 "name": "Xander Bogaerts",
@@ -2837,7 +2837,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 30
+"model_rank": 31
 },
 {
 "name": "Gabriel Arias",
@@ -2889,7 +2889,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 42
+"model_rank": 43
 },
 {
 "name": "Matt Shaw",
@@ -2941,7 +2941,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 36
+"model_rank": 37
 },
 {
 "name": "Michael Conforto",
@@ -3018,7 +3018,7 @@ window.DFS_DATA = {
 "imp_total": 4.5,
 "order": 0
 },
-"model_rank": 53
+"model_rank": 54
 },
 {
 "name": "Pedro Ram\u00edrez",
